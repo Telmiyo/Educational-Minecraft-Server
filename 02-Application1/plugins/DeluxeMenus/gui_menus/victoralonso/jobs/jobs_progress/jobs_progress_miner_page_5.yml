@@ -1,0 +1,1170 @@
+menu_title: '&fㆻㆩ'
+size: 45
+
+items:
+  JOB:
+    material: GOLD_NUGGET
+    model_data: 11037
+    display_name: '%jobsr_chatcolor_miner%%jobsr_name_miner%'
+    slot: 0
+    priority: 1
+    lore:
+    - '%jobsr_description_miner%'
+    - ''
+    - '&#A1E6D8[Click to view payments]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info miner'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info miner'
+  JOB-JOIN:
+    material: GOLD_NUGGET
+    model_data: 11038
+    display_name: '%jobsr_chatcolor_miner%%jobsr_name_miner%'
+    slot: 0
+    priority: 0
+    view_requirement:
+      requirements:
+        jobs_requirement:
+         type: string contains
+         input: "%jobsr_user_isin_miner%"
+         output: 'True'
+    lore:
+    - '%jobsr_description_miner%'
+    - ''
+    - '&#A1E6D8[Click to view payments]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info miner'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info miner'
+  TOP-PLAYER:
+    material: GOLD_NUGGET
+    model_data: 10000
+    display_name: '&#F8BD23Top player'
+    slot: 2
+    lore:
+    - '&#D6E3CCShows %jobsr_chatcolor_miner%miner''s &#D6E3CCtop 10 players.'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.8 1.4'
+    - '[player] jobs top miner'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.8 1.4'
+    - '[player] jobs top miner'
+    - '[close]'
+  PROFILE-OFF:
+    material: head-%player_name%
+    model_data: 10555
+    priority: 2
+    display_name: '&#F8BD23%player_name%'
+    slot: 4
+    lore:
+    - '&7Rank: %jobsr_user_title_miner%'
+    - '&7Workers: &#FCFCFC%jobsr_totalplayers_miner%'
+    - '&7Level Max: &#FCFCFC%jobsr_maxlvl_miner%'
+    - ''
+    - '&7Level: &#FCFCFC%jobsr_user_archived_jobs_level_miner%'
+    - '&#3E3E3Eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
+  PROFILE:
+    material: head-%player_name%
+    model_data: 10555
+    priority: 1
+    display_name: '&#F8BD23%player_name%'
+    slot: 4
+    view_requirement:
+      requirements:
+        jobs_requirement:
+         type: string contains
+         input: "%jobsr_user_isin_miner%"
+         output: 'True'
+    lore:
+    - '&7Rank: %jobsr_user_title_miner%'
+    - '&7Workers: &#FCFCFC%jobsr_totalplayers_miner%'
+    - '&7Level Max: &#FCFCFC%jobsr_maxlvl_miner%'
+    - ''
+    - '&7Level: &#FCFCFC%jobsr_user_jlevel_miner%'
+    - '&7Progress: &#F19C0B%jobsr_user_jexpunf_miner% &a▲'
+    - '%progress_bar_{jobsr_user_jexp_miner}_c:&#A0A0A0ㆴㆿ_p:&#A0A0A0ㆴㆿ_r:&#3E3E3Eㆴㆿ_l:12_m:{jobsr_user_jmaxexp_miner}_fullbar:&#A0A0A0ㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ% &#F19C0B%jobsr_user_jmexp_miner% EXP'
+  BACK:
+    material: AIR
+    slot: 8
+    lore:
+    - '&#6EC438Back'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_menu_page_2'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_menu_page_2'
+  PAGE-NEXT:
+    material: GOLD_NUGGET
+    model_data: 10005
+    display_name: '&#D92625You have no access.'
+    slot: 35
+    lore:
+    - '&#D6E3CCYou must be a VIP user to'
+    - '&#D6E3CCview the following pages.'
+    - ''
+    - '&#AF2A23Coming soon!'
+    left_click_commands:
+    - '[console] playsound minecraft:error player %player_name% %player_x% %player_y% %player_z%'
+  PAGE-BACK:
+    material: GOLD_NUGGET
+    model_data: 10004
+    display_name: '&fPage 4'
+    slot: 27
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_miner_page_4'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_miner_page_4'
+
+# _                   _     ___ ____  
+#| |    _____   _____| |   ( _ ) ___| 
+#| |   / _ \ \ / / _ \ |   / _ \___ \ 
+#| |__|  __/\ V /  __/ |  | (_) |__) |
+#|_____\___| \_/ \___|_|   \___/____/
+#
+  Level85-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 85'
+    priority: 3
+    slot: 19
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 24000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level85-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 85'
+    priority: 2
+    slot: 19
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 85"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 24000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level85-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 85'
+    priority: 1
+    slot: 19
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 85"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 24000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     ___   __   
+#| |    _____   _____| |   ( _ ) / /_  
+#| |   / _ \ \ / / _ \ |   / _ \| '_ \ 
+#| |__|  __/\ V /  __/ |  | (_) | (_) |
+#|_____\___| \_/ \___|_|   \___/ \___/
+#
+  Level86-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 86'
+    priority: 3
+    slot: 20
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 25000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level86-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 86'
+    priority: 2
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 86"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 25000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level86-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 86'
+    priority: 1
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 86"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 25000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     ___ _____ 
+#| |    _____   _____| |   ( _ )___  |
+#| |   / _ \ \ / / _ \ |   / _ \  / / 
+#| |__|  __/\ V /  __/ |  | (_) |/ /  
+#|_____\___| \_/ \___|_|   \___//_/ 
+#
+  Level87-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 87'
+    priority: 3
+    slot: 21
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 26000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level87-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 87'
+    priority: 2
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 87"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 26000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level87-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 87'
+    priority: 1
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 87"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 26000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     ___   ___  
+#| |    _____   _____| |   ( _ ) ( _ ) 
+#| |   / _ \ \ / / _ \ |   / _ \ / _ \ 
+#| |__|  __/\ V /  __/ |  | (_) | (_) |
+#|_____\___| \_/ \___|_|   \___/ \___/  
+#
+  Level88-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 88'
+    priority: 3
+    slot: 22
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 27000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level88-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 88'
+    priority: 2
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 88"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 27000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level88-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 88'
+    priority: 1
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 88"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 27000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     ___  ___  
+#| |    _____   _____| |   ( _ )/ _ \ 
+#| |   / _ \ \ / / _ \ |   / _ \ (_) |
+#| |__|  __/\ V /  __/ |  | (_) \__, |
+#|_____\___| \_/ \___|_|   \___/  /_/    
+#
+  Level89-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 89'
+    priority: 3
+    slot: 23
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 28000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level89-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 89'
+    priority: 2
+    slot: 23
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 89"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 28000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level89-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 89'
+    priority: 1
+    slot: 23
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 89"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 28000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___   ___  
+#| |    _____   _____| | / _ \ / _ \ 
+#| |   / _ \ \ / / _ \ || (_) | | | |
+#| |__|  __/\ V /  __/ | \__, | |_| |
+#|_____\___| \_/ \___|_|   /_/ \___/  
+#
+  Level90-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 90'
+    priority: 3
+    slot: 24
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 29000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level90-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 90'
+    priority: 2
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 90"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 29000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level90-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 90'
+    priority: 1
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 90"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 29000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___  _ 
+#| |    _____   _____| | / _ \/ |
+#| |   / _ \ \ / / _ \ || (_) | |
+#| |__|  __/\ V /  __/ | \__, | |
+#|_____\___| \_/ \___|_|   /_/|_|
+#
+  Level91-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 91'
+    priority: 3
+    slot: 25
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 30000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level91-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 91'
+    priority: 2
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 91"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 30000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level91-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 91'
+    priority: 1
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 91"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 30000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___ ____  
+#| |    _____   _____| | / _ \___ \ 
+#| |   / _ \ \ / / _ \ || (_) |__) |
+#| |__|  __/\ V /  __/ | \__, / __/ 
+#|_____\___| \_/ \___|_|   /_/_____|
+#
+  Level92-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 92'
+    priority: 3
+    slot: 28
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 31000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level92-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 92'
+    priority: 2
+    slot: 28
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 92"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 31000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level92-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 92'
+    priority: 1
+    slot: 28
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 92"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 31000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___ _____ 
+#| |    _____   _____| | / _ \___ / 
+#| |   / _ \ \ / / _ \ || (_) ||_ \ 
+#| |__|  __/\ V /  __/ | \__, |__) |
+#|_____\___| \_/ \___|_|   /_/____/
+#
+  Level93-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 93'
+    priority: 3
+    slot: 29
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 32000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level93-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 93'
+    priority: 2
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 93"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 32000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level93-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 93'
+    priority: 1
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 93"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 32000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___  _  _   
+#| |    _____   _____| | / _ \| || |  
+#| |   / _ \ \ / / _ \ || (_) | || |_ 
+#| |__|  __/\ V /  __/ | \__, |__   _|
+#|_____\___| \_/ \___|_|   /_/   |_|  
+#
+  Level94-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 94'
+    priority: 3
+    slot: 30
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 33000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level94-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 94'
+    priority: 2
+    slot: 30
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 94"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 33000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level94-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 94'
+    priority: 1
+    slot: 30
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 94"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 33000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___  ____  
+#| |    _____   _____| | / _ \| ___| 
+#| |   / _ \ \ / / _ \ || (_) |___ \ 
+#| |__|  __/\ V /  __/ | \__, |___) |
+#|_____\___| \_/ \___|_|   /_/|____/ 
+#
+  Level95-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 95'
+    priority: 3
+    slot: 31
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 34000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level95-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 95'
+    priority: 2
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 95"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 34000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level95-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 95'
+    priority: 1
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 95"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 34000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___   __   
+#| |    _____   _____| | / _ \ / /_  
+#| |   / _ \ \ / / _ \ || (_) | '_ \ 
+#| |__|  __/\ V /  __/ | \__, | (_) |
+#|_____\___| \_/ \___|_|   /_/ \___/ 
+#
+  Level96-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 96'
+    priority: 3
+    slot: 32
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 35000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level96-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 96'
+    priority: 2
+    slot: 32
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 96"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 35000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level96-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 96'
+    priority: 1
+    slot: 32
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 96"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 35000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___ _____ 
+#| |    _____   _____| | / _ \___  |
+#| |   / _ \ \ / / _ \ || (_) | / / 
+#| |__|  __/\ V /  __/ | \__, |/ /  
+#|_____\___| \_/ \___|_|   /_//_/ 
+#
+  Level97-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 97'
+    priority: 3
+    slot: 33
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 36000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level97-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 97'
+    priority: 2
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 97"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 36000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level97-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 97'
+    priority: 1
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 97"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 36000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___   ___  
+#| |    _____   _____| | / _ \ ( _ ) 
+#| |   / _ \ \ / / _ \ || (_) |/ _ \ 
+#| |__|  __/\ V /  __/ | \__, | (_) |
+#|_____\___| \_/ \___|_|   /_/ \___/ 
+#
+  Level98-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 98'
+    priority: 3
+    slot: 34
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 37000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level98-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 98'
+    priority: 2
+    slot: 34
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 98"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 37000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level98-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 98'
+    priority: 1
+    slot: 34
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 98"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 37000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _   ___   ___  
+#| |    _____   _____| | / _ \ / _ \ 
+#| |   / _ \ \ / / _ \ || (_) | (_) |
+#| |__|  __/\ V /  __/ | \__, |\__, |
+#|_____\___| \_/ \___|_|   /_/   /_/    
+#
+  Level99-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 99'
+    priority: 3
+    slot: 37
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 38000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level99-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 99'
+    priority: 2
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 99"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 38000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level99-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 99'
+    priority: 1
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 99"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 38000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___   ___  
+#| |    _____   _____| |   / |/ _ \ / _ \ 
+#| |   / _ \ \ / / _ \ |   | | | | | | | |
+#| |__|  __/\ V /  __/ |   | | |_| | |_| |
+#|_____\___| \_/ \___|_|   |_|\___/ \___/ 
+#
+  Level100-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 100'
+    priority: 3
+    slot: 38
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 40000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level100-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 10002
+    display_name: '&#57D110Level 100'
+    priority: 2
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% >= 100"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 40000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#27A737&lUNLOCKED'
+    left_click_commands:
+    - '[refresh]'
+  Level100-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 10003
+    display_name: '&#F8CD00Level 100'
+    priority: 1
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% == 100"
+    lore:
+    - '&7Rewards:'
+    - '&8 +&6 40000 ⛃'
+    - '&8 +&a 300 EXP'
+    - ''
+    - '&#E3CE00&lCURRENT LEVEL'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___  _ 
+#| |    _____   _____| |   / |/ _ \/ |
+#| |   / _ \ \ / / _ \ |   | | | | | |
+#| |__|  __/\ V /  __/ |   | | |_| | |
+#|_____\___| \_/ \___|_|   |_|\___/|_|
+#
+  Level101-TEXT:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 101'
+    slot: 39
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% <= 101"
+    lore:
+    - '&#D6E3CCYou must be a VIP user'
+    - '&#D6E3CCto see the rewards.'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___ ____  
+#| |    _____   _____| |   / |/ _ \___ \ 
+#| |   / _ \ \ / / _ \ |   | | | | |__) |
+#| |__|  __/\ V /  __/ |   | | |_| / __/ 
+#|_____\___| \_/ \___|_|   |_|\___/_____| 
+#
+  Level102-TEXT:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 102'
+    slot: 40
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% <= 101"
+    lore:
+    - '&#D6E3CCYou must be a VIP user'
+    - '&#D6E3CCto see the rewards.'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___ _____ 
+#| |    _____   _____| |   / |/ _ \___ / 
+#| |   / _ \ \ / / _ \ |   | | | | ||_ \ 
+#| |__|  __/\ V /  __/ |   | | |_| |__) |
+#|_____\___| \_/ \___|_|   |_|\___/____/ 
+#
+  Level103-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 103'
+    slot: 41
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% <= 101"
+    lore:
+    - '&#D6E3CCYou must be a VIP user'
+    - '&#D6E3CCto see the rewards.'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___  _  _   
+#| |    _____   _____| |   / |/ _ \| || |  
+#| |   / _ \ \ / / _ \ |   | | | | | || |_ 
+#| |__|  __/\ V /  __/ |   | | |_| |__   _|
+#|_____\___| \_/ \___|_|   |_|\___/   |_|
+#
+  Level104-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 104'
+    priority: 3
+    slot: 42
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% <= 101"
+    lore:
+    - '&#D6E3CCYou must be a VIP user'
+    - '&#D6E3CCto see the rewards.'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'
+# _                   _     _  ___  ____  
+#| |    _____   _____| |   / |/ _ \| ___| 
+#| |   / _ \ \ / / _ \ |   | | | | |___ \ 
+#| |__|  __/\ V /  __/ |   | | |_| |___) |
+#|_____\___| \_/ \___|_|___|_|\___/|____/
+#
+  Level105-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 10001
+    display_name: '&#D92625Level 105'
+    priority: 3
+    slot: 43
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_miner% <= 101"
+    lore:
+    - '&#D6E3CCYou must be a VIP user'
+    - '&#D6E3CCto see the rewards.'
+    - ''
+    - '&#E02626&lLOCKED'
+    left_click_commands:
+    - '[refresh]'

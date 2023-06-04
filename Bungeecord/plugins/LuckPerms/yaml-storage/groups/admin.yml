@@ -1,18 +1,11 @@
 name: admin
 permissions:
-- bungeechat.command.msg:
-    value: true
-    context:
-      server: bungee
 - deluxehub.*
 - bungeechat.admin
-- bungeechat.command.msg
-- bungeechat.message
 - bungeecord.command.reload
 - bungeecord.command.server
+parents:
+- default
 prefixes:
 - '&7[&cAdmin&7]':
     priority: 1
-meta:
-- suffix:
-    value: '&7[&cAdmin&7]'

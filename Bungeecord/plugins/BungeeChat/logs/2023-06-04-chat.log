@@ -159,3 +159,104 @@
 [17:26:40]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /dhub reload
 [17:30:02]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /dhub reload
 [17:30:29]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /dhub reload
+[17:47:17]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[17:47:46]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[17:54:19]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[17:54:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /money
+[17:54:41]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /vault-info
+[17:56:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs browser
+[17:56:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs points
+[17:56:48]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs shop
+[17:59:18]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gamemode creative
+[17:59:21]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /time set day
+[17:59:47]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[17:59:52]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[18:01:17]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[18:01:34]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[18:03:08]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[18:03:18]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bungeechat
+[18:03:25]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bungeechat verbose
+[18:03:33]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bcp list
+[18:03:44]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[18:03:57]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[18:04:01]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[18:04:05]: LOCAL > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fa
+[18:07:23]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[18:07:55]: LOCAL > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): dfasdfa
+[18:12:52]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gamemode creative
+[18:12:55]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /time set day
+[18:13:02]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[18:13:21]: LOCAL > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[18:13:42]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[18:13:45]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): aaa
+[18:13:54]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:14:13]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[18:14:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:14:47]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[18:15:10]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[18:15:13]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[18:16:26]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb user Telmiyo permission set luckperms false
+[18:16:28]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:16:39]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[18:16:59]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb creategroup Teacher
+[18:17:18]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb applyedits VavfDxTZ6D
+[18:17:21]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:19:57]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:21:08]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fdasfa
+[18:21:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[18:21:41]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:21:59]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs browse
+[18:22:40]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[18:22:42]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs area
+[18:22:58]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs join
+[18:23:13]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs join Hunter
+[18:23:23]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gamemode creative
+[18:23:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gamemode survival
+[18:24:38]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /spawn
+[18:24:40]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lobby
+[18:25:03]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[18:25:07]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs info
+[18:25:18]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb
+[18:25:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs points
+[18:26:08]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gamemode creative
+[18:27:10]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs browse
+[18:27:44]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs shop
+[18:30:10]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs money
+[18:30:14]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs shop
+[18:32:22]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs browse
+[18:32:47]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs quests
+[19:02:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:03:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:03:40]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:04:22]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs reload
+[19:04:26]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /dm reload
+[19:04:30]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[19:04:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:04:48]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:05:01]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs reload
+[19:05:02]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs reload
+[19:05:04]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:05:51]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:15:20]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:18:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:18:22]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:19:48]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:23:05]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[19:25:06]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:26:07]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:26:43]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs bonus Digger
+[19:26:59]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs boost Digger exp 1h10m20s
+[19:27:16]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Digger 100
+[19:27:20]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobdigger
+[19:27:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobdigger
+[19:27:47]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Digger 100
+[19:27:50]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:28:09]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[19:28:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs reload
+[19:28:24]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /dm reload
+[19:28:30]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[19:28:36]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:32:17]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:36:14]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /reload
+[19:36:21]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:36:44]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /stop

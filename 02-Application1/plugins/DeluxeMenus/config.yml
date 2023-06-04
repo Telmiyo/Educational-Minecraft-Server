@@ -1,0 +1,242 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  # JOBS_CUSTOM_MENU
+  jobs_menu_page_1:
+    file: victoralonso/jobs/jobs_menu_page_1.yml
+  jobs_menu_page_2:
+    file: victoralonso/jobs/jobs_menu_page_2.yml
+  job_leaving_brewer:
+    file: victoralonso/jobs/job_leaving/brewer.yml
+  job_leaving_builder:
+    file: victoralonso/jobs/job_leaving/builder.yml
+  job_leaving_cooker:
+    file: victoralonso/jobs/job_leaving/cooker.yml
+  job_leaving_crafter:
+    file: victoralonso/jobs/job_leaving/crafter.yml
+  job_leaving_digger:
+    file: victoralonso/jobs/job_leaving/digger.yml
+  job_leaving_enchanter:
+    file: victoralonso/jobs/job_leaving/enchanter.yml
+  job_leaving_engineer:
+    file: victoralonso/jobs/job_leaving/engineer.yml
+  job_leaving_explorer:
+    file: victoralonso/jobs/job_leaving/explorer.yml
+  job_leaving_farmer:
+    file: victoralonso/jobs/job_leaving/farmer.yml
+  job_leaving_fisherman:
+    file: victoralonso/jobs/job_leaving/fisherman.yml
+  job_leaving_florist:
+    file: victoralonso/jobs/job_leaving/florist.yml
+  job_leaving_hunter:
+    file: victoralonso/jobs/job_leaving/hunter.yml
+  job_leaving_miner:
+    file: victoralonso/jobs/job_leaving/miner.yml
+  job_leaving_smelter:
+    file: victoralonso/jobs/job_leaving/smelter.yml
+  job_leaving_tamer:
+    file: victoralonso/jobs/job_leaving/tamer.yml
+  job_leaving_taster:
+    file: victoralonso/jobs/job_leaving/taster.yml
+  job_leaving_trader:
+    file: victoralonso/jobs/job_leaving/trader.yml
+  job_leaving_weaponsmith:
+    file: victoralonso/jobs/job_leaving/weaponsmith.yml
+  job_leaving_woodcutter:
+    file: victoralonso/jobs/job_leaving/woodcutter.yml
+  jobs_progress_brewer:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_brewer.yml
+  jobs_progress_brewer_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_brewer_page_2.yml
+  jobs_progress_brewer_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_brewer_page_3.yml
+  jobs_progress_brewer_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_brewer_page_4.yml
+  jobs_progress_brewer_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_brewer_page_5.yml
+  jobs_progress_builder:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_builder.yml
+  jobs_progress_builder_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_builder_page_2.yml
+  jobs_progress_builder_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_builder_page_3.yml
+  jobs_progress_builder_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_builder_page_4.yml
+  jobs_progress_builder_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_builder_page_5.yml
+  jobs_progress_cooker:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_cooker.yml
+  jobs_progress_cooker_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_cooker_page_2.yml
+  jobs_progress_cooker_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_cooker_page_3.yml
+  jobs_progress_cooker_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_cooker_page_4.yml
+  jobs_progress_cooker_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_cooker_page_5.yml
+  jobs_progress_crafter:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_crafter.yml
+  jobs_progress_crafter_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_crafter_page_2.yml
+  jobs_progress_crafter_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_crafter_page_3.yml
+  jobs_progress_crafter_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_crafter_page_4.yml
+  jobs_progress_crafter_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_crafter_page_5.yml
+  jobs_progress_digger:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_digger.yml
+  jobs_progress_digger_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_digger_page_2.yml
+  jobs_progress_digger_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_digger_page_3.yml
+  jobs_progress_digger_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_digger_page_4.yml
+  jobs_progress_digger_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_digger_page_5.yml
+  jobs_progress_enchanter:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_enchanter.yml
+  jobs_progress_enchanter_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_enchanter_page_2.yml
+  jobs_progress_enchanter_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_enchanter_page_3.yml
+  jobs_progress_enchanter_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_enchanter_page_4.yml
+  jobs_progress_enchanter_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_enchanter_page_5.yml
+  jobs_progress_engineer:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_engineer.yml
+  jobs_progress_engineer_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_engineer_page_2.yml
+  jobs_progress_engineer_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_engineer_page_3.yml
+  jobs_progress_engineer_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_engineer_page_4.yml
+  jobs_progress_engineer_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_engineer_page_5.yml
+  jobs_progress_explorer:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_explorer.yml
+  jobs_progress_explorer_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_explorer_page_2.yml
+  jobs_progress_explorer_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_explorer_page_3.yml
+  jobs_progress_explorer_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_explorer_page_4.yml
+  jobs_progress_explorer_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_explorer_page_5.yml
+  jobs_progress_farmer:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_farmer.yml
+  jobs_progress_farmer_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_farmer_page_2.yml
+  jobs_progress_farmer_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_farmer_page_3.yml
+  jobs_progress_farmer_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_farmer_page_4.yml
+  jobs_progress_farmer_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_farmer_page_5.yml
+  jobs_progress_fisherman:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_fisherman.yml
+  jobs_progress_fisherman_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_fisherman_page_2.yml
+  jobs_progress_fisherman_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_fisherman_page_3.yml
+  jobs_progress_fisherman_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_fisherman_page_4.yml
+  jobs_progress_fisherman_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_fisherman_page_5.yml
+  jobs_progress_florist:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_florist.yml
+  jobs_progress_florist_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_florist_page_2.yml
+  jobs_progress_florist_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_florist_page_3.yml
+  jobs_progress_florist_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_florist_page_4.yml
+  jobs_progress_florist_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_florist_page_5.yml
+  jobs_progress_hunter:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_hunter.yml
+  jobs_progress_hunter_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_hunter_page_2.yml
+  jobs_progress_hunter_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_hunter_page_3.yml
+  jobs_progress_hunter_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_hunter_page_4.yml
+  jobs_progress_hunter_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_hunter_page_5.yml
+  jobs_progress_miner:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_miner.yml
+  jobs_progress_miner_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_miner_page_2.yml
+  jobs_progress_miner_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_miner_page_3.yml
+  jobs_progress_miner_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_miner_page_4.yml
+  jobs_progress_miner_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_miner_page_5.yml
+  jobs_progress_smelter:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_smelter.yml
+  jobs_progress_smelter_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_smelter_page_2.yml
+  jobs_progress_smelter_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_smelter_page_3.yml
+  jobs_progress_smelter_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_smelter_page_4.yml
+  jobs_progress_smelter_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_smelter_page_5.yml
+  jobs_progress_tamer:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_tamer.yml
+  jobs_progress_tamer_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_tamer_page_2.yml
+  jobs_progress_tamer_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_tamer_page_3.yml
+  jobs_progress_tamer_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_tamer_page_4.yml
+  jobs_progress_tamer_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_tamer_page_5.yml
+  jobs_progress_taster:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_taster.yml
+  jobs_progress_taster_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_taster_page_2.yml
+  jobs_progress_taster_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_taster_page_3.yml
+  jobs_progress_taster_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_taster_page_4.yml
+  jobs_progress_taster_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_taster_page_5.yml
+  jobs_progress_trader:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_trader.yml
+  jobs_progress_trader_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_trader_page_2.yml
+  jobs_progress_trader_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_trader_page_3.yml
+  jobs_progress_trader_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_trader_page_4.yml
+  jobs_progress_trader_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_trader_page_5.yml
+  jobs_progress_weaponsmith:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_weaponsmith.yml
+  jobs_progress_weaponsmith_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_weaponsmith_page_2.yml
+  jobs_progress_weaponsmith_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_weaponsmith_page_3.yml
+  jobs_progress_weaponsmith_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_weaponsmith_page_4.yml
+  jobs_progress_weaponsmith_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_weaponsmith_page_5.yml
+  jobs_progress_woodcutter:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_woodcutter.yml
+  jobs_progress_woodcutter_page_2:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_woodcutter_page_2.yml
+  jobs_progress_woodcutter_page_3:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_woodcutter_page_3.yml
+  jobs_progress_woodcutter_page_4:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_woodcutter_page_4.yml
+  jobs_progress_woodcutter_page_5:
+    file: victoralonso/jobs/jobs_progress/jobs_progress_woodcutter_page_5.yml
+

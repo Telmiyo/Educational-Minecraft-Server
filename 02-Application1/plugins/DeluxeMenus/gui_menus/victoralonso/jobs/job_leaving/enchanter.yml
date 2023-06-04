@@ -1,0 +1,41 @@
+menu_title: '&fㆻ걌'
+inventory_type: "HOPPER"
+
+items:
+  YES-BYPASS:
+    material: AIR
+    priority: 0
+    slots:
+      - 0-1
+    view_requirement:
+      requirements:
+        jobs_rejoinbypass:
+         type: has permission
+         permission: jobs.rejoinbypass
+    left_click_commands:
+    - '[player] jobs leave enchanter'
+    - '[openguimenu] jobs_menu_page_1'
+    - '[console] playsound minecraft:confirm player %player_name% %player_x% %player_y% %player_z%'
+  YES-COOLDOWN:
+    material: AIR
+    slots:
+      - 0-1
+    priority: 1
+    view_requirement:
+      requirements:
+        jobs_cooldown:
+          type: string equals
+          input: "%javascript_cooldown_6_43200%"
+          output: "0s"
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_6_start% §r'
+    - '[player] jobs leave enchanter'
+    - '[openguimenu] jobs_menu_page_1'
+    - '[console] playsound minecraft:confirm player %player_name% %player_x% %player_y% %player_z%'
+  CANCEL:
+    material: AIR
+    slots:
+      - 3-4
+    left_click_commands:
+    - '[openguimenu] jobs_menu_page_1'
+    - '[console] playsound minecraft:cancel player %player_name% %player_x% %player_y% %player_z%'
