@@ -4,7 +4,7 @@ permissions:
     value: true
     context:
       server: bungee
-- '*'
+- deluxehub.*
 - bungeechat.admin
 - bungeechat.command.msg
 - bungeechat.message

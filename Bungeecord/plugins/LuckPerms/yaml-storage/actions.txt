@@ -19,3 +19,7 @@
 {"timestamp":1685880030,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"USER","uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo"},"description":"webeditor add group.admin true"}
 {"timestamp":1685881474,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"admin"},"description":"meta setprefix 1 &7[&cAdmin&7]"}
 {"timestamp":1685887745,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"meta setprefix 2 &b[&aStudent&b]"}
+{"timestamp":1685889765,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"USER","uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo"},"description":"webeditor remove group.default true"}
+{"timestamp":1685891422,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add deluxehub.player.* true"}
+{"timestamp":1685891465,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor remove * true"}
+{"timestamp":1685891538,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor add deluxehub.* true"}

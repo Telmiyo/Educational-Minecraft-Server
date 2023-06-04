@@ -1,5 +1,6 @@
 name: default
 permissions:
+- deluxehub.player.*
 - bungeechat.chat
 - bungeechat.command.msg
 parents:

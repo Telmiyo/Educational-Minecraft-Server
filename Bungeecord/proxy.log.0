@@ -1761,3 +1761,150 @@ Unknown placeholder
 16:30:54 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
 16:30:54 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
 16:30:54 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:37:32 [INFORMACIÓN] Using standard Java JCE cipher.
+16:37:32 [INFORMACIÓN] Using standard Java compressor.
+16:37:32 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+16:37:32 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+16:37:33 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+16:37:33 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+16:37:33 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+16:37:33 [ADVERTENCIA] Forced host server pvp is not defined
+16:37:33 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:33 [INFORMACIÓN] §b       §3 __    
+16:37:33 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+16:37:33 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+16:37:33 [INFORMACIÓN] [LuckPerms] Loading configuration...
+16:37:33 [INFORMACIÓN] 
+16:37:33 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+16:37:33 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+16:37:33 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+16:37:34 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 701ms)
+16:37:34 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+16:37:34 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:34 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+16:37:34 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+16:37:34 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+16:37:34 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+16:37:34 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+16:37:34 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+16:37:34 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+16:37:34 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+16:37:34 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+16:37:34 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:34 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:34 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:34 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:37:34 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+16:37:34 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+16:37:34 [INFORMACIÓN] Listening on /0.0.0.0:25565
+16:39:51 [INFORMACIÓN] [/127.0.0.1:65529] <-> InitialHandler has connected
+16:39:52 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+16:39:52 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.account.BungeecordAccountManager took 58ms to process event BungeeChatJoinEvent(player=Telmiyo)!
+16:39:52 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+16:39:52 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.BungeeChatEventsListener took 91ms to process event ServerSwitchEvent(player=Telmiyo, from=null)!
+16:39:52 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+16:39:56 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb applyedits CDPa8YITci
+16:42:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi ecloud download LuckPerms
+16:42:18 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: fad
+16:42:33 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+16:42:45 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+16:42:45 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.default true
+16:42:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /plugins
+16:43:56 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi ecloud download LuckPerms
+16:44:01 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi reload
+16:45:14 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+16:46:04 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi ecloud download LuckPerms
+16:46:09 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi reload
+16:46:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+16:46:25 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+16:46:25 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+16:46:25 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+16:46:25 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:46:59 [INFORMACIÓN] [/127.0.0.1:49833] <-> InitialHandler has pinged
+16:47:00 [INFORMACIÓN] [Telmiyo,/127.0.0.1:49837] <-> InitialHandler has connected
+16:47:01 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+16:47:09 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+16:47:09 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.JoinMessageListener took 78ms to process event BungeeChatJoinEvent(player=Telmiyo)!
+16:47:09 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.BungeeChatEventsListener took 112ms to process event ServerSwitchEvent(player=Telmiyo, from=null)!
+16:52:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi ecloud download Bungee
+16:52:43 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi reload
+16:52:46 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+16:53:44 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub info
+16:54:09 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub clearinventory
+16:55:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+16:58:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+16:59:04 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub warp
+16:59:20 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub hologram
+16:59:24 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub hologram list
+17:00:00 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub setlobby
+17:00:20 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub lobby
+17:00:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub lobby
+17:00:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lobby
+17:00:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /setlobby
+17:00:38 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lobby
+17:00:39 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lobby
+17:00:41 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lobby
+17:01:34 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:02:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /gamemode creative
+17:04:32 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:04:54 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:05:46 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:07:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:09:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+17:10:22 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+17:10:22 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add deluxehub.player.* true
+17:11:05 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+17:11:05 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove * true
+17:12:10 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+17:12:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+17:12:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add deluxehub.* true
+17:12:23 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+17:12:55 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /papi ecloud refresh
+17:21:17 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+17:21:17 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+17:21:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /lobby
+17:21:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /spawnpoint
+17:21:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /server lobby
+17:21:40 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+17:21:40 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+17:26:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:27:00 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+17:27:00 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+17:27:04 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+17:27:04 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+17:27:04 [INFORMACIÓN] [/127.0.0.1:53544] <-> InitialHandler has pinged
+17:27:05 [INFORMACIÓN] [Telmiyo,/127.0.0.1:53547] <-> InitialHandler has connected
+17:27:06 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+17:30:02 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:30:03 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+17:30:03 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+17:30:03 [INFORMACIÓN] [/127.0.0.1:53824] <-> InitialHandler has pinged
+17:30:04 [INFORMACIÓN] [Telmiyo,/127.0.0.1:53826] <-> InitialHandler has connected
+17:30:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+17:30:29 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+17:30:30 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+17:30:30 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+17:30:30 [INFORMACIÓN] [/127.0.0.1:53872] <-> InitialHandler has pinged
+17:30:31 [INFORMACIÓN] [Telmiyo,/127.0.0.1:53873] <-> InitialHandler has connected
+17:30:31 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+17:32:07 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+17:32:07 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+17:32:07 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected

@@ -133,6 +133,8 @@ world-settings:
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
     dragon-death-sound-radius: 0
+  worldeditregentempworld:
+    verbose: false
 advancements:
   disable-saving: false
   disabled:
