@@ -10,3 +10,9 @@ permissions:
 - bungeechat.message
 - bungeecord.command.reload
 - bungeecord.command.server
+prefixes:
+- '&7[&cAdmin&7]':
+    priority: 1
+meta:
+- suffix:
+    value: '&7[&cAdmin&7]'

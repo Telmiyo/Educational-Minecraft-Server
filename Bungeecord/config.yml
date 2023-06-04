@@ -1,7 +1,8 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25565
-  motd: '&1Telmo Beroiz TFG'
+  motd: \u00a72\u00a7l[1.18.2]\u00a7r New Educational Experiences - \u00a73CITM \u00a7r-
+    \u00a76\u00a7lTelmo Beroiz
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -31,8 +32,8 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: 909e6ca1-7dd2-4325-aba5-b1d50cbf186a
 player_limit: -1
-prevent_proxy_connections: false
 ip_forward: true
 groups:
   Telmiyo:
@@ -40,14 +41,14 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: 909e6ca1-7dd2-4325-aba5-b1d50cbf186a
+prevent_proxy_connections: false
 online_mode: true
 forge_support: false
 disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another BungeeCord - Forced Host'
+    motd: New Educational Experiences - CITM - Telmo Beroiz
     address: localhost:25599
     restricted: false
   application-1:

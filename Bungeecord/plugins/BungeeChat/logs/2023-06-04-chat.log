@@ -13,3 +13,34 @@
 [13:24:39]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): dfjkal
 [13:24:55]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fdva
 [13:25:02]: LEAVE > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[13:36:28]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[13:36:37]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[13:36:44]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb group admin meta set suffix "&7[&cAdmin&7]"
+[13:36:46]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fa
+[13:44:38]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): f
+[13:45:20]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[13:49:19]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bungeechat
+[13:49:29]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): dfdfa
+[13:50:09]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fdkajs
+[13:50:17]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[13:50:24]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /greload
+[13:50:26]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fjdal
+[13:50:45]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[13:59:34]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[13:59:44]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fhkadls
+[13:59:50]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /time set day
+[14:00:09]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb user Telmiyo promote admin
+[14:00:12]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb user Telmiyo promote Admin
+[14:00:17]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb listgroups
+[14:00:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[14:02:11]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb group admin meta info
+[14:05:34]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[14:12:57]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[14:13:23]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[14:13:41]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb group admin meta info
+[14:18:40]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda
+[14:19:18]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fda+ç
+[14:23:15]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb group admin meta info
+[14:24:34]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb group admin meta setprefix &7[&cAdmin&7]
+[14:24:42]: LOCAL > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): dfgmlsa
+[14:25:08]: LEAVE > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!

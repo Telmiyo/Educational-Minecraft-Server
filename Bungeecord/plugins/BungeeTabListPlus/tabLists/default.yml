@@ -30,8 +30,9 @@ header:
   - "&cWelcome &f${viewer name}"
 headerAnimationUpdateInterval: 0.2
 footer: |-
-  &4Powered by BungeeTabListPlus
-  &fWiki:&7 https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+  &aCustomisable Educational Experiences Through Minecraft Servers
+  &9CITM - &eTelmo Beroiz
+  &8Github:&7 https://github.com/Telmiyo/Educational-Minecraft-Server
 
 # Configure whether hidden players appear on the tab list
 # see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
@@ -62,7 +63,7 @@ components:
       -
       -
     showServers: ALL
-    playerComponent: ${player luckpermsbungee_prefix}${player luckpermsbungee_primary_group}${player name}${afk_tag}"
+    playerComponent: "${player luckpermsbungee_prefix}${player name}${afk_tag}"
     morePlayersComponent: {text: "&7... and &e${other_count} &7others", icon: "colors/gray.png", ping: 0}
   - !spacer {}
   -

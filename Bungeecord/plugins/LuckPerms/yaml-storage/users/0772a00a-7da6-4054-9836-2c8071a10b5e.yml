@@ -3,6 +3,9 @@ name: Telmiyo
 primary-group: default
 permissions:
 - luckperms.*
+parents:
+- admin
+- default
 meta:
 - lp-editor-key:
     value: GXhTJr4BmBxb0fEesVkmPrGI7t8=
