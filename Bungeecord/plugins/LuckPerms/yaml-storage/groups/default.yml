@@ -4,3 +4,6 @@ permissions:
 - bungeechat.command.msg
 parents:
 - admin
+prefixes:
+- '&b[&aStudent&b]':
+    priority: 2
