@@ -397,3 +397,304 @@ Unknown placeholder
 12:26:14 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
 12:26:14 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
 12:26:14 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+12:30:07 [INFORMACIÓN] Using standard Java JCE cipher.
+12:30:07 [INFORMACIÓN] Using standard Java compressor.
+12:30:07 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+12:30:08 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+12:30:08 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin gChat version 1.0.0 by Luck
+12:30:08 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+12:30:08 [ADVERTENCIA] Forced host server pvp is not defined
+12:30:08 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:08 [INFORMACIÓN] §b       §3 __    
+12:30:08 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+12:30:08 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+12:30:08 [INFORMACIÓN] 
+12:30:08 [INFORMACIÓN] [LuckPerms] Loading configuration...
+12:30:08 [INFORMACIÓN] [LuckPerms] Loading storage provider... [H2]
+12:30:09 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+12:30:09 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+12:30:09 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 792ms)
+12:30:09 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+12:30:09 [INFORMACIÓN] [gChat] Enabling gChat v1.0.0
+12:30:09 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:09 [INFORMACIÓN] [gChat] Logging chat to gChat.log
+12:30:09 [INFORMACIÓN] [gChat] Logging chat to console: net.md_5.bungee.api.plugin.PluginLogger@79b2852b
+12:30:09 [INFORMACIÓN] Enabled plugin gChat version 1.0.0 by Luck
+12:30:09 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:09 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:09 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:09 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:30:09 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+12:30:09 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+12:30:09 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:30:40 [ADVERTENCIA] Forced host server pvp is not defined
+12:30:40 [INFORMACIÓN] Closing listener [id: 0xb14eea67, L:/[0:0:0:0:0:0:0:0]:25565]
+12:30:40 [INFORMACIÓN] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+12:30:40 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:30:43 [INFORMACIÓN] [/127.0.0.1:58401] <-> InitialHandler has connected
+12:30:44 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+12:30:44 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+12:53:58 [ADVERTENCIA] Forced host server pvp is not defined
+12:53:58 [INFORMACIÓN] Closing listener [id: 0xf504fff9, L:/[0:0:0:0:0:0:0:0]:25565]
+12:53:58 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:53:58 [INFORMACIÓN] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+12:54:09 [INFORMACIÓN] Using standard Java JCE cipher.
+12:54:09 [INFORMACIÓN] Using standard Java compressor.
+12:54:09 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+12:54:09 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+12:54:10 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin gChat version 1.0.0 by Luck
+12:54:10 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+12:54:10 [ADVERTENCIA] Forced host server pvp is not defined
+12:54:10 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:10 [INFORMACIÓN] §b       §3 __    
+12:54:10 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+12:54:10 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+12:54:10 [INFORMACIÓN] [LuckPerms] Loading configuration...
+12:54:10 [INFORMACIÓN] 
+12:54:10 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+12:54:11 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+12:54:11 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+12:54:11 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 1124ms)
+12:54:11 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+12:54:11 [INFORMACIÓN] [gChat] Enabling gChat v1.0.0
+12:54:11 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:11 [INFORMACIÓN] [gChat] Logging chat to gChat.log
+12:54:11 [INFORMACIÓN] [gChat] Logging chat to console: net.md_5.bungee.api.plugin.PluginLogger@a565cbd
+12:54:11 [INFORMACIÓN] Enabled plugin gChat version 1.0.0 by Luck
+12:54:11 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:11 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:11 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:11 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+12:54:11 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+12:54:11 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+12:54:11 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:54:37 [INFORMACIÓN] [/127.0.0.1:60555] <-> InitialHandler has pinged
+12:54:38 [INFORMACIÓN] [/127.0.0.1:60559] <-> InitialHandler has connected
+12:54:38 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+12:54:39 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+12:55:49 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §aSet §bluckperms.*§a to §btrue§a for §bTelmiyo§a in context §eglobal§a.
+12:55:55 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+12:55:55 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fcreate
+12:56:02 [INFORMACIÓN] [LuckPerms] [FileWatcher] Detected change in group file for default - reloading...
+12:56:21 [ADVERTENCIA] Forced host server pvp is not defined
+12:56:21 [INFORMACIÓN] Closing listener [id: 0xe027c260, L:/[0:0:0:0:0:0:0:0]:25565]
+12:56:21 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:56:21 [INFORMACIÓN] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeecord.command.reload true
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeecord.command.server true
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+12:58:21 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.admin true
+12:58:42 [ADVERTENCIA] Forced host server pvp is not defined
+12:58:42 [INFORMACIÓN] Closing listener [id: 0x9c143ae9, L:/[0:0:0:0:0:0:0:0]:25565]
+12:58:42 [INFORMACIÓN] Listening on /0.0.0.0:25565
+12:58:50 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+12:58:50 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+12:58:59 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+12:58:59 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+12:59:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+12:59:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.admin true
+12:59:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+12:59:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.default true
+12:59:38 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+12:59:38 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+13:01:53 [ADVERTENCIA] [Telmiyo] <-> DownstreamBridge <-> [application-1] - SocketException: Connection reset
+13:01:53 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+13:01:53 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+13:01:53 [ADVERTENCIA] [Telmiyo] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+13:01:53 [INFORMACIÓN] [Telmiyo] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+13:01:53 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+13:01:53 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+13:04:11 [INFORMACIÓN] Using standard Java JCE cipher.
+13:04:11 [INFORMACIÓN] Using standard Java compressor.
+13:04:11 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:04:11 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+13:04:11 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin gChat version 1.0.0 by Luck
+13:04:11 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:11 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+13:04:11 [ADVERTENCIA] Forced host server pvp is not defined
+13:04:11 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] §b       §3 __    
+13:04:12 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+13:04:12 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+13:04:12 [INFORMACIÓN] [LuckPerms] Loading configuration...
+13:04:12 [INFORMACIÓN] 
+13:04:12 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+13:04:12 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+13:04:12 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+13:04:12 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 667ms)
+13:04:12 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+13:04:12 [INFORMACIÓN] [gChat] Enabling gChat v1.0.0
+13:04:12 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] [gChat] Logging chat to gChat.log
+13:04:12 [INFORMACIÓN] [gChat] Logging chat to console: net.md_5.bungee.api.plugin.PluginLogger@61c42416
+13:04:12 [INFORMACIÓN] Enabled plugin gChat version 1.0.0 by Luck
+13:04:12 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:04:12 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+13:04:12 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+13:04:12 [INFORMACIÓN] Listening on /0.0.0.0:25565
+13:04:16 [INFORMACIÓN] [/127.0.0.1:61480] <-> InitialHandler has connected
+13:04:17 [INFORMACIÓN] [Telmiyo] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25599
+13:04:17 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+13:04:27 [INFORMACIÓN] [/127.0.0.1:61503] <-> InitialHandler has pinged
+13:04:40 [INFORMACIÓN] [/127.0.0.1:61521] <-> InitialHandler has connected
+13:04:41 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+13:04:46 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+13:06:51 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+13:06:51 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+13:06:51 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+13:09:36 [INFORMACIÓN] Using standard Java JCE cipher.
+13:09:36 [INFORMACIÓN] Using standard Java compressor.
+13:09:36 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+13:09:36 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+13:09:37 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+13:09:37 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+13:09:37 [ADVERTENCIA] Forced host server pvp is not defined
+13:09:37 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:37 [INFORMACIÓN] §b       §3 __    
+13:09:37 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+13:09:37 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+13:09:37 [INFORMACIÓN] [LuckPerms] Loading configuration...
+13:09:37 [INFORMACIÓN] 
+13:09:37 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+13:09:37 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+13:09:37 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+13:09:37 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 755ms)
+13:09:37 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+13:09:37 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:38 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+13:09:38 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+13:09:38 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+13:09:38 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+13:09:38 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+13:09:38 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+13:09:38 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+13:09:38 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+13:09:38 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+13:09:38 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:38 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:38 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:38 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+13:09:38 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+13:09:38 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+13:09:38 [INFORMACIÓN] Listening on /0.0.0.0:25565
+13:13:02 [INFORMACIÓN] [/127.0.0.1:62303] <-> InitialHandler has connected
+13:13:03 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+13:13:03 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+13:14:01 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+13:14:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+13:14:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.admin true
+13:14:58 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+13:14:58 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.message true
+13:19:06 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb group default permission set bungeechat.command.msg
+13:19:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+13:19:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fpermission set bungeechat.command.msg true
+13:19:18 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb group admin permission set bungeechat.command.msg
+13:19:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+13:19:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fpermission set bungeechat.command.msg true
+13:20:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /msg Telmiyo fdkahsf
+13:22:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb group admin permission set bungeechat.command.msg true server=bungee
+13:22:13 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+13:22:13 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fpermission set bungeechat.command.msg true server=bungee
+13:22:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /msg Telmiyo dfkaj
+13:22:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /msg fdafa dfkaj
+13:23:00 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb applyedits x8Vi5YBaKZ
+13:23:01 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+13:23:01 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add * true
+13:23:03 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: dfja
+13:23:38 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb applyedits qlCfUq28iO
+13:23:44 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: dfa
+13:24:03 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+13:24:20 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+13:24:20 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.default true
+13:24:20 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+13:24:20 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.admin true
+13:24:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+13:24:32 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.chat true
+13:24:39 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: dfjkal
+13:24:51 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§bTelmiyo§8)
+13:24:51 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.default true
+13:24:55 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: fdva
+13:25:02 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+13:25:02 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+13:25:02 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+13:25:02 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected

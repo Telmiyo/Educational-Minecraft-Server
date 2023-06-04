@@ -1,0 +1,8 @@
+uuid: 0772a00a-7da6-4054-9836-2c8071a10b5e
+name: Telmiyo
+primary-group: default
+permissions:
+- luckperms.*
+meta:
+- lp-editor-key:
+    value: GXhTJr4BmBxb0fEesVkmPrGI7t8=

@@ -1,0 +1,6 @@
+name: default
+permissions:
+- bungeechat.chat
+- bungeechat.command.msg
+parents:
+- admin

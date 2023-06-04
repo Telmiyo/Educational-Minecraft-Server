@@ -1,0 +1,12 @@
+name: admin
+permissions:
+- bungeechat.command.msg:
+    value: true
+    context:
+      server: bungee
+- '*'
+- bungeechat.admin
+- bungeechat.command.msg
+- bungeechat.message
+- bungeecord.command.reload
+- bungeecord.command.server
