@@ -69,3 +69,5 @@
 {"timestamp":1685899426,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add jobs.join.Smelter true"}
 {"timestamp":1685899426,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add jobs.command.help true"}
 {"timestamp":1685899426,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add jobs.join.Weaponsmith true"}
+{"timestamp":1685901638,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add bungeeresourcepacks.command true"}
+{"timestamp":1685901702,"source":{"uniqueId":"0772a00a-7da6-4054-9836-2c8071a10b5e","name":"Telmiyo@bungee"},"target":{"type":"GROUP","name":"default"},"description":"webeditor add * true"}

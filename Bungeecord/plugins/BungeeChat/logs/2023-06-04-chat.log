@@ -260,3 +260,50 @@
 [19:36:14]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /reload
 [19:36:21]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
 [19:36:44]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /stop
+[19:40:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:41:47]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:45:05]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /reload
+[19:45:17]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:46:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[19:58:38]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp
+[19:58:40]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[19:58:55]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /blp
+[19:58:58]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[19:59:46]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bungee
+[20:00:11]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /lpb editor
+[20:00:47]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[20:00:51]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp
+[20:01:24]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /usepack
+[20:01:50]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp
+[20:02:05]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:02:11]: LOCAL > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): fads
+[20:02:12]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:02:13]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:02:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /plugins
+[20:02:27]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bpr
+[20:02:41]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp listassignments
+[20:02:45]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:03:13]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp resetpack Telmiyo false
+[20:03:23]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /resetpack Telmiyo false
+[20:03:34]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /usepack
+[20:03:51]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /usepack applicaton-1-pack Telmiyo
+[20:03:59]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /usepack application-1-pack Telmiyo
+[20:04:04]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[20:04:14]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:04:27]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:04:30]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:04:46]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp assignment
+[20:05:03]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /brp assignment application-1-pack
+[20:09:59]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:10:01]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:10:04]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:10:09]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[20:10:51]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:10:52]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:10:55]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:11:00]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:13:07]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:13:10]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:19:53]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:19:58]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:20:06]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
