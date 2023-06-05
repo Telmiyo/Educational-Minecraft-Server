@@ -3798,3 +3798,1251 @@ java.io.FileNotFoundException: http://example.com/minigameresourcepack_1_12.zip
 13:22:51 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
 13:22:51 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
 13:23:01 [INFORMACIÓN] §cCommand not found
+16:31:19 [INFORMACIÓN] Using standard Java JCE cipher.
+16:31:19 [INFORMACIÓN] Using standard Java compressor.
+16:31:19 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+16:31:20 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+16:31:20 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+16:31:20 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+16:31:20 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+16:31:20 [ADVERTENCIA] Forced host server pvp is not defined
+16:31:20 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+16:31:20 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+16:31:20 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+16:31:20 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+16:31:20 [INFORMACIÓN] §b       §3 __    
+16:31:20 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+16:31:20 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+16:31:20 [INFORMACIÓN] 
+16:31:20 [INFORMACIÓN] [LuckPerms] Loading configuration...
+16:31:20 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+16:31:21 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+16:31:21 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+16:31:21 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 630ms)
+16:31:21 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+16:31:21 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:21 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+16:31:21 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+16:31:21 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+16:31:21 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+16:31:21 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+16:31:21 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+16:31:21 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+16:31:21 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+16:31:21 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+16:31:21 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+16:31:21 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+16:31:21 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:21 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:21 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:21 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+16:31:21 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+16:31:21 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+16:31:21 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+16:31:21 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+16:31:22 [INFORMACIÓN] Listening on /0.0.0.0:25565
+16:32:20 [INFORMACIÓN] [/127.0.0.1:63383] <-> InitialHandler has pinged
+16:32:21 [INFORMACIÓN] [/127.0.0.1:63387] <-> InitialHandler has connected
+16:32:21 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+16:32:22 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+16:32:22 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+16:32:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+16:32:31 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+16:32:31 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+16:32:31 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:32:32 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+16:32:32 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+16:33:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /plugins
+16:35:14 [ADVERTENCIA] [Telmiyo] <-> DownstreamBridge <-> [application-1] - SocketException: Connection reset
+16:35:14 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+16:35:14 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+16:35:15 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+16:35:16 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+16:35:16 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+16:46:00 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+16:46:00 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+16:46:00 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:46:01 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+16:46:01 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+16:46:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /plugins
+16:46:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+16:48:10 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+16:48:10 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+16:48:10 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+16:48:10 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+16:49:25 [INFORMACIÓN] [/127.0.0.1:64952] <-> InitialHandler has pinged
+16:49:25 [INFORMACIÓN] [Telmiyo,/127.0.0.1:64955] <-> InitialHandler has connected
+16:49:26 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+16:49:26 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+16:49:27 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+16:49:30 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+16:49:30 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+16:49:30 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:49:31 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+16:49:31 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+16:49:56 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap
+16:51:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap fullrender
+16:54:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap:dmap
+16:54:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap
+16:56:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap cancelrender
+16:56:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+16:56:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap fullrender
+17:07:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //
+17:07:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //
+17:07:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //wand
+17:08:04 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+17:08:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+17:08:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+17:08:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:08:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+17:08:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:08:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+17:09:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:09:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+17:09:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:10:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+17:10:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:10:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+17:10:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+17:10:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:21:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 1 panda Job Master Cedric
+17:21:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:22:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 player
+17:22:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 villager
+17:22:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 fox
+17:22:31 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 rabbit
+17:22:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 gollem
+17:22:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 golem
+17:23:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 Squid
+17:23:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 Endermite
+17:23:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 Vindicator
+17:23:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 Vex
+17:23:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 vex
+17:23:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 shulker
+17:23:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 ravager
+17:23:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 phantom
+17:23:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 pillager
+17:24:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 elder
+17:24:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 wolf
+17:24:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 polar bear
+17:24:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 polar_bear
+17:24:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 elder_guardian
+17:24:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:25:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow blue
+17:25:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow blue
+17:25:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BLUE
+17:25:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BLUE
+17:25:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BLUE
+17:25:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow RED
+17:26:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow RED
+17:26:12 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 player
+17:26:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow RED
+17:26:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow RED
+17:26:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 polar_bear
+17:26:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BLUE
+17:26:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BLUE
+17:27:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 iron_helmet
+17:27:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 helmet
+17:27:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1
+17:27:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:28:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 CHESTPLATE
+17:28:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 CHESTPLATE
+17:28:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 chestplate
+17:28:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 offhand
+17:29:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs type 1 player
+17:29:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 offhand
+17:31:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs skin 1 https://www.minecraftskins.com/uploads/skins/2021/01/20/hayden-the-wandering-arcanist-edit-16442658.png?v577
+17:31:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:31:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 chestplate
+17:32:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs equip 1 offhand
+17:33:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation create gui
+17:34:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation create test
+17:34:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:34:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:35:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:35:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:36:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:36:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation remove gui
+17:36:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation remove test
+17:37:27 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation create Aldric
+17:37:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:40:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs delete 1
+17:40:31 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:40:56 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 1 player Aldric
+17:41:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+17:41:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs skin 1 https://www.minecraftskins.com/uploads/skins/2021/01/20/hayden-the-wandering-arcanist-edit-16442658.png?v577
+17:41:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs gui
+17:41:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+17:42:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs reload
+18:06:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:06:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE jobs
+18:07:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs
+18:07:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE /jobs
+18:07:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE jobs:jobs
+18:08:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs browse
+18:08:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE jobs browse
+18:09:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CMD /jobs
+18:09:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CMD jobs
+18:09:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CMD jobs browse
+18:10:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /plugins
+18:10:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /deluxemenu
+18:10:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /deluxemenu open jobs
+18:10:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /deluxemenu jobs
+18:10:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dm open jobs Telmiyo
+18:10:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dm list
+18:10:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dm open jobs_menu_page_1 Telmiyo
+18:11:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE dm open jobs_menu_page_1 Telmiyo
+18:11:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:11:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs list
+18:11:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs actions 1
+18:11:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action list
+18:12:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action list 1
+18:12:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action list 1
+18:12:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action list 1
+18:12:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dynmap cancelrender
+18:12:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+18:12:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+18:13:10 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+18:13:10 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+18:13:10 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+18:13:10 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+18:14:25 [INFORMACIÓN] [/127.0.0.1:56751] <-> InitialHandler has connected
+18:14:26 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:14:26 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+18:14:27 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:14:29 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+18:14:30 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+18:14:30 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:14:31 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+18:14:31 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+18:15:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+18:16:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:19:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:19:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 add &r&6&lJob Master &6&lCedric
+18:19:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 2 add "&e&lSeek ye a noble occupation?"
+18:19:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 add "&e&lSeek ye a noble occupation?"
+18:20:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 set "&e&lSeek ye a noble occupation?&f"
+18:20:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:27 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 set "&e&lSeek ye a noble occupation?&f"
+18:20:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 add "&e&lSeek ye a noble occupation?&f"
+18:20:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 1
+18:20:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 2
+18:20:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 2
+18:20:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 2
+18:20:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 remove 0
+18:20:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 add "&e&lSeek ye a noble occupation?&f"
+18:21:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 1 add &r&6&lJob Master &6&lCedric
+18:21:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:21:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BROWN
+18:21:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow BROWN
+18:21:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs toggle 1 glow WHITE
+18:22:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action
+18:22:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:22:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs actopm remove
+18:22:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs actopm remove 0
+18:22:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action remove
+18:22:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:22:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:23:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:23:01 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 remove 0
+18:23:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+18:23:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action add CONSOLE dm open jobs_menu_page_1 Telmiyo
+18:23:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs action 1 add CONSOLE dm open jobs_menu_page_1 Telmiyo
+18:24:03 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //wand
+18:24:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+18:24:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //rotate 90
+18:24:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:24:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:24:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //set 0
+18:24:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:25:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:25:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:25:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:25:12 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:25:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+18:25:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //rotate 90
+18:25:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //pastew
+18:25:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:26:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:26:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //rotate -25
+18:26:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:26:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:26:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //rotate -35
+18:26:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //paste
+18:26:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //undo
+18:26:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: //copy
+18:29:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs quests
+18:35:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /vault
+18:35:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /vault-info
+18:56:21 [INFORMACIÓN] Using standard Java JCE cipher.
+18:56:21 [INFORMACIÓN] Using standard Java compressor.
+18:56:21 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+18:56:22 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:22 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+18:56:23 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+18:56:23 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:23 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+18:56:23 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:23 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:23 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:23 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:23 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+18:56:36 [INFORMACIÓN] [36m Downloaded from https://directleaks.to [0m
+
+18:56:36 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+18:56:36 [INFORMACIÓN] Loaded plugin ExaltedEconomy version 2.6 by Jowcey
+18:56:36 [ADVERTENCIA] Forced host server pvp is not defined
+18:56:37 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+18:56:36 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:37 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+18:56:38 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+18:56:38 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+18:56:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+18:56:40 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+18:56:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+18:56:41 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+18:56:41 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+18:56:42 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+18:56:42 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+18:56:43 [INFORMACIÓN] [LuckPerms] Loading configuration...
+18:56:43 [INFORMACIÓN] §b       §3 __    
+18:56:43 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+18:56:45 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+18:56:45 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+18:56:43 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+18:56:46 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+18:56:46 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+18:56:43 [INFORMACIÓN] 
+18:56:47 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+18:56:47 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+18:56:47 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+18:56:48 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 6444ms)
+18:56:48 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+18:56:48 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:49 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+18:56:49 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+18:56:49 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+18:56:49 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+18:56:51 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+18:56:51 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+18:56:52 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+18:56:52 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+18:56:52 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+18:56:52 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:52 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:52 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:52 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:56:52 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+18:56:52 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+18:56:52 [INFORMACIÓN] §b[§7ExaltedEconomy§b] §r§bLoading Plugin...
+18:56:54 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=33, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.translations.TranslationManager$$Lambda$1017/0x00000008015a5840@3866c96e, delay=0, period=0, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/commons/io/FileUtils
+	at com.jowcey.ExaltedEconomy.base.translations.TranslationFile.createFile(TranslationFile.java:26)
+	at com.jowcey.ExaltedEconomy.base.translations.TranslationManager.createDefaultLanguageFile(TranslationManager.java:103)
+	at com.jowcey.ExaltedEconomy.base.translations.TranslationManager.lambda$new$4(TranslationManager.java:43)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: com.jowcey.ExaltedCore.base.dependencies.commons.io.FileUtils
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 7 more
+18:56:55 [INFORMACIÓN] §b[§7ExaltedEconomy§b] §r§bSuccessfully loaded in 2786 ms
+18:56:55 [INFORMACIÓN] Enabled plugin ExaltedEconomy version 2.6 by Jowcey
+18:56:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: com.jowcey.ExaltedCore.base.dependencies.gson.JsonElement
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 6 more
+18:56:56 [INFORMACIÓN] Listening on /0.0.0.0:25565
+18:57:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:57:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:58:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18:59:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:09 [INFORMACIÓN] [/127.0.0.1:60917] <-> InitialHandler has connected
+19:00:10 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+19:00:10 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+19:00:10 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+19:00:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:11 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+19:00:15 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /plugins
+19:00:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:00:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:01:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /plugins
+19:02:46 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:51 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:02:56 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:01 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:06 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:11 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /balance
+19:03:16 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:21 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:26 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:31 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:36 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:03:41 [GRAVE] Task BungeeTask(sched=net.md_5.bungee.scheduler.BungeeScheduler@72ea6193, id=34, owner=com.jowcey.ExaltedEconomy.base.loader.BungeeLoader@3dfd6220, task=com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager$$Lambda$1024/0x00000008015a6588@502c2278, delay=500, period=5000, running=true) encountered an exception
+java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/JsonElement
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.fetchServerList(BungeeNetworkManager.java:64)
+	at com.jowcey.ExaltedEconomy.base.networking.BungeeNetworkManager.SendServerListInfoTask(BungeeNetworkManager.java:42)
+	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19:06:12 [INFORMACIÓN] Using standard Java JCE cipher.
+19:06:12 [INFORMACIÓN] Using standard Java compressor.
+19:06:12 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+19:06:12 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:12 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+19:06:13 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+19:06:13 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+19:06:13 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+19:06:13 [ADVERTENCIA] Forced host server pvp is not defined
+19:06:13 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+19:06:13 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+19:06:13 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+19:06:13 [INFORMACIÓN] §b       §3 __    
+19:06:13 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+19:06:13 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+19:06:13 [INFORMACIÓN] 
+19:06:13 [INFORMACIÓN] [LuckPerms] Loading configuration...
+19:06:13 [INFORMACIÓN] [LuckPerms] Loading storage provider... [YAML]
+19:06:13 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+19:06:13 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+19:06:13 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+19:06:13 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 698ms)
+19:06:13 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+19:06:13 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:14 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+19:06:14 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+19:06:14 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+19:06:14 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+19:06:14 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+19:06:14 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+19:06:14 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+19:06:14 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+19:06:14 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+19:06:14 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+19:06:14 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+19:06:14 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:14 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:14 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:14 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+19:06:14 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+19:06:14 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+19:06:14 [INFORMACIÓN] Listening on /0.0.0.0:25565
+19:06:30 [INFORMACIÓN] [/127.0.0.1:61502] <-> InitialHandler has pinged
+19:06:30 [INFORMACIÓN] [/127.0.0.1:61505] <-> InitialHandler has connected
+19:06:31 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+19:06:31 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+19:06:31 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+19:06:32 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+19:06:37 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /balance
+19:06:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /plugins
+19:12:17 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /plugins
+19:12:38 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /balance
+19:12:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /exaltedcore
+19:13:20 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+19:13:20 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+19:13:20 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+19:13:20 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected

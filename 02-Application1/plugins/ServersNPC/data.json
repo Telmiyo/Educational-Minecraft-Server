@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTI4ODczMDUyOSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZjNjI4MGJhMzhlODdkZGFkOTRlMjhmMzEzN2E2YjA1NzlhMThmNzQ4ZmEzNmNmNzRiYjQxYWVmOWExYzU4ZCIKICAgIH0KICB9Cn0=",
+    "signature": "dyu6zhLi6Oi5P9hBbEeNRS/J8uHb7+dSluDzHdT5UNxHIc4l6pV5SsLHpch0YL51lQ71zpjZ1Nprh2EKHqY+uzT4YZM48TpDHGN0c0TkelE2uz+SeD0UaWoAuQZfl8IU5H2Q/1fluEvMBwBFn475S8zPOBwdF0XFbsku3odCSalTOnVoKULxHj1P4bv7K3j5U8xIjojBCr35OPGvHO1DlhlNb0Sng8pVKoc/52SJJWbvk6qFDYVEEmTorV+NlZjK89bPqxQHZBfCLYqLpltzzkpDJVY1T3J2cbTzfWy0m45jlRppmkqW8Z1x46o3hBZvx6T48CD3wJrmYxtBRJkEGbafXLRugKsm6VYgiKfbQc0Z6yM/hS+djzPmibah6jRiH6A6SAX7USs23i4bJwi4Rrhs7VyoW6FQB6L06nb+sSPmoq7D0sv27+3xU6HO4hRLGIArGxxzDsN56xSKjHmWWaBIUxID1BqdyQ3n1BIYdFPTeGr4oQXzijNkP+DIxz/z4FhU+1lFcuQTm4R97K9HFgIwEAdCYrrtks9FaQ/aaSp7EmUKt15t1B3ZRdlboOCTAy9ZxIg2ajh+qyKl7SbVboqMTj2fP737lm/lwJheihhaTrV8KDuhb6NBu4G0/4xjJLN9Cxdri/W92gCH4Ys3OrsdWztf5hgIz0gGxQ5tqcc=",
+    "skinName": "https://www.minecraftskins.com/uploads/skins/2021/01/20/hayden-the-wandering-arcanist-edit-16442658.png?v577",
+    "glowName": "WHITE",
+    "location": {
+      "world": "world",
+      "x": -5.5,
+      "y": 100.0,
+      "z": 0.5,
+      "yaw": -90.13843,
+      "pitch": -5.2501483
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "\"&e&lSeek ye a noble occupation?&f\"",
+      "&r&6&lJob Master &6&lCedric"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "dm open jobs_menu_page_1 Telmiyo",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "glow": true
+    },
+    "customizationMap": {}
+  }
+]
