@@ -88,9 +88,10 @@ items:
     display_name: '&#F8BD23Shop'
     slot: 8
     lore:
-    - '&#AF2A23Coming soon!'
+    - '&#AF2A23Explore the Shop!'
     left_click_commands:
-    - '[console] playsound minecraft:error player %player_name% %player_x% %player_y% %player_z%'
+    - '[console] playsound minecraft:confirm player %player_name% %player_x% %player_y% %player_z%'
+    - '[connect] lobby'
     - '[refresh]'
     right_click_commands:
     - '[console] playsound minecraft:error player %player_name% %player_x% %player_y% %player_z%'
