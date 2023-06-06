@@ -1,6 +1,6 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25565
+- query_port: 25585
   motd: \u00a72\u00a7l[1.18.2]\u00a7r New Educational Experiences - \u00a73CITM \u00a7r-
     \u00a76\u00a7lTelmo Beroiz
   tab_list: GLOBAL_PING
@@ -12,7 +12,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: true
-  host: 0.0.0.0:25565
+  host: 0.0.0.0:25585
   max_players: 1
   tab_size: 60
   force_default_server: true
@@ -53,5 +53,5 @@ servers:
     restricted: false
   application-1:
     motd: '&1Application 01 - Jobs'
-    address: localhost:25575
+    address: localhost:25525
     restricted: false

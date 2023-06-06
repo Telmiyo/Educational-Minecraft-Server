@@ -1,0 +1,30 @@
+[17:18:38]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[17:20:52]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[17:29:03]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:29:08]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[17:29:08]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[17:29:18]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:29:25]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currencies list
+[17:29:28]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currencies
+[17:30:14]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr
+[17:30:19]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr delete coins
+[17:30:23]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:30:30]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo coins 10
+[17:30:34]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo
+[17:30:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[17:30:41]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[17:30:41]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[17:30:50]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:31:04]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr delete coins
+[17:31:06]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:31:14]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[17:31:17]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:31:20]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[17:31:20]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[17:31:30]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[17:32:55]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr
+[17:33:00]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr default coins
+[17:33:03]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[17:33:03]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[17:33:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr default coins
+[17:33:22]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!

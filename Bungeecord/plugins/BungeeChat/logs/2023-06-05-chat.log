@@ -259,3 +259,117 @@
 [19:12:38]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
 [19:12:45]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /exaltedcore
 [19:13:20]: LEAVE > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:12:54]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:13:44]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /setlobby
+[20:20:27]: LEAVE > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[20:22:00]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[20:22:12]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /curren
+[20:22:19]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currency
+[20:22:41]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr
+[20:26:34]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr
+[20:26:58]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr create coin coins
+[20:27:09]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr list
+[20:27:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr view coins
+[20:27:43]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr
+[20:27:59]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:28:33]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr set Telmiyo 10 coins
+[20:28:35]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr set Telmiyo 10 coin
+[20:28:48]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /geco
+[20:28:56]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[20:28:59]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:29:03]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:29:21]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:40:50]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:40:54]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[20:40:56]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:41:00]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobbyt
+[20:41:02]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[20:41:02]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[20:41:21]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:42:32]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:42:38]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server
+[20:42:42]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:42:54]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:47:16]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:47:24]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[20:47:24]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[20:47:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:47:44]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[20:47:47]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:47:49]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:48:02]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:48:07]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[20:48:10]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[20:48:10]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[20:48:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:48:29]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[20:48:43]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10 coins
+[20:48:44]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[20:48:46]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[20:48:46]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[20:48:59]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:48:26]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[21:52:02]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:52:09]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[21:52:09]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[21:52:30]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:52:36]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10
+[21:52:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10
+[21:52:39]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:52:41]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[21:52:42]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[21:52:55]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:52:58]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10
+[21:53:15]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs
+[21:53:19]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs bonus
+[21:54:18]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantexp Telmiyo brewel 10000000
+[21:56:17]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantexp Telmiyo digger 10000000
+[21:56:32]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo digger 10000000
+[21:56:38]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo brewel 10000000
+[21:57:01]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo digger 10000000
+[21:57:27]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[21:57:36]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[21:57:49]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[22:35:24]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[22:35:47]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 10
+[22:54:36]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[22:57:21]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[22:57:25]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[22:58:44]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Digger 300
+[22:58:55]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Brewer 300
+[23:03:10]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Florist 300
+[23:04:28]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:04:33]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance Telmiyo
+[23:04:55]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[23:04:55]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[23:05:45]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:05:55]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currencies
+[23:06:01]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currency list
+[23:06:58]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currency create coin coins
+[23:07:03]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:07:07]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[23:07:08]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[23:07:21]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:07:27]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currency create coin coins
+[23:07:30]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:07:50]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Builder 300
+[23:07:57]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:08:04]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[23:08:04]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[23:08:21]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:08:33]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gemscurrencies
+[23:08:47]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /currency default coins
+[23:08:51]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[23:08:51]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[23:33:49]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /jobs grantxp Telmiyo Crafter 300
+[23:34:22]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:34:28]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server lobby
+[23:34:28]: SWITCH > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §clobby §eserver!
+[23:34:42]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:35:57]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /eco give Telmiyo 100
+[23:36:27]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance save
+[23:36:29]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:36:32]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /server application-1
+[23:36:32]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
+[23:36:46]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /balance
+[23:47:10]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
