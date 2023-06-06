@@ -63,7 +63,7 @@ components:
       -
       -
     showServers: ALL
-    playerComponent: "${player luckpermsbungee_prefix}${player name}${afk_tag}"
+    playerComponent: "&7[${player luckpermsbungee_prefix} - ${player luckpermsbungee_suffix}&7] &f${player name}${afk_tag}"
     morePlayersComponent: {text: "&7... and &e${other_count} &7others", icon: "colors/gray.png", ping: 0}
   - !spacer {}
   -

@@ -97,7 +97,9 @@ scoreboard:
     - ""
     - " &a&lMoney: &6%gemseconomy_balance_default% &7&lcoins"
     - ""
-    - " &e&lRank: %bungee_total%"
+    - " &6&lRank:&r %luckperms_prefix%"
+    - ""
+    - " &7&lInstitution: %luckperms_suffix%"
     - ""
     - "&7&m----------------------"
 
@@ -117,14 +119,14 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&lDeluxeHub &7(%online%/%online_max%)"
+    - "&d&l&7(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
   footer:
     - ""
-    - "&6&lWebsite &fwww.examplemc.net"
-    - "&e&lStore &fbuy.examplemc.net"
+    - "&6&lCITM &fTelmo Beroiz"
+    - "&e&lWelcome to my TFG Project"
     - ""
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -151,9 +153,12 @@ announcements:
   announcements:
     test1:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Welcome to my TFG Project!</center>"
+      - "<center>&6&lWelcome to my TFG Project</center>"
+      - "<center>§eUnleash your inner adventurer!</center>"
+      - "<center>§eDon't forget to try out my special job implementations! </center>"
+      - "<center> &l&cLet the journey begin! &f</center>"
       - "&r"
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | LAUNCHPAD                                |

@@ -1,0 +1,40 @@
+name: default
+permissions:
+- deluxehub.player.*
+- '*'
+- bungeechat.chat
+- bungeechat.command.global
+- bungeechat.command.local
+- bungeechat.command.msg
+- bungeeresourcepacks.command
+- jobs.command.browse
+- jobs.command.gtop
+- jobs.command.help
+- jobs.command.info
+- jobs.command.join
+- jobs.command.leave
+- jobs.command.leaveall
+- jobs.command.top
+- jobs.join.Brewer
+- jobs.join.Builder
+- jobs.join.Cooker
+- jobs.join.Crafter
+- jobs.join.Digger
+- jobs.join.Enchanter
+- jobs.join.Engineer
+- jobs.join.Explorer
+- jobs.join.Farmer
+- jobs.join.Fisherman
+- jobs.join.Florist
+- jobs.join.Hunter
+- jobs.join.Miner
+- jobs.join.Smelter
+- jobs.join.Tamer
+- jobs.join.Taster
+- jobs.join.Weaponsmith
+- jobs.join.Woodcutter
+- jobs.rejoinbypass
+- jobs.use
+prefixes:
+- '&b[&aStudent&b]':
+    priority: 2

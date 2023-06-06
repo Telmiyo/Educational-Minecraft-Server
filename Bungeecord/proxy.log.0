@@ -5785,3 +5785,591 @@ java.lang.NoClassDefFoundError: com/jowcey/ExaltedCore/base/dependencies/gson/Js
 18:12:24 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
 18:12:24 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
 18:12:24 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:23:50 [INFORMACIÓN] Using standard Java JCE cipher.
+18:23:50 [INFORMACIÓN] Using standard Java compressor.
+18:23:50 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+18:23:50 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+18:23:50 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+18:23:50 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+18:23:50 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+18:23:50 [ADVERTENCIA] Forced host server pvp is not defined
+18:23:50 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+18:23:50 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+18:23:50 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+18:23:50 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+18:23:50 [INFORMACIÓN] §b       §3 __    
+18:23:50 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+18:23:50 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+18:23:50 [INFORMACIÓN] 
+18:23:50 [INFORMACIÓN] [LuckPerms] Loading configuration...
+18:23:52 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+18:23:52 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+18:23:53 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+18:23:53 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+18:23:54 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+18:23:54 [INFORMACIÓN] luckperms-hikari - Starting...
+18:23:54 [INFORMACIÓN] luckperms-hikari - Start completed.
+18:23:54 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+18:23:54 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+18:23:54 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+18:23:54 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 4252ms)
+18:23:54 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+18:23:54 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:55 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+18:23:55 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+18:23:55 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+18:23:55 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+18:23:55 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+18:23:55 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+18:23:55 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+18:23:55 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+18:23:55 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+18:23:55 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:55 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:55 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:55 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+18:23:55 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+18:23:55 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+18:23:55 [INFORMACIÓN] Listening on /0.0.0.0:25585
+18:24:05 [INFORMACIÓN] [/127.0.0.1:61202] <-> InitialHandler has pinged
+18:24:06 [INFORMACIÓN] [/127.0.0.1:61206] <-> InitialHandler has connected
+18:24:07 [INFORMACIÓN] [Telmiyo] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25599
+18:24:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Tried to send pack info of none for player Telmiyo but server was null!
+18:24:07 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+18:25:02 [INFORMACIÓN] [/127.0.0.1:61304] <-> InitialHandler has pinged
+18:25:02 [INFORMACIÓN] [/127.0.0.1:61306] <-> InitialHandler has connected
+18:25:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:25:04 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+18:25:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:25:17 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /luckpermsbungee
+18:26:08 [INFORMACIÓN] §cCommand not found
+18:27:32 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:27:51 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb
+18:28:11 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §aSet §bluckperms.*§a to §btrue§a for §btelmiyo§a in context §eglobal§a.
+18:28:11 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 46e82295-c8f4-49f3-b1f0-c2678fe875a4
+18:28:11 [INFORMACIÓN] [LuckPerms] [Messaging] Sending user ping for 'telmiyo' with id: 2dc073ba-717f-4062-ac1b-56058937542e
+18:28:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+18:28:39 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb trusteditor 1631-5de4
+18:28:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb trusteditor 1631-5de4
+18:28:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: fd7bc980-562a-49be-9f90-368715809829
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: b7d0e20f-bee0-4368-a3ad-6b3850e4169a
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 703d049e-581b-4c39-b23b-8b567a41994e
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add deluxehub.* true
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: c576970d-e6c5-4d22-bc95-0c4805a73d7d
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 0197c76a-df95-41aa-9d34-403d02422d39
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 21db7c8c-88d3-4bda-af5a-c8a150b7681d
+18:29:43 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 6c32d3cb-27c3-4cd1-bbdb-4dde36c62dea
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add prefix.0.&7[&cAdmin&7] true
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.default true
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add displayname.&7[&cAdmin&7] true
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeecord.command.reload true
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.admin true
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:29:43 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeecord.command.server true
+18:29:45 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: bce265cc-a8ca-442a-9bc0-bbd1291bdef7
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 76563f24-e9d5-4abd-a933-b2a24fb3bd1a
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 29618c2e-8e10-497a-b82f-128d1211c0dc
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: ff59bfd4-d531-4969-8b60-9d7d91a2a98d
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: bc90c29b-49ae-4230-9fba-2c8cb32112c2
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.command.local true
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 553acb64-0778-4a1a-a6c7-a9e68c532927
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 507eb1db-5991-4d4f-9068-732bf89bf3ea
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 8295beab-26b4-4a80-8b1d-97b680e9c16e
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 43141b12-0033-4d7d-a3df-368639b551bd
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 9c83ca88-727b-4b6f-b745-0a680af07b74
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 0607d5b9-bc85-4205-aea0-5edbeaab5ad4
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 1953fde0-3d2a-45df-8626-2347e66a75bc
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 4e312e55-e88d-4546-96ae-40f12ab7d0c9
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Crafter true
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 87006664-32ee-4d0c-83ff-4fcbba6fe27b
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: a8840310-841c-4b3b-aa8f-23878bb789fe
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 400ac241-17b0-489d-9351-9ac3a4e9b49d
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 10eeabcb-8386-4ecb-aa02-0f7d1487152e
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: f9419fa5-01bb-4fde-830d-349344fabc78
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: b6f256ae-5031-468e-9c60-a22cb3557e29
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 2ffd256b-a377-4869-99df-641090c037ab
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 37caea98-f8db-41d7-9585-61958032b50f
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 7ef67c0e-47c7-42cd-9b8d-a4819f47543d
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 3fdb3a07-c6e6-4740-9007-ec15b7543061
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: dcfad85f-858e-4ec3-9022-1a2cc01ff9c1
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: bde98d19-c01c-47f5-985e-83262a636bc9
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 2cfa88ac-02c6-40c3-800e-559dc066dd37
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 1a7ffa06-23e6-4fc4-a71a-2090980bc82b
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: dbcb56d1-72f9-4c55-8b56-5561320b18a1
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 25d43415-0495-4f22-87cc-b2abfc3d71a9
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: c668efac-28b1-41ee-83a9-db54856344b2
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 7337c48d-b6d5-449b-8b9c-6806432813ee
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 6fe480d7-6c60-40e2-9a04-d3c1fd00c14c
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 7546305e-2f5d-4f80-9209-61c833f656fd
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 140b2282-2caa-471e-9919-c96fd0967754
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 6abc312c-ec14-4019-889f-9ea9f9f1ae9a
+18:30:19 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: be3993f7-9491-42b4-b472-aabd4de20497
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Digger true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.gtop true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Miner true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Brewer true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.info true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add deluxehub.player.* true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.use true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Enchanter true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.command.global true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.rejoinbypass true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Engineer true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add '*' true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Explorer true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.leaveall true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.command.msg true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.join true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Fisherman true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.leave true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.top true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Cooker true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Tamer true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Taster true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Florist true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Farmer true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Hunter true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Builder true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.browse true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Woodcutter true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Smelter true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeechat.chat true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.command.help true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add jobs.join.Weaponsmith true
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:30:19 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add bungeeresourcepacks.command true
+18:30:21 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: 45df3617-3d1a-48cb-9a2f-02294fad290b
+18:30:29 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 1c485fcd-0be8-4a46-a24e-28b96ebab77b
+18:30:29 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§btelmiyo§8)
+18:30:29 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 42f96a92-ad94-4cfb-9fc0-8e01513a2338
+18:30:29 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.admin true
+18:30:29 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§btelmiyo§8)
+18:30:29 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.default true
+18:30:29 [INFORMACIÓN] [LuckPerms] [Messaging] Sending user ping for 'telmiyo' with id: 60b36652-4382-4045-9a46-5b4c89bb0b0c
+18:30:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:31:03 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 1d3a8dfc-bce9-457b-bddd-27d83e68489f
+18:31:03 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:31:03 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove displayname.&7[&cAdmin&7] true
+18:31:05 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:31:05 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: 4fe56044-77b3-489a-80ec-4feb4ed23b31
+18:32:18 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb group default meta info
+18:32:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb group default meta setsuffix &b[&aStudent&b]
+18:32:40 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 5a50d44e-1020-46f1-8b3c-a534cf7ec676
+18:32:40 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:32:40 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fmeta setsuffix 1 &b[&aStudent&b]
+18:32:42 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: e3a55345-e8ae-484a-a4f6-21688c8e6308
+18:32:57 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+18:33:06 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: d75b92da-bb03-4383-9540-092c17b628e8
+18:33:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§btelmiyo§8)
+18:33:06 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 6004c27d-5f8c-4beb-9bbb-27f48e7b9316
+18:33:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add group.default true
+18:33:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§btelmiyo§8)
+18:33:06 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove group.admin true
+18:33:06 [INFORMACIÓN] [LuckPerms] [Messaging] Sending user ping for 'telmiyo' with id: cbbfa9aa-0c5d-49d4-b075-4284e1b2a85c
+18:33:15 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:33:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+18:34:18 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: 6df20851-a146-4d1c-85be-9453317e8c3c
+18:34:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:34:18 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: d49b226b-21ad-434e-bb51-e29bb0b8ed91
+18:34:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add prefix.0.&b[&aStudent&b] false
+18:34:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+18:34:18 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove suffix.1.&b[&aStudent&b] true
+18:34:20 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: 615fbfad-4960-4cc0-b6c4-c3dbeefc928e
+18:34:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+18:35:04 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:35:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:35:38 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:36:21 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:36:28 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:36:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:36:53 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:37:09 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lp editor
+18:37:16 [INFORMACIÓN] [LuckPerms] [Messaging] Received user update ping for 'telmiyo' with id: 454ab826-f0f1-4312-b164-dec975cc4336
+18:37:18 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+18:37:18 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+18:37:18 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:37:18 [INFORMACIÓN] [/127.0.0.1:62548] <-> InitialHandler has pinged
+18:37:19 [INFORMACIÓN] [Telmiyo,/127.0.0.1:62550] <-> InitialHandler has connected
+18:37:19 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:37:19 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+18:37:20 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:37:34 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lp applyedits 6nVUkhM5es
+18:37:35 [INFORMACIÓN] [LuckPerms] [Messaging] Received user update ping for 'telmiyo' with id: 7c8d219a-c4b2-4f8e-9455-b1e79ec6f8c2
+18:37:37 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+18:37:37 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+18:37:37 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:37:37 [INFORMACIÓN] [/127.0.0.1:62589] <-> InitialHandler has pinged
+18:37:38 [INFORMACIÓN] [Telmiyo,/127.0.0.1:62590] <-> InitialHandler has connected
+18:37:39 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:37:39 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+18:37:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:37:55 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+18:37:55 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+18:37:55 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:37:55 [INFORMACIÓN] [/127.0.0.1:62624] <-> InitialHandler has pinged
+18:37:56 [INFORMACIÓN] [Telmiyo,/127.0.0.1:62627] <-> InitialHandler has connected
+18:37:57 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:37:57 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+18:37:58 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:38:07 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:38:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:39:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /deluxehub reload
+18:40:31 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+18:40:31 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+18:40:31 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:40:32 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+18:40:32 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+18:40:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /gamemode creative
+18:41:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /setlobby
+18:41:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+18:41:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi ecloud download GemsEconomy
+18:41:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+18:42:04 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:42:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi ecloud download LuckPerms
+18:42:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:42:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+18:42:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:42:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+18:45:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:45:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:46:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /lpb user Telmiyo meta setsuffix &b&9CITM
+18:46:17 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: a58cd4d7-fe82-40d3-95c3-42c5eaf6f542
+18:46:17 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aU§8]§r §8(§btelmiyo§8)
+18:46:17 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fmeta setsuffix 1 &b&9CITM
+18:46:17 [INFORMACIÓN] [LuckPerms] [Messaging] Sending user ping for 'telmiyo' with id: 19978fef-73f5-4e21-a02e-a5d63226907b
+18:46:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:46:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:46:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:46:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:47:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /server lobby
+18:47:06 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+18:47:06 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+18:47:06 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+18:47:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+18:47:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+18:47:38 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+18:47:56 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+18:47:56 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+18:47:56 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+18:47:57 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+18:47:57 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+18:49:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:49:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /lpb editor
+18:49:44 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: d939043f-7cbd-47bf-93cf-cbceb09cbd2d
+18:49:44 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:49:44 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: d70e6c9a-9937-4004-9416-3eb304444139
+18:49:44 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add prefix.0.&7&cAdmin&7 true
+18:49:44 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§badmin§8)
+18:49:44 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor remove prefix.0.&7[&cAdmin&7] true
+18:49:46 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: 3acad076-6bff-4308-84cd-c118c2fb80ef
+18:49:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:50:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:50:45 [ADVERTENCIA] [BungeeTabListPlus] Failed to load tab list configuration file plugins\BungeeTabListPlus\tabLists\default.yml.
+while parsing a block mapping
+ in 'reader', line 58, column 5:
+        playerSet: all_players
+        ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 66, column 59:
+    luckpermsbungee_prefix}]["${player luckpermsbungee_suffix} ... 
+                              ^
+
+18:51:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:51:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:51:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:51:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:52:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeetablistplus reload
+18:54:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:55:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:55:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:55:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:55:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:56:08 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:56:27 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:56:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /gamemode creative
+18:57:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:57:52 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:58:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:58:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:59:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:59:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:59:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+18:59:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:00:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:00:56 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:01:08 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:01:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:03:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:03:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:03:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:04:03 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:04:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:04:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+19:04:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:05:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:06:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:06:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:07:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:07:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:07:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:08:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:08:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:09:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:10:08 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:10:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:10:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:10:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:10:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:11:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:14:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /lobby
+19:14:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:15:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:15:27 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+19:15:27 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+19:15:27 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+19:15:28 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+19:15:28 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+19:15:36 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+19:15:36 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+19:15:36 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+19:15:37 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+19:15:37 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+19:30:47 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+19:30:47 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+19:30:47 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+19:30:48 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+19:30:48 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+19:30:56 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:31:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /setlobby
+19:31:53 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:32:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:33:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:35:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:36:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:36:21 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:37:20 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:37:31 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:38:27 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:38:46 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:38:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:39:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:39:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:40:39 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:41:35 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:42:00 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:42:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dhub reload
+19:42:32 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+19:42:32 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+19:42:32 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+19:42:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+19:42:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+19:42:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:44:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse
+19:44:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse 2
+19:44:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders 2
+19:44:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders pase
+19:44:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse
+19:44:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders
+19:44:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+19:44:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:46:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+19:46:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:46:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse
+19:46:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 1127732287565392927
+19:47:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 6756739222063675050
+19:47:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 4906928233490612806
+19:47:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 1818839213367246997
+19:47:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 5755263059016271236
+19:47:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 8790160054879131696
+19:47:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 2547343702939863444
+19:47:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:47:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+19:47:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:48:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:48:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:50:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:50:08 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:50:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:53:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:53:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:54:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:54:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:54:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:55:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:55:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:56:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse
+19:56:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 8878425721867975
+19:56:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 5511820485278704169
+19:57:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:57:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:58:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:59:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:59:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:59:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:59:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+19:59:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:00:04 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:00:14 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:00:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:00:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:01:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:01:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:01:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:01:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:03:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+20:03:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+20:04:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+20:06:23 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+20:06:23 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+20:06:23 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+20:06:23 [INFORMACIÓN] [/127.0.0.1:55042] <-> InitialHandler has pinged
+20:06:26 [INFORMACIÓN] [/127.0.0.1:55051] <-> InitialHandler has connected
+20:06:27 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+20:06:27 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+20:06:28 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+20:06:32 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+20:06:32 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+20:06:32 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+20:06:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+20:06:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+20:07:31 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+20:08:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /eco give Telmiyo 10 coins
+20:08:29 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+20:08:29 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+20:08:29 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+20:08:30 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+20:08:30 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+20:08:38 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+20:08:38 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+20:08:38 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+20:08:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+20:08:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+20:09:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:09:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:09:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:10:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:10:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:11:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:12:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:12:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:12:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:13:12 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs placeholders parse
+20:13:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc 5000378845268041448
+20:13:14 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /cmil rmc -861242269637313788
+20:13:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:13:33 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:13:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:13:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:14:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:14:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:15:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:15:26 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:15:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:15:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:16:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:16:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:16:27 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:17:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:17:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+20:17:39 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+20:17:39 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+20:17:39 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+20:17:39 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
