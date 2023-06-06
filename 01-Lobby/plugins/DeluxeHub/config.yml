@@ -93,11 +93,12 @@ scoreboard:
   title: "&d&lHUB &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
-    - "&e&lPlayer:"
-    - "  &f%player%"
+    - " &e&lPlayer: &f%player%"
     - ""
-    - "&e&lLocation:"
-    - "  %luckperms_prefix%"
+    - " &a&lMoney: &6%gemseconomy_balance_default% &7&lcoins"
+    - ""
+    - " &e&lRank: %bungee_total%"
+    - ""
     - "&7&m----------------------"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#

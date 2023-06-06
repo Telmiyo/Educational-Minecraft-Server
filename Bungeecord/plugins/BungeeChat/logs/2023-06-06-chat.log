@@ -28,3 +28,42 @@
 [17:33:03]: SWITCH > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has moved to the §capplication-1 §eserver!
 [17:33:12]: COMMAND > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /gcurr default coins
 [17:33:22]: LEAVE > application-1 > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!
+[17:48:48]: JOIN > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has joined the network!
+[17:50:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[17:51:03]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi ecloud download GemsEconomy
+[17:51:06]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[17:51:11]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[17:52:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[17:53:39]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[17:58:54]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[17:59:09]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:00:05]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:00:59]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:01:28]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:01:42]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:01:53]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:02:12]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:02:26]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:02:40]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:02:47]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:02:53]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:03:04]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:03:11]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:03:23]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:03:37]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:03:48]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:05:46]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:06:20]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:06:46]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:07:34]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:08:22]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi ecloud download LuckPerms
+[18:08:25]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[18:08:27]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:10:06]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:10:40]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi ecloud download Bungee
+[18:10:46]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /papi reload
+[18:10:48]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:11:23]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:11:36]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /bungee servername
+[18:11:52]: COMMAND > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): /deluxehub reload
+[18:12:24]: LEAVE > lobby > Telmiyo(0772a00a-7da6-4054-9836-2c8071a10b5e): §eTelmiyo has left the network!

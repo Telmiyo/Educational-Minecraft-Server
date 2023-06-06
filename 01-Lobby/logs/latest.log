@@ -1,295 +1,391 @@
-[17:17:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:17:03] [Worker-Main-12/INFO]: Loaded 7 recipes
-[17:17:05] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[17:17:05] [Server thread/INFO]: Loading properties
-[17:17:05] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
-[17:17:05] [Server thread/INFO]: Debug logging is disabled
-[17:17:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:17:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:17:05] [Server thread/INFO]: Default game type: SURVIVAL
-[17:17:05] [Server thread/INFO]: Generating keypair
-[17:17:05] [Server thread/INFO]: Starting Minecraft server on *:25599
-[17:17:05] [Server thread/INFO]: Using default channel type
-[17:17:07] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:17:07] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
-[17:17:07] [Server thread/INFO]: [dynmap] Loading dynmap v3.5-873
-[17:17:07] [Server thread/INFO]: [dynmap] version=3498-Spigot-b081915-10ba1be (MC: 1.18.2)
-[17:17:07] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:17:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[17:17:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@54e1ac87]
-[17:17:07] [Server thread/INFO]: [GemsEconomy] Loading GemsEconomy v4.9.2
-[17:17:07] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.3
-[17:17:07] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:17:07] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:17:07] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:17:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[17:17:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:17:08] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:17:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[17:17:09] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:17:09] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[17:17:09] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[17:17:09] [Server thread/INFO]: [WorldEdit]   
-[17:17:09] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[17:17:09] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[17:17:09] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[17:17:09] [Server thread/INFO]: [WorldEdit]   
-[17:17:09] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[17:17:09] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[17:17:09] [Server thread/INFO]: [WorldEdit]   
-[17:17:09] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[17:17:09] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[17:17:09] [Server thread/INFO]: [WorldEdit]   
-[17:17:09] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[17:17:09] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:17:09] [Server thread/INFO]: [GemsEconomy] Enabling GemsEconomy v4.9.2
-[17:17:09] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
-[17:17:09] [Server thread/INFO]: [m
-[17:17:09] [Server thread/INFO]: [0;31;22m[21mYOU ARE RUNNING AN UNSUPPORTED VERSION OF SPIGOT![m
-[17:17:09] [Server thread/INFO]: [m
-[17:17:09] [Server thread/INFO]: [0;31;1mGemsEconomy Cheques functionality will at best be limited. Please don't come[m
-[17:17:09] [Server thread/INFO]: [0;31;1mcomplaining to me, the developer of GemsEconomy, when something breaks,[m
-[17:17:09] [Server thread/INFO]: [0;31;1mbecause running an unsupported version will cause exactly this. I do[m
-[17:17:09] [Server thread/INFO]: [0;31;1min no way accept responsibility for ANY damage caused to a server running[m
-[17:17:09] [Server thread/INFO]: [0;31;1man unsupported version of Spigot. It is recommended that you change to[m
-[17:17:09] [Server thread/INFO]: [0;31;1ma supported version of Spigot. Supported versions are 1.13, 1.14 & 1.15.[m
-[17:17:09] [Server thread/INFO]: [0;31;1m Versions marked with an asterisk (*) may have limited functionality.[m
-[17:17:09] [Server thread/INFO]: [m
-[17:17:09] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
-[17:17:09] [Server thread/INFO]: HikariPool-1 - Starting...
-[17:17:09] [Server thread/INFO]: HikariPool-1 - Start completed.
-[17:17:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:17:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:17:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:17:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:17:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:17:09] [Server thread/INFO]: Preparing level "world"
-[17:17:09] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:17:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:17:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:17:09] [Server thread/INFO]: Mob Spawn Range: 6
-[17:17:09] [Server thread/INFO]: Simulation Distance: 10
-[17:17:09] [Server thread/INFO]: View Distance: 10
-[17:17:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:17:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:17:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:17:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:17:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:17:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:17:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:17:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:17:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:17:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:17:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:17:09] [Server thread/INFO]: Max TNT Explosions: 100
-[17:17:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:17:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:17:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:17:10] [Server thread/INFO]: Mob Spawn Range: 6
-[17:17:10] [Server thread/INFO]: Simulation Distance: 10
-[17:17:10] [Server thread/INFO]: View Distance: 10
-[17:17:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:17:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:17:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:17:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:17:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:17:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:17:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:17:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:17:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:17:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:17:10] [Server thread/INFO]: Max TNT Explosions: 100
-[17:17:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:17:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:17:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:17:10] [Server thread/INFO]: Mob Spawn Range: 6
-[17:17:10] [Server thread/INFO]: Simulation Distance: 10
-[17:17:10] [Server thread/INFO]: View Distance: 10
-[17:17:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:17:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:17:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:17:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:17:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:17:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:17:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:17:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:17:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:17:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:17:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:17:10] [Server thread/INFO]: Max TNT Explosions: 100
-[17:17:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:17:12] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[17:17:12] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[17:17:12] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[17:17:12] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[17:17:13] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[17:17:13] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[17:17:14] [Worker-Main-18/INFO]: Preparing spawn area: 2%
-[17:17:14] [Worker-Main-22/INFO]: Preparing spawn area: 13%
-[17:17:15] [Worker-Main-18/INFO]: Preparing spawn area: 29%
-[17:17:15] [Worker-Main-14/INFO]: Preparing spawn area: 38%
-[17:17:16] [Worker-Main-14/INFO]: Preparing spawn area: 48%
-[17:17:16] [Worker-Main-17/INFO]: Preparing spawn area: 57%
-[17:17:17] [Worker-Main-18/INFO]: Preparing spawn area: 66%
-[17:17:17] [Worker-Main-22/INFO]: Preparing spawn area: 70%
-[17:17:18] [Server thread/INFO]: Time elapsed: 7335 ms
-[17:17:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:17:20] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:17:20] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:17:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[17:17:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[17:17:20] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[17:17:20] [Worker-Main-16/INFO]: Preparing spawn area: 2%
-[17:17:21] [Worker-Main-20/INFO]: Preparing spawn area: 4%
-[17:17:22] [Worker-Main-12/INFO]: Preparing spawn area: 11%
-[17:17:22] [Worker-Main-21/INFO]: Preparing spawn area: 27%
-[17:17:22] [Worker-Main-21/INFO]: Preparing spawn area: 85%
-[17:17:23] [Server thread/INFO]: Time elapsed: 4789 ms
-[17:17:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:17:23] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[17:17:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[17:17:24] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[17:17:24] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[17:17:25] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[17:17:25] [Worker-Main-20/INFO]: Preparing spawn area: 19%
-[17:17:26] [Worker-Main-13/INFO]: Preparing spawn area: 19%
-[17:17:26] [Worker-Main-21/INFO]: Preparing spawn area: 62%
-[17:17:27] [Server thread/INFO]: Time elapsed: 3859 ms
-[17:17:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[17:17:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:17:27] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-873
-[17:17:28] [Server thread/INFO]: [dynmap] Added 17 custom biome mappings
-[17:17:28] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
-[17:17:28] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:17:34] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:17:34] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:17:34] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:17:34] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:17:35] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:17:35] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[17:17:35] [Server thread/INFO]: [dynmap] version 3.5-873 is enabled - core version 3.5-873
-[17:17:35] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[17:17:35] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[17:17:35] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[17:17:35] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[17:17:35] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[17:17:35] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[17:17:35] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[17:17:35] [Server thread/INFO]: [dynmap] Enabled
-[17:17:35] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.3
-[17:17:35] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[17:17:35] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[17:17:35] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[17:17:35] [Server thread/INFO]: [DeluxeHub] 
-[17:17:35] [Server thread/INFO]: [DeluxeHub] Version: 3.5.3
-[17:17:35] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[17:17:35] [Server thread/INFO]: [DeluxeHub] 
-[17:17:35] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[17:17:35] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[17:17:36] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_18_R2! Trying to find NMS support
-[17:17:36] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_18_R2' loaded!
-[17:17:36] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
-[17:17:36] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
-[17:17:36] [Server thread/INFO]: [DeluxeHub] 
-[17:17:36] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 490ms
-[17:17:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:17:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:17:36] [Server thread/INFO]: Done (26.463s)! For help, type "help"
-[17:17:36] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
-[17:17:37] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
-[17:17:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
-[17:17:37] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion luckperms due to a missing plugin: LuckPerms
-[17:17:37] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
-[17:18:38] [User Authenticator #1/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:18:38] [Server thread/INFO]: Telmiyo[/127.0.0.1:62759] logged in with entity id 58 at ([world]-139.4352102096686, 18.0, -7.25881608736513)
-[17:20:52] [Server thread/INFO]: Telmiyo lost connection: Disconnected
-[17:20:52] [Server thread/INFO]: - Telmiyo Disconnected
-[17:29:08] [User Authenticator #2/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:29:08] [Server thread/INFO]: Telmiyo[/127.0.0.1:55806] logged in with entity id 59 at ([world]-139.4352102096686, 18.0, -7.25881608736513)
-[17:29:18] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:29:25] [Server thread/INFO]: Telmiyo issued server command: /currencies list
-[17:29:28] [Server thread/INFO]: Telmiyo issued server command: /currencies
-[17:30:14] [Server thread/INFO]: Telmiyo issued server command: /gcurr
-[17:30:19] [Server thread/INFO]: Telmiyo issued server command: /gcurr delete coins
-[17:30:23] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:30:30] [Server thread/INFO]: Telmiyo issued server command: /eco give Telmiyo coins 10
-[17:30:34] [Server thread/INFO]: Telmiyo issued server command: /eco give Telmiyo
-[17:30:37] [Server thread/INFO]: Telmiyo issued server command: /eco give Telmiyo 10 coins
-[17:30:41] [Server thread/INFO]: Telmiyo lost connection: Disconnected
-[17:30:41] [Server thread/INFO]: - Telmiyo Disconnected
-[17:31:20] [User Authenticator #3/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:31:20] [Server thread/INFO]: Telmiyo[/127.0.0.1:56017] logged in with entity id 60 at ([world]-139.4352102096686, 18.0, -7.25881608736513)
-[17:31:30] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:32:55] [Server thread/INFO]: Telmiyo issued server command: /gcurr
-[17:33:00] [Server thread/INFO]: Telmiyo issued server command: /gcurr default coins
-[17:33:03] [Server thread/INFO]: Telmiyo lost connection: Disconnected
-[17:33:03] [Server thread/INFO]: - Telmiyo Disconnected
-[17:33:17] [Server thread/INFO]: Stopping the server
-[17:33:17] [Server thread/INFO]: Stopping server
-[17:33:17] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.3
-[17:33:17] [Server thread/INFO]: [GemsEconomy] Disabling GemsEconomy v4.9.2
-[17:33:17] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
-[17:33:17] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
-[17:33:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[17:33:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:33:17] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-873
-[17:33:17] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[17:33:17] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[17:33:18] [Server thread/INFO]: [dynmap] Disabled
-[17:33:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-[17:33:18] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:33:18] [Server thread/INFO]: Saving players
-[17:33:18] [Server thread/INFO]: Saving worlds
-[17:33:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:33:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:33:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:33:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:33:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:33:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:34:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:34:09] [Worker-Main-13/INFO]: Loaded 7 recipes
+[17:34:11] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:34:11] [Server thread/INFO]: Loading properties
+[17:34:11] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[17:34:12] [Server thread/INFO]: Debug logging is disabled
+[17:34:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:34:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:34:12] [Server thread/INFO]: Default game type: SURVIVAL
+[17:34:12] [Server thread/INFO]: Generating keypair
+[17:34:12] [Server thread/INFO]: Starting Minecraft server on *:25599
+[17:34:12] [Server thread/INFO]: Using default channel type
+[17:34:13] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:34:13] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[17:34:13] [Server thread/INFO]: [dynmap] Loading dynmap v3.5-873
+[17:34:13] [Server thread/INFO]: [dynmap] version=3498-Spigot-b081915-10ba1be (MC: 1.18.2)
+[17:34:13] [Server thread/INFO]: [dynmap] Mod Support API available
+[17:34:13] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[17:34:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48e3c386]
+[17:34:14] [Server thread/INFO]: [GemsEconomy] Loading GemsEconomy v4.9.2
+[17:34:14] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.3
+[17:34:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:34:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:34:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:34:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[17:34:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:34:14] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:34:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[17:34:15] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:34:15] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:34:15] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:34:15] [Server thread/INFO]: [WorldEdit]   
+[17:34:15] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:34:15] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:34:15] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:34:15] [Server thread/INFO]: [WorldEdit]   
+[17:34:15] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:34:15] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:34:15] [Server thread/INFO]: [WorldEdit]   
+[17:34:15] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:34:15] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:34:15] [Server thread/INFO]: [WorldEdit]   
+[17:34:15] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:34:15] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:34:15] [Server thread/INFO]: [GemsEconomy] Enabling GemsEconomy v4.9.2
+[17:34:15] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
+[17:34:15] [Server thread/INFO]: [m
+[17:34:15] [Server thread/INFO]: [0;31;22m[21mYOU ARE RUNNING AN UNSUPPORTED VERSION OF SPIGOT![m
+[17:34:15] [Server thread/INFO]: [m
+[17:34:15] [Server thread/INFO]: [0;31;1mGemsEconomy Cheques functionality will at best be limited. Please don't come[m
+[17:34:15] [Server thread/INFO]: [0;31;1mcomplaining to me, the developer of GemsEconomy, when something breaks,[m
+[17:34:15] [Server thread/INFO]: [0;31;1mbecause running an unsupported version will cause exactly this. I do[m
+[17:34:15] [Server thread/INFO]: [0;31;1min no way accept responsibility for ANY damage caused to a server running[m
+[17:34:15] [Server thread/INFO]: [0;31;1man unsupported version of Spigot. It is recommended that you change to[m
+[17:34:15] [Server thread/INFO]: [0;31;1ma supported version of Spigot. Supported versions are 1.13, 1.14 & 1.15.[m
+[17:34:15] [Server thread/INFO]: [0;31;1m Versions marked with an asterisk (*) may have limited functionality.[m
+[17:34:15] [Server thread/INFO]: [m
+[17:34:15] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
+[17:34:15] [Server thread/INFO]: HikariPool-1 - Starting...
+[17:34:15] [Server thread/INFO]: HikariPool-1 - Start completed.
+[17:34:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:34:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:34:16] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:34:16] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:34:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:34:16] [Server thread/INFO]: Preparing level "world"
+[17:34:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:34:16] [Server thread/INFO]: View Distance: 10
+[17:34:16] [Server thread/INFO]: Simulation Distance: 10
+[17:34:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:34:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:34:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:34:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:34:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:34:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:34:16] [Server thread/INFO]: Mob Spawn Range: 6
+[17:34:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:34:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:34:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:34:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:34:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:34:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:34:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:34:16] [Server thread/INFO]: Max TNT Explosions: 100
+[17:34:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:34:17] [Server thread/INFO]: View Distance: 10
+[17:34:17] [Server thread/INFO]: Simulation Distance: 10
+[17:34:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:34:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:34:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:34:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:34:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:34:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:34:17] [Server thread/INFO]: Mob Spawn Range: 6
+[17:34:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:34:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:34:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:34:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:34:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:34:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:34:17] [Server thread/INFO]: Max TNT Explosions: 100
+[17:34:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:34:17] [Server thread/INFO]: View Distance: 10
+[17:34:17] [Server thread/INFO]: Simulation Distance: 10
+[17:34:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:34:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:34:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:34:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:34:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:34:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:34:17] [Server thread/INFO]: Mob Spawn Range: 6
+[17:34:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:34:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:34:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:34:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:34:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:34:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:34:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:34:17] [Server thread/INFO]: Max TNT Explosions: 100
+[17:34:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:34:18] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[17:34:18] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[17:34:18] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[17:34:18] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[17:34:19] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[17:34:19] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[17:34:20] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:34:20] [Worker-Main-19/INFO]: Preparing spawn area: 4%
+[17:34:21] [Worker-Main-14/INFO]: Preparing spawn area: 15%
+[17:34:21] [Worker-Main-22/INFO]: Preparing spawn area: 23%
+[17:34:22] [Worker-Main-14/INFO]: Preparing spawn area: 42%
+[17:34:22] [Worker-Main-21/INFO]: Preparing spawn area: 52%
+[17:34:23] [Worker-Main-13/INFO]: Preparing spawn area: 55%
+[17:34:23] [Worker-Main-16/INFO]: Preparing spawn area: 96%
+[17:34:24] [Server thread/INFO]: Time elapsed: 7193 ms
+[17:34:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:34:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:34:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:34:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:34:26] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:34:26] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:34:27] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[17:34:27] [Worker-Main-22/INFO]: Preparing spawn area: 5%
+[17:34:28] [Worker-Main-20/INFO]: Preparing spawn area: 11%
+[17:34:28] [Worker-Main-22/INFO]: Preparing spawn area: 37%
+[17:34:29] [Worker-Main-21/INFO]: Preparing spawn area: 95%
+[17:34:29] [Server thread/INFO]: Time elapsed: 4632 ms
+[17:34:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:34:30] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[17:34:30] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[17:34:30] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[17:34:30] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[17:34:31] [Worker-Main-21/INFO]: Preparing spawn area: 13%
+[17:34:31] [Worker-Main-16/INFO]: Preparing spawn area: 68%
+[17:34:32] [Worker-Main-18/INFO]: Preparing spawn area: 98%
+[17:34:32] [Server thread/INFO]: Time elapsed: 3014 ms
+[17:34:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[17:34:32] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:34:32] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-873
+[17:34:32] [Server thread/INFO]: [dynmap] Added 17 custom biome mappings
+[17:34:32] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[17:34:33] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[17:34:36] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[17:34:36] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[17:34:36] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[17:34:36] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[17:34:36] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[17:34:37] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[17:34:37] [Server thread/INFO]: [dynmap] version 3.5-873 is enabled - core version 3.5-873
+[17:34:37] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[17:34:37] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[17:34:37] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[17:34:37] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[17:34:37] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[17:34:37] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[17:34:37] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[17:34:37] [Server thread/INFO]: [dynmap] Enabled
+[17:34:37] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.3
+[17:34:37] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[17:34:37] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[17:34:37] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[17:34:37] [Server thread/INFO]: [DeluxeHub] 
+[17:34:37] [Server thread/INFO]: [DeluxeHub] Version: 3.5.3
+[17:34:37] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[17:34:37] [Server thread/INFO]: [DeluxeHub] 
+[17:34:37] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[17:34:37] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:34:37] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_18_R2! Trying to find NMS support
+[17:34:37] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_18_R2' loaded!
+[17:34:37] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[17:34:38] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:34:38] [Server thread/INFO]: [DeluxeHub] 
+[17:34:38] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 282ms
+[17:34:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:34:38] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:34:38] [Server thread/INFO]: Done (22.057s)! For help, type "help"
+[17:34:38] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[17:34:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
+[17:34:38] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion luckperms due to a missing plugin: LuckPerms
+[17:34:38] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
+[17:34:38] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[17:48:47] [User Authenticator #1/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
+[17:48:48] [Server thread/INFO]: Telmiyo[/127.0.0.1:57771] logged in with entity id 58 at ([world]-139.4352102096686, 18.0, -7.25881608736513)
+[17:50:22] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:50:22] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:50:22] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:51:03] [Server thread/INFO]: Telmiyo issued server command: /papi ecloud download GemsEconomy
+[17:51:03] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:51:06] [Server thread/INFO]: Telmiyo issued server command: /papi reload
+[17:51:06] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:51:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:51:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
+[17:51:06] [Server thread/WARN]: [PlaceholderAPI] Loaded class me.xanium.gemseconomy.GemsEconomy from GemsEconomy v4.9.2 which is not a depend or softdepend of this plugin.
+[17:51:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gemseconomy [1.6]
+[17:51:06] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion luckperms due to a missing plugin: LuckPerms
+[17:51:11] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:51:11] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:51:11] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:52:37] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:52:37] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:52:37] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:53:39] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:53:39] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:53:39] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:58:54] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:58:54] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:58:54] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[17:59:09] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[17:59:09] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:59:09] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:00:05] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:00:05] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:00:05] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:00:59] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:00:59] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:00:59] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:01:28] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:01:28] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:01:28] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:01:42] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:01:42] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:01:42] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:01:53] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:01:53] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:01:53] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:02:12] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:02:12] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:02:12] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:02:26] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:02:26] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:02:26] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:02:40] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:02:40] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:02:40] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:02:47] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:02:47] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:02:47] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:02:53] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:02:53] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:02:53] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:03:04] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:03:04] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:03:04] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:03:11] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:03:11] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:03:11] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:03:23] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:03:23] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:03:23] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:03:37] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:03:37] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:03:37] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:03:48] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:03:48] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:03:48] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:05:46] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:05:46] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:05:46] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:06:20] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:06:20] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:06:20] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:06:46] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:06:46] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:06:46] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:07:34] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:07:34] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:07:34] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:08:22] [Server thread/INFO]: Telmiyo issued server command: /papi ecloud download LuckPerms
+[18:08:22] [placeholderapi-io-#3/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:08:25] [Server thread/INFO]: Telmiyo issued server command: /papi reload
+[18:08:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:08:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:08:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
+[18:08:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gemseconomy [1.6]
+[18:08:25] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion luckperms due to a missing plugin: LuckPerms
+[18:08:27] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:08:27] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:08:27] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:10:06] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:10:06] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:10:06] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:10:40] [Server thread/INFO]: Telmiyo issued server command: /papi ecloud download Bungee
+[18:10:40] [placeholderapi-io-#5/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:10:46] [Server thread/INFO]: Telmiyo issued server command: /papi reload
+[18:10:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:10:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:10:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.2]
+[18:10:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gemseconomy [1.6]
+[18:10:46] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion luckperms due to a missing plugin: LuckPerms
+[18:10:48] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:10:48] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:10:48] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:11:23] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:11:23] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:11:23] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:11:52] [Server thread/INFO]: Telmiyo issued server command: /deluxehub reload
+[18:11:52] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[18:11:52] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[18:12:23] [Server thread/INFO]: Stopping the server
+[18:12:23] [Server thread/INFO]: Stopping server
+[18:12:23] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.3
+[18:12:23] [Server thread/INFO]: [GemsEconomy] Disabling GemsEconomy v4.9.2
+[18:12:23] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion gemseconomy
+[18:12:23] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin GemsEconomy was disabled.
+[18:12:23] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[18:12:23] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[18:12:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[18:12:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:12:23] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-873
+[18:12:23] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[18:12:23] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[18:12:24] [Server thread/INFO]: [dynmap] Disabled
+[18:12:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[18:12:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:12:24] [Server thread/INFO]: Saving players
+[18:12:24] [Server thread/INFO]: Telmiyo lost connection: Server closed
+[18:12:24] [Server thread/INFO]: Telmiyo left the game.
+[18:12:24] [Server thread/INFO]: Saving worlds
+[18:12:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:12:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:12:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:12:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:12:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:12:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:12:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

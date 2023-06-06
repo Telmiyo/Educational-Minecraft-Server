@@ -1,312 +1,294 @@
-[17:20:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:20:27] [Worker-Main-13/INFO]: Loaded 7 recipes
-[17:20:29] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[17:20:29] [Server thread/INFO]: Loading properties
-[17:20:29] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
-[17:20:29] [Server thread/INFO]: Debug logging is disabled
-[17:20:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:20:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:20:29] [Server thread/INFO]: Default game type: SURVIVAL
-[17:20:29] [Server thread/INFO]: Generating keypair
-[17:20:29] [Server thread/INFO]: Starting Minecraft server on *:25525
-[17:20:30] [Server thread/INFO]: Using default channel type
-[17:20:31] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:20:31] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.10.0
-[17:20:31] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
-[17:20:31] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
-[17:20:31] [Server thread/INFO]: [dynmap] Loading dynmap v3.5-873
-[17:20:31] [Server thread/INFO]: [dynmap] version=3498-Spigot-b081915-10ba1be (MC: 1.18.2)
-[17:20:31] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:20:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[17:20:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@387d05c9]
-[17:20:32] [Server thread/INFO]: [GemsEconomy] Loading GemsEconomy v4.9.2
-[17:20:32] [Server thread/INFO]: [Jobs] Loading Jobs v5.1.3.0
-[17:20:32] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v4.1
-[17:20:32] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.7-Release
-[17:20:32] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
-[17:20:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:20:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:20:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:20:32] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.10.0
-[17:20:32] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.18.2
-[17:20:32] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
-[17:20:32] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
-[17:20:32] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
-[17:20:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[17:20:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:20:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:20:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[17:20:33] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:20:33] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[17:20:33] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[17:20:33] [Server thread/INFO]: [WorldEdit]   
-[17:20:33] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[17:20:33] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[17:20:33] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[17:20:33] [Server thread/INFO]: [WorldEdit]   
-[17:20:33] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[17:20:33] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[17:20:33] [Server thread/INFO]: [WorldEdit]   
-[17:20:33] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[17:20:33] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[17:20:33] [Server thread/INFO]: [WorldEdit]   
-[17:20:33] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[17:20:33] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:20:33] [Server thread/INFO]: [GemsEconomy] Enabling GemsEconomy v4.9.2
-[17:20:33] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
-[17:20:33] [Server thread/INFO]: [m
-[17:20:33] [Server thread/INFO]: [0;31;22m[21mYOU ARE RUNNING AN UNSUPPORTED VERSION OF SPIGOT![m
-[17:20:33] [Server thread/INFO]: [m
-[17:20:33] [Server thread/INFO]: [0;31;1mGemsEconomy Cheques functionality will at best be limited. Please don't come[m
-[17:20:33] [Server thread/INFO]: [0;31;1mcomplaining to me, the developer of GemsEconomy, when something breaks,[m
-[17:20:33] [Server thread/INFO]: [0;31;1mbecause running an unsupported version will cause exactly this. I do[m
-[17:20:33] [Server thread/INFO]: [0;31;1min no way accept responsibility for ANY damage caused to a server running[m
-[17:20:33] [Server thread/INFO]: [0;31;1man unsupported version of Spigot. It is recommended that you change to[m
-[17:20:33] [Server thread/INFO]: [0;31;1ma supported version of Spigot. Supported versions are 1.13, 1.14 & 1.15.[m
-[17:20:33] [Server thread/INFO]: [0;31;1m Versions marked with an asterisk (*) may have limited functionality.[m
-[17:20:33] [Server thread/INFO]: [m
-[17:20:33] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
-[17:20:33] [Server thread/INFO]: HikariPool-1 - Starting...
-[17:20:34] [Server thread/INFO]: HikariPool-1 - Start completed.
-[17:20:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:20:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:20:34] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:20:34] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:20:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:20:34] [Server thread/INFO]: Preparing level "world"
-[17:20:34] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:20:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:20:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:20:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:20:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:20:34] [Server thread/INFO]: View Distance: 10
-[17:20:34] [Server thread/INFO]: Simulation Distance: 10
-[17:20:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:20:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:20:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:20:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:20:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:20:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:20:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:20:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:20:34] [Server thread/INFO]: Max TNT Explosions: 100
-[17:20:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:20:34] [Server thread/INFO]: Mob Spawn Range: 6
-[17:20:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:20:36] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[17:20:36] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[17:20:36] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[17:20:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:20:36] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[17:20:37] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[17:20:37] [Worker-Main-16/INFO]: Preparing spawn area: 1%
-[17:20:38] [Worker-Main-18/INFO]: Preparing spawn area: 33%
-[17:20:38] [Worker-Main-12/INFO]: Preparing spawn area: 86%
-[17:20:38] [Server thread/INFO]: Time elapsed: 4113 ms
-[17:20:39] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[17:20:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:20:39] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
-[17:20:40] [Server thread/INFO]: [0;36;22mServer version: v1_18_R2 - 1.18.2 - spigot[m
-[17:20:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
-[17:20:42] [Server thread/INFO]: PlaceholderAPI hooked.[m
-[17:20:42] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m70ms[m
-[17:20:42] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-873
-[17:20:42] [Server thread/INFO]: [dynmap] Added 17 custom biome mappings
-[17:20:42] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
-[17:20:42] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:20:45] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:20:45] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:20:45] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:20:45] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:20:45] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:20:46] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8133
-[17:20:46] [Server thread/INFO]: [dynmap] version 3.5-873 is enabled - core version 3.5-873
-[17:20:46] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[17:20:46] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[17:20:46] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[17:20:46] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[17:20:46] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[17:20:46] [Server thread/INFO]: [dynmap] Enabled
-[17:20:46] [Server thread/INFO]: [Jobs] Enabling Jobs v5.1.3.0
-[17:20:46] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
-[17:20:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jobsr [5.1.3.0]
-[17:20:46] [Server thread/INFO]: [0;33;22mPlaceholderAPI [0;33;1mhooked.[m
-[17:20:46] [Server thread/INFO]: [0;33;1mConnected to database ([0;33;22mSqLite[0;33;1m)[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m10 [0;33;1mtitles[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m119 [0;33;1mprotected blocks timers[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m1229 [0;33;1mcustom item names[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m75 [0;33;1mcustom entity names[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m2 [0;33;1mcustom MythicMobs names[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m38 [0;33;1mcustom enchant names[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m21 [0;33;1mcustom enchant names[m
-[17:20:46] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m16 [0;33;1mcustom color names[m
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_LOG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_PLANKS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_ROOTS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_SLAB!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_STAIRS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_WOOD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICK_SLAB!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICK_STAIRS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICKS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUDDY_MANGROVE_ROOTS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: OCHRE_FROGLIGHT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: PACKED_MUD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: PEARLESCENT_FROGLIGHT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: SCULK!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: STRIPPED_MANGROVE_LOG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: STRIPPED_MANGROVE_WOOD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: VERDANT_FROGLIGHT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Trader Job has an invalid VTrade type property: MANGROVE_PROPAGULE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Tamer Job has an invalid Breed type property: FROG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Florist Job has an invalid Break type property: POTTED_MANGROVE_PROPAGULE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Digger Job has an invalid Break type property: MUD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Digger Job has an invalid Break type property: MUDDY_MANGROVE_ROOTS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Farmer Job has an invalid Break type property: MANGROVE_LEAVES!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Farmer Job has an invalid Break type property: MANGROVE_PROPAGULE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: ACACIA_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: BIRCH_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: DARK_OAK_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: JUNGLE_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_BUTTON!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_DOOR!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_FENCE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_FENCE_GATE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_SIGN!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_SLAB!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_STAIRS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_TRAPDOOR!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_SLAB!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_STAIRS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_WALL!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICKS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUSIC_DISC_5!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: OAK_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: RECOVERY_COMPASS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: SPRUCE_CHEST_BOAT!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Engineer Job has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Engineer Job has an invalid Craft type property: MANGROVE_BUTTON!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: ALLAY!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: FROG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: TADPOLE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: WARDEN!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: REINFORCED_DEEPSLATE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK_CATALYST!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK_SHRIEKER!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Break type property: FROGSPAWN!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Kill type property: TADPOLE!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Kill type property: FROG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_LOG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_ROOTS!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_WOOD!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid StripLogs type property: STRIPPED_MANGROVE_LOG!
-[17:20:47] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Craft type property: MANGROVE_WOOD!
-[17:20:47] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m19 [0;33;1mjobs[m
-[17:20:47] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m0 [0;33;1mboosted items[m
-[17:20:47] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mStarted database save task.[m
-[17:20:47] [Server thread/INFO]: [0;33;1mPreloaded [0;33;22m1 [0;33;1mplayers data in [0;33;22m0.01[m
-[17:20:47] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mStarted buffered payment thread.[m
-[17:20:47] [Server thread/INFO]: [0;33;1mLoading explorer data[m
-[17:20:47] [Server thread/INFO]: [0;33;1mLoaded explorer data ([0;33;22m25[0;33;1m) in 2 ms[m
-[17:20:47] [Server thread/INFO]: [0;33;1mPlugin has been enabled successfully.[m
-[17:20:47] [Server thread/INFO]: [0;33;22m------------------------------------[m
-[17:20:47] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.1
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
-[17:20:47] [Server thread/WARN]: Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket]
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket] : []
-[17:20:47] [Server thread/WARN]: Skipping cache for [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket]
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey]
-[17:20:47] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey] : []
-[17:20:47] [Server thread/WARN]: Skipping cache for [net.minecraft.world.entity.player.ProfilePublicKey]
-[17:20:47] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
-[17:20:47] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[17:20:51] [Server thread/INFO]: [DeluxeMenus] 116 GUI menus loaded!
-[17:20:51] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[17:20:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
-[17:20:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:20:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:20:51] [Server thread/INFO]: Done (16.907s)! For help, type "help"
-[17:20:51] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
-[17:20:51] [Server thread/ERROR]: [Jobs] Vault detected but economy plugin still missing!
-[17:20:51] [Server thread/ERROR]: [Jobs] Please install Vault supporting economy plugin!
-[17:20:51] [Server thread/ERROR]: [Jobs] ==============================================
-[17:20:51] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[17:20:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
-[17:20:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
-[17:20:51] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 2 scripts loaded!
-[17:20:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript [2.1.2]
-[17:20:51] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
-[17:20:51] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[17:20:52] [User Authenticator #1/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:20:52] [Server thread/INFO]: Telmiyo[/127.0.0.1:63048] logged in with entity id 1 at ([world]0.08324152582145035, 100.0, 0.7206771082154918)
-[17:21:47] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[17:29:03] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:29:08] [Server thread/INFO]: Telmiyo lost connection: Disconnected
-[17:29:08] [Server thread/INFO]: Telmiyo left the game
-[17:30:41] [User Authenticator #2/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:30:41] [Server thread/INFO]: Telmiyo[/127.0.0.1:55956] logged in with entity id 7 at ([world]1.345178021343967, 100.0, -0.29094916520915665)
-[17:30:50] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:31:04] [Server thread/INFO]: Telmiyo issued server command: /gcurr delete coins
-[17:31:06] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:31:14] [Server thread/INFO]: Telmiyo issued server command: /eco give Telmiyo 10 coins
-[17:31:17] [Server thread/INFO]: Telmiyo issued server command: /balance
-[17:31:20] [Server thread/INFO]: Telmiyo lost connection: Disconnected
-[17:31:20] [Server thread/INFO]: Telmiyo left the game
-[17:33:03] [User Authenticator #3/INFO]: UUID of player Telmiyo is 0772a00a-7da6-4054-9836-2c8071a10b5e
-[17:33:03] [Server thread/INFO]: Telmiyo[/127.0.0.1:56204] logged in with entity id 8 at ([world]1.345178021343967, 100.0, -0.29094916520915665)
-[17:33:12] [Server thread/INFO]: Telmiyo issued server command: /gcurr default coins
-[17:33:21] [Server thread/INFO]: Stopping the server
-[17:33:21] [Server thread/INFO]: Stopping server
-[17:33:21] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
-[17:33:21] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.1
-[17:33:21] [Server thread/INFO]: [Jobs] Disabling Jobs v5.1.3.0
-[17:33:21] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
-[17:33:21] [Server thread/INFO]: [0;33;1m[Jobs] Saved 1 new explorer entries.[m
-[17:33:21] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mDatabase save task shutdown![m
-[17:33:21] [Server thread/INFO]: [0;33;22m------------------------------------[m
-[17:33:21] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mBuffered payment thread shutdown.[m
-[17:33:21] [Server thread/INFO]: [GemsEconomy] Disabling GemsEconomy v4.9.2
-[17:33:21] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
-[17:33:21] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
-[17:33:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[17:33:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:33:21] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-873
-[17:33:21] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[17:33:21] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[17:33:22] [Server thread/INFO]: [dynmap] Saved 4 pending tile renders in world 'world'
-[17:33:22] [Server thread/INFO]: [dynmap] Disabled
-[17:33:22] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
-[17:33:22] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-[17:33:22] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
-[17:33:22] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 0
-[17:33:22] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
-[17:33:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:33:22] [Server thread/INFO]: Saving players
-[17:33:22] [Server thread/INFO]: Telmiyo lost connection: Server closed
-[17:33:22] [Server thread/INFO]: Telmiyo left the game.
-[17:33:23] [Server thread/INFO]: Saving worlds
-[17:33:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:33:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:34:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:34:35] [Worker-Main-13/INFO]: Loaded 7 recipes
+[17:34:42] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:34:42] [Server thread/INFO]: Loading properties
+[17:34:42] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[17:34:43] [Server thread/INFO]: Debug logging is disabled
+[17:34:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:34:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:34:43] [Server thread/INFO]: Default game type: SURVIVAL
+[17:34:43] [Server thread/INFO]: Generating keypair
+[17:34:43] [Server thread/INFO]: Starting Minecraft server on *:25525
+[17:34:43] [Server thread/INFO]: Using default channel type
+[17:34:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:34:45] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.10.0
+[17:34:45] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[17:34:45] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
+[17:34:45] [Server thread/INFO]: [dynmap] Loading dynmap v3.5-873
+[17:34:45] [Server thread/INFO]: [dynmap] version=3498-Spigot-b081915-10ba1be (MC: 1.18.2)
+[17:34:45] [Server thread/INFO]: [dynmap] Mod Support API available
+[17:34:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[17:34:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@77b78902]
+[17:34:47] [Server thread/INFO]: [GemsEconomy] Loading GemsEconomy v4.9.2
+[17:34:47] [Server thread/INFO]: [Jobs] Loading Jobs v5.1.3.0
+[17:34:47] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v4.1
+[17:34:47] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.7-Release
+[17:34:47] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[17:34:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:34:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:34:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:34:47] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.10.0
+[17:34:47] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.18.2
+[17:34:47] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[17:34:47] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[17:34:47] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[17:34:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[17:34:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:34:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:34:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[17:34:49] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:34:49] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:34:49] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:34:49] [Server thread/INFO]: [WorldEdit]   
+[17:34:49] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:34:49] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:34:49] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:34:49] [Server thread/INFO]: [WorldEdit]   
+[17:34:49] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:34:49] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:34:49] [Server thread/INFO]: [WorldEdit]   
+[17:34:49] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:34:49] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:34:49] [Server thread/INFO]: [WorldEdit]   
+[17:34:49] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:34:49] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:34:49] [Server thread/INFO]: [GemsEconomy] Enabling GemsEconomy v4.9.2
+[17:34:49] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
+[17:34:49] [Server thread/INFO]: [m
+[17:34:49] [Server thread/INFO]: [0;31;22m[21mYOU ARE RUNNING AN UNSUPPORTED VERSION OF SPIGOT![m
+[17:34:49] [Server thread/INFO]: [m
+[17:34:49] [Server thread/INFO]: [0;31;1mGemsEconomy Cheques functionality will at best be limited. Please don't come[m
+[17:34:49] [Server thread/INFO]: [0;31;1mcomplaining to me, the developer of GemsEconomy, when something breaks,[m
+[17:34:49] [Server thread/INFO]: [0;31;1mbecause running an unsupported version will cause exactly this. I do[m
+[17:34:49] [Server thread/INFO]: [0;31;1min no way accept responsibility for ANY damage caused to a server running[m
+[17:34:49] [Server thread/INFO]: [0;31;1man unsupported version of Spigot. It is recommended that you change to[m
+[17:34:49] [Server thread/INFO]: [0;31;1ma supported version of Spigot. Supported versions are 1.13, 1.14 & 1.15.[m
+[17:34:49] [Server thread/INFO]: [0;31;1m Versions marked with an asterisk (*) may have limited functionality.[m
+[17:34:49] [Server thread/INFO]: [m
+[17:34:49] [Server thread/INFO]: [0;31;22m----------------------------------------------------------[m
+[17:34:49] [Server thread/INFO]: HikariPool-1 - Starting...
+[17:34:50] [Server thread/INFO]: HikariPool-1 - Start completed.
+[17:34:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:34:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:34:50] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:34:50] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:34:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:34:50] [Server thread/INFO]: Preparing level "world"
+[17:34:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:34:51] [Server thread/INFO]: View Distance: 10
+[17:34:51] [Server thread/INFO]: Simulation Distance: 10
+[17:34:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:34:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:34:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:34:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:34:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:34:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:34:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:34:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:34:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:34:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:34:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:34:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:34:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:34:51] [Server thread/INFO]: Max TNT Explosions: 100
+[17:34:51] [Server thread/INFO]: Mob Spawn Range: 6
+[17:34:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:34:53] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[17:34:53] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[17:34:53] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[17:34:53] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[17:34:54] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[17:34:54] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:34:55] [Worker-Main-17/INFO]: Preparing spawn area: 1%
+[17:34:55] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[17:34:56] [Worker-Main-17/INFO]: Preparing spawn area: 7%
+[17:34:57] [Worker-Main-21/INFO]: Preparing spawn area: 21%
+[17:34:57] [Worker-Main-13/INFO]: Preparing spawn area: 21%
+[17:34:57] [Server thread/INFO]: Time elapsed: 5255 ms
+[17:34:57] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[17:34:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:34:57] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
+[17:34:59] [Server thread/INFO]: [0;36;22mServer version: v1_18_R2 - 1.18.2 - spigot[m
+[17:35:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
+[17:35:00] [Server thread/INFO]: PlaceholderAPI hooked.[m
+[17:35:00] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m72ms[m
+[17:35:00] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-873
+[17:35:00] [Server thread/INFO]: [dynmap] Added 17 custom biome mappings
+[17:35:00] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[17:35:01] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[17:35:03] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[17:35:03] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[17:35:03] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[17:35:03] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[17:35:03] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[17:35:04] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8133
+[17:35:04] [Server thread/INFO]: [dynmap] version 3.5-873 is enabled - core version 3.5-873
+[17:35:04] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[17:35:04] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[17:35:04] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[17:35:04] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[17:35:04] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[17:35:04] [Server thread/INFO]: [dynmap] Loaded 4 pending tile renders for world 'world'
+[17:35:04] [Server thread/INFO]: [dynmap] Enabled
+[17:35:04] [Server thread/INFO]: [Jobs] Enabling Jobs v5.1.3.0
+[17:35:04] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
+[17:35:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jobsr [5.1.3.0]
+[17:35:04] [Server thread/INFO]: [0;33;22mPlaceholderAPI [0;33;1mhooked.[m
+[17:35:04] [Server thread/INFO]: [0;33;1mConnected to database ([0;33;22mSqLite[0;33;1m)[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m10 [0;33;1mtitles[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m119 [0;33;1mprotected blocks timers[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m1229 [0;33;1mcustom item names[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m75 [0;33;1mcustom entity names[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m2 [0;33;1mcustom MythicMobs names[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m38 [0;33;1mcustom enchant names[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m21 [0;33;1mcustom enchant names[m
+[17:35:05] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m16 [0;33;1mcustom color names[m
+[17:35:06] [Server thread/WARN]: [Jobs] Job Farmer Job has an invalid Break type property: MANGROVE_LEAVES!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Farmer Job has an invalid Break type property: MANGROVE_PROPAGULE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Digger Job has an invalid Break type property: MUD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Digger Job has an invalid Break type property: MUDDY_MANGROVE_ROOTS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_LOG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_ROOTS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Break type property: MANGROVE_WOOD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid StripLogs type property: STRIPPED_MANGROVE_LOG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Woodcutter Job has an invalid Craft type property: MANGROVE_WOOD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: ACACIA_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: BIRCH_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: DARK_OAK_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: JUNGLE_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_BUTTON!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_DOOR!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_FENCE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_FENCE_GATE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_SIGN!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_SLAB!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_STAIRS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MANGROVE_TRAPDOOR!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_SLAB!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_STAIRS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICK_WALL!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUD_BRICKS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: MUSIC_DISC_5!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: OAK_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: RECOVERY_COMPASS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Crafter Job has an invalid Craft type property: SPRUCE_CHEST_BOAT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Engineer Job has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Engineer Job has an invalid Craft type property: MANGROVE_BUTTON!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Break type property: FROGSPAWN!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Kill type property: TADPOLE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Fisherman Job has an invalid Kill type property: FROG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_LOG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_PLANKS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_ROOTS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_SLAB!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_STAIRS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MANGROVE_WOOD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICK_SLAB!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICK_STAIRS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUD_BRICKS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: MUDDY_MANGROVE_ROOTS!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: OCHRE_FROGLIGHT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: PACKED_MUD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: PEARLESCENT_FROGLIGHT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: SCULK!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: STRIPPED_MANGROVE_LOG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: STRIPPED_MANGROVE_WOOD!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Builder Job has an invalid Place type property: VERDANT_FROGLIGHT!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Trader Job has an invalid VTrade type property: MANGROVE_PROPAGULE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Tamer Job has an invalid Breed type property: FROG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: REINFORCED_DEEPSLATE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK_CATALYST!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Miner Job has an invalid Break type property: SCULK_SHRIEKER!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Florist Job has an invalid Break type property: POTTED_MANGROVE_PROPAGULE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: ALLAY!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: FROG!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: TADPOLE!
+[17:35:06] [Server thread/WARN]: [Jobs] Job Hunter Job has an invalid Kill type property: WARDEN!
+[17:35:06] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m19 [0;33;1mjobs[m
+[17:35:06] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m0 [0;33;1mboosted items[m
+[17:35:06] [Server thread/INFO]: [0;33;1mPreloaded [0;33;22m1 [0;33;1mplayers data in [0;33;22m0.02[m
+[17:35:06] [Server thread/INFO]: [0;33;1mLoading explorer data[m
+[17:35:06] [Server thread/INFO]: [0;33;1mLoaded explorer data ([0;33;22m26[0;33;1m) in 2 ms[m
+[17:35:06] [Server thread/INFO]: [0;33;1mPlugin has been enabled successfully.[m
+[17:35:06] [Server thread/INFO]: [0;33;22m------------------------------------[m
+[17:35:06] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.1
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden]
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.monster.warden.EntityWarden] : []
+[17:35:06] [Server thread/WARN]: Skipping cache for [net.minecraft.world.entity.monster.warden.EntityWarden]
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket]
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket] : []
+[17:35:06] [Server thread/WARN]: Skipping cache for [net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket]
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey]
+[17:35:06] [Server thread/WARN]: No cache found for: [net.minecraft.world.entity.player.ProfilePublicKey] : []
+[17:35:06] [Server thread/WARN]: Skipping cache for [net.minecraft.world.entity.player.ProfilePublicKey]
+[17:35:06] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mStarted database save task.[m
+[17:35:06] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mStarted buffered payment thread.[m
+[17:35:06] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
+[17:35:06] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[17:35:08] [Server thread/INFO]: [DeluxeMenus] 116 GUI menus loaded!
+[17:35:08] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[17:35:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
+[17:35:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:35:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:35:08] [Server thread/INFO]: Done (18.085s)! For help, type "help"
+[17:35:08] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[17:35:08] [Server thread/ERROR]: [Jobs] Vault detected but economy plugin still missing!
+[17:35:08] [Server thread/ERROR]: [Jobs] Please install Vault supporting economy plugin!
+[17:35:08] [Server thread/ERROR]: [Jobs] ==============================================
+[17:35:08] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[17:35:09] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[17:35:09] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[17:35:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[17:35:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
+[17:35:09] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 2 scripts loaded!
+[17:35:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript [2.1.2]
+[17:35:09] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[18:12:21] [Server thread/INFO]: Stopping the server
+[18:12:21] [Server thread/INFO]: Stopping server
+[18:12:21] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
+[18:12:21] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v4.1
+[18:12:21] [Server thread/INFO]: [Jobs] Disabling Jobs v5.1.3.0
+[18:12:21] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
+[18:12:21] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mDatabase save task shutdown![m
+[18:12:21] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mBuffered payment thread shutdown.[m
+[18:12:21] [Server thread/INFO]: [0;33;22m------------------------------------[m
+[18:12:21] [Server thread/INFO]: [GemsEconomy] Disabling GemsEconomy v4.9.2
+[18:12:21] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[18:12:21] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[18:12:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[18:12:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:12:21] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-873
+[18:12:21] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[18:12:21] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[18:12:22] [Server thread/INFO]: [dynmap] Disabled
+[18:12:22] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
+[18:12:22] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[18:12:22] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
+[18:12:22] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 0
+[18:12:22] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
+[18:12:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:12:22] [Server thread/INFO]: Saving players
+[18:12:23] [Server thread/INFO]: Saving worlds
+[18:12:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:12:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:12:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
