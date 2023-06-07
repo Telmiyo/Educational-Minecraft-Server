@@ -12,14 +12,19 @@ npc:
         uuid: 0772a00a-7da6-4054-9836-2c8071a10b5e
       type: PLAYER
       location:
-        bodyYaw: -92.82309
+        bodyYaw: -77.56169
         world: world
         x: '-159.5269'
         y: '19.0'
         z: '-7.4828'
-        yaw: '-92.8231'
-        pitch: '23.2294'
+        yaw: '-77.5617'
+        pitch: '19.437'
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: server application-1
@@ -30,11 +35,6 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       skintrait:
         fetchDefaultSkin: true
         signature: dyu6zhLi6Oi5P9hBbEeNRS/J8uHb7+dSluDzHdT5UNxHIc4l6pV5SsLHpch0YL51lQ71zpjZ1Nprh2EKHqY+uzT4YZM48TpDHGN0c0TkelE2uz+SeD0UaWoAuQZfl8IU5H2Q/1fluEvMBwBFn475S8zPOBwdF0XFbsku3odCSalTOnVoKULxHj1P4bv7K3j5U8xIjojBCr35OPGvHO1DlhlNb0Sng8pVKoc/52SJJWbvk6qFDYVEEmTorV+NlZjK89bPqxQHZBfCLYqLpltzzkpDJVY1T3J2cbTzfWy0m45jlRppmkqW8Z1x46o3hBZvx6T48CD3wJrmYxtBRJkEGbafXLRugKsm6VYgiKfbQc0Z6yM/hS+djzPmibah6jRiH6A6SAX7USs23i4bJwi4Rrhs7VyoW6FQB6L06nb+sSPmoq7D0sv27+3xU6HO4hRLGIArGxxzDsN56xSKjHmWWaBIUxID1BqdyQ3n1BIYdFPTeGr4oQXzijNkP+DIxz/z4FhU+1lFcuQTm4R97K9HFgIwEAdCYrrtks9FaQ/aaSp7EmUKt15t1B3ZRdlboOCTAy9ZxIg2ajh+qyKl7SbVboqMTj2fP737lm/lwJheihhaTrV8KDuhb6NBu4G0/4xjJLN9Cxdri/W92gCH4Ys3OrsdWztf5hgIz0gGxQ5tqcc=
@@ -51,19 +51,19 @@ npc:
         linkedbody: false
         perplayer: false
         randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
-        targetnpcs: false
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-    traitnames: owner,type,location,scoreboardtrait,inventory,commandtrait,skintrait,rotationtrait,mounttrait,spawned,lookclose,hologramtrait
+    traitnames: spawned,skintrait,type,lookclose,hologramtrait,owner,location,commandtrait,rotationtrait,inventory,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
