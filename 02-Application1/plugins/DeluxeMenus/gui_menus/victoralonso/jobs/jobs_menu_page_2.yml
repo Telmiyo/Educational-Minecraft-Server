@@ -1583,153 +1583,153 @@ items:
 #  \ V  V / (_) | (_) | (_| | (__| |_| | |_| ||  __/ |
 #   \_/\_/ \___/ \___/ \__,_|\___|\__,_|\__|\__\___|_|
 #
-  WOODCUTTER-COOLDOWN:
-    material: GOLD_NUGGET
-    model_data: 11057
-    display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
-    slot: 40
-    priority: 5
-    lore:
-    - '&7Level: &f%jobsr_user_archived_jobs_level_woodcutter%'
-    - ''
-    - '&7Retained exp: &#F19C0B%jobsr_user_archived_jobs_exp_woodcutter% EXP'
-    - '&#d14a3eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
-    left_click_commands:
-    - '[console] playsound minecraft:error player %player_name% %player_x% %player_y% %player_z%'
-    - '[player] jobs join woodcutter'
-    - '[close]'
-    right_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    shift_left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    middle_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-  WOODCUTTER-BYPASS:
-    material: GOLD_NUGGET
-    model_data: 11055
-    display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
-    slot: 40
-    priority: 4
-    view_requirement:
-      requirements:
-        jobs_rejoinbypass:
-         type: has permission
-         permission: jobs.rejoinbypass
-    lore:
-    - '&7Level: &f%jobsr_user_archived_jobs_level_woodcutter%'
-    - ''
-    - '&7Retained exp: &#F19C0B%jobsr_user_archived_jobs_exp_woodcutter% EXP'
-    - '&#d14a3eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
-    left_click_commands:
-    - '[sound] BLOCK_BREWING_STAND_BREW 0.4 1.5'
-    - '[player] jobs join woodcutter'
-    - '[refresh]'
-    right_click_commands:
-    - '[sound] BLOCK_NOTE_BLOCK_COW_BELL 0.6 2'
-    - '[message] ㇲ &#E52727You cannot leave a job that you dont have...'
-    - '[close]'
-    shift_left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    middle_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-  WOODCUTTER:
-    material: GOLD_NUGGET
-    model_data: 11055
-    display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
-    slot: 40
-    priority: 3
-    view_requirement:
-      requirements:
-        jobs_cooldown:
-          type: string equals
-          input: "%javascript_cooldown_19_43200%"
-          output: "0s"
-    lore:
-    - '&7Level: &f0'
-    - ''
-    - '&7Next Level: &#F19C0B0/100 EXP'
-    - '&#3E3E3Eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
-    left_click_commands:
-    - '[sound] ITEM_AXE_STRIP 0.6 2'
-    - '[player] jobs join woodcutter'
-    - '[refresh]'
-    right_click_commands:
-    - '[sound] BLOCK_NOTE_BLOCK_COW_BELL 0.6 2'
-    - '[message] ㇲ &#E52727You cannot leave a job that you dont have...'
-    - '[close]'
-    shift_left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    middle_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-  WOODCUTTER-SELECT:
-    material: GOLD_NUGGET
-    model_data: 11056
-    display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
-    slot: 40
-    priority: 2
-    view_requirement:
-      requirements:
-        jobs_requirement:
-         type: string contains
-         input: "%jobsr_user_isin_woodcutter%"
-         output: 'True'
-    lore:
-    - '&7Level: &f%jobsr_user_jlevel_woodcutter%'
-    - ''
-    - '&7Next Level: &#F19C0B%jobsr_user_jexp_woodcutter%/%jobsr_user_jmaxexp_woodcutter% EXP'
-    - '%progress_bar_{jobsr_user_jexp_woodcutter}_c:&#8AC196ㆴㆿ_p:&#8AC196ㆴㆿ_r:&#3E3E3Eㆴㆿ_l:12_m:{jobsr_user_jmaxexp_woodcutter}_fullbar:&#8AC196ㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ%'
-    left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    right_click_commands:
-    - '[sound] ITEM_ARMOR_EQUIP_LEATHER 2 0.4'
-    - '[openguimenu] job_leaving_woodcutter'
-    shift_left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    middle_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-  WOODCUTTER-WARNING:
-    material: GOLD_NUGGET
-    model_data: 11056
-    display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
-    slot: 40
-    priority: 1
-    view_requirement:
-      requirements:
-        jobs_requirement:
-         type: string contains
-         input: "%jobsr_user_isin_woodcutter%"
-         output: 'True'
-        jobs_requirement_2:
-         type: javascript
-         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
-    lore:
-    - '&7Level: &f%jobsr_user_jlevel_woodcutter%'
-    - ''
-    - '&7Next Level: &#F19C0B%jobsr_user_jexp_woodcutter%/%jobsr_user_jmaxexp_woodcutter% EXP'
-    - '%progress_bar_{jobsr_user_jexp_woodcutter}_c:&#8AC196ㆴㆿ_p:&#8AC196ㆴㆿ_r:&#3E3E3Eㆴㆿ_l:12_m:{jobsr_user_jmaxexp_woodcutter}_fullbar:&#8AC196ㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ%'
-    left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    right_click_commands:
-    - '[sound] ITEM_ARMOR_EQUIP_LEATHER 2 0.4'
-    - '[openguimenu] job_leaving_woodcutter'
-    shift_left_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-    middle_click_commands:
-    - '[sound] UI_LOOM_TAKE_RESULT'
-    - '[openguimenu] jobs_progress_woodcutter'
-  WOODCUTTER-DISABLE:
+  # WOODCUTTER-COOLDOWN:
+  #   material: GOLD_NUGGET
+  #   model_data: 11057
+  #   display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
+  #   slot: 40
+  #   priority: 5
+  #   lore:
+  #   - '&7Level: &f%jobsr_user_archived_jobs_level_woodcutter%'
+  #   - ''
+  #   - '&7Retained exp: &#F19C0B%jobsr_user_archived_jobs_exp_woodcutter% EXP'
+  #   - '&#d14a3eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
+  #   left_click_commands:
+  #   - '[console] playsound minecraft:error player %player_name% %player_x% %player_y% %player_z%'
+  #   - '[player] jobs join woodcutter'
+  #   - '[close]'
+  #   right_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   shift_left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   middle_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  # WOODCUTTER-BYPASS:
+  #   material: GOLD_NUGGET
+  #   model_data: 11055
+  #   display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
+  #   slot: 40
+  #   priority: 4
+  #   view_requirement:
+  #     requirements:
+  #       jobs_rejoinbypass:
+  #        type: has permission
+  #        permission: jobs.rejoinbypass
+  #   lore:
+  #   - '&7Level: &f%jobsr_user_archived_jobs_level_woodcutter%'
+  #   - ''
+  #   - '&7Retained exp: &#F19C0B%jobsr_user_archived_jobs_exp_woodcutter% EXP'
+  #   - '&#d14a3eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
+  #   left_click_commands:
+  #   - '[sound] BLOCK_BREWING_STAND_BREW 0.4 1.5'
+  #   - '[player] jobs join woodcutter'
+  #   - '[refresh]'
+  #   right_click_commands:
+  #   - '[sound] BLOCK_NOTE_BLOCK_COW_BELL 0.6 2'
+  #   - '[message] ㇲ &#E52727You cannot leave a job that you dont have...'
+  #   - '[close]'
+  #   shift_left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   middle_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  # WOODCUTTER:
+  #   material: GOLD_NUGGET
+  #   model_data: 11055
+  #   display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
+  #   slot: 40
+  #   priority: 3
+  #   view_requirement:
+  #     requirements:
+  #       jobs_cooldown:
+  #         type: string equals
+  #         input: "%javascript_cooldown_19_43200%"
+  #         output: "0s"
+  #   lore:
+  #   - '&7Level: &f0'
+  #   - ''
+  #   - '&7Next Level: &#F19C0B0/100 EXP'
+  #   - '&#3E3E3Eㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ'
+  #   left_click_commands:
+  #   - '[sound] ITEM_AXE_STRIP 0.6 2'
+  #   - '[player] jobs join woodcutter'
+  #   - '[refresh]'
+  #   right_click_commands:
+  #   - '[sound] BLOCK_NOTE_BLOCK_COW_BELL 0.6 2'
+  #   - '[message] ㇲ &#E52727You cannot leave a job that you dont have...'
+  #   - '[close]'
+  #   shift_left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   middle_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  # WOODCUTTER-SELECT:
+  #   material: GOLD_NUGGET
+  #   model_data: 11056
+  #   display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
+  #   slot: 40
+  #   priority: 2
+  #   view_requirement:
+  #     requirements:
+  #       jobs_requirement:
+  #        type: string contains
+  #        input: "%jobsr_user_isin_woodcutter%"
+  #        output: 'True'
+  #   lore:
+  #   - '&7Level: &f%jobsr_user_jlevel_woodcutter%'
+  #   - ''
+  #   - '&7Next Level: &#F19C0B%jobsr_user_jexp_woodcutter%/%jobsr_user_jmaxexp_woodcutter% EXP'
+  #   - '%progress_bar_{jobsr_user_jexp_woodcutter}_c:&#8AC196ㆴㆿ_p:&#8AC196ㆴㆿ_r:&#3E3E3Eㆴㆿ_l:12_m:{jobsr_user_jmaxexp_woodcutter}_fullbar:&#8AC196ㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ%'
+  #   left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   right_click_commands:
+  #   - '[sound] ITEM_ARMOR_EQUIP_LEATHER 2 0.4'
+  #   - '[openguimenu] job_leaving_woodcutter'
+  #   shift_left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   middle_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  # WOODCUTTER-WARNING:
+  #   material: GOLD_NUGGET
+  #   model_data: 11056
+  #   display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'
+  #   slot: 40
+  #   priority: 1
+  #   view_requirement:
+  #     requirements:
+  #       jobs_requirement:
+  #        type: string contains
+  #        input: "%jobsr_user_isin_woodcutter%"
+  #        output: 'True'
+  #       jobs_requirement_2:
+  #        type: javascript
+  #        expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+  #   lore:
+  #   - '&7Level: &f%jobsr_user_jlevel_woodcutter%'
+  #   - ''
+  #   - '&7Next Level: &#F19C0B%jobsr_user_jexp_woodcutter%/%jobsr_user_jmaxexp_woodcutter% EXP'
+  #   - '%progress_bar_{jobsr_user_jexp_woodcutter}_c:&#8AC196ㆴㆿ_p:&#8AC196ㆴㆿ_r:&#3E3E3Eㆴㆿ_l:12_m:{jobsr_user_jmaxexp_woodcutter}_fullbar:&#8AC196ㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿㆴㆿ%'
+  #   left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   right_click_commands:
+  #   - '[sound] ITEM_ARMOR_EQUIP_LEATHER 2 0.4'
+  #   - '[openguimenu] job_leaving_woodcutter'
+  #   shift_left_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  #   middle_click_commands:
+  #   - '[sound] UI_LOOM_TAKE_RESULT'
+  #   - '[openguimenu] jobs_progress_woodcutter'
+  # WOODCUTTER-DISABLE:
     material: GOLD_NUGGET
     model_data: 11057
     display_name: '%jobsr_chatcolor_woodcutter%%jobsr_name_woodcutter%'

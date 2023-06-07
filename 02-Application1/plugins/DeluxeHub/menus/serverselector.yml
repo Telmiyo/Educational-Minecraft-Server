@@ -79,10 +79,10 @@ items:
     glow: true
     display_name: '&a &a&lApplication 01'
     lore:
-      - '&7Go Back to the HUB!'
+      - '&7Go to Application 01!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eHub'
+      - '[MESSAGE] &7Sending you to: &eApplication 01!'
       - '[BUNGEE] application-1'
   application02:
     material: LIGHT_BLUE_STAINED_GLASS_PANE

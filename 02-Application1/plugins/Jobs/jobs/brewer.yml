@@ -95,668 +95,668 @@ Brewer Job:
       - sk modifier add [player] wisdom job 0.1 true true
       levelFrom: 5
       levelUntil: 5
-    '6':
-      command:
-      - eco give [player] 200
-      - minecraft:xp add [player] 35 points
-      - sk modifier add [player] wisdom job 0.1 true true
-      levelFrom: 6
-      levelUntil: 6
-    '7':
-      command:
-      - eco give [player] 250
-      - minecraft:xp add [player] 35 points
-      - sk modifier add [player] wisdom job 0.1 true true
-      levelFrom: 7
-      levelUntil: 7
-    '8':
-      command:
-      - eco give [player] 300
-      - minecraft:xp add [player] 35 points
-      - sk modifier add [player] wisdom job 0.1 true true
-      levelFrom: 8
-      levelUntil: 8
-    '9':
-      command:
-      - eco give [player] 350
-      - minecraft:xp add [player] 35 points
-      - sk modifier add [player] wisdom job 0.1 true true
-      levelFrom: 9
-      levelUntil: 9
-    '10':
-      command:
-      - eco give [player] 400
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 10
-      levelUntil: 10
-    '11':
-      command:
-      - eco give [player] 450
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 11
-      levelUntil: 11
-    '12':
-      command:
-      - eco give [player] 500
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 12
-      levelUntil: 12
-    '13':
-      command:
-      - eco give [player] 550
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 13
-      levelUntil: 13
-    '14':
-      command:
-      - eco give [player] 600
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 14
-      levelUntil: 14
-    '15':
-      command:
-      - eco give [player] 650
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 15
-      levelUntil: 15
-    '16':
-      command:
-      - eco give [player] 700
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 16
-      levelUntil: 16
-    '17':
-      command:
-      - eco give [player] 750
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 17
-      levelUntil: 17
-    '18':
-      command:
-      - eco give [player] 800
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 18
-      levelUntil: 18
-    '19':
-      command:
-      - eco give [player] 900
-      - minecraft:xp add [player] 40 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 19
-      levelUntil: 19
-    '20':
-      command:
-      - eco give [player] 1000
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.2 true true
-      levelFrom: 20
-      levelUntil: 20
-    '21':
-      command:
-      - eco give [player] 1100
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 21
-      levelUntil: 21
-    '22':
-      command:
-      - eco give [player] 1200
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 22
-      levelUntil: 22
-    '23':
-      command:
-      - eco give [player] 1300
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 23
-      levelUntil: 23
-    '24':
-      command:
-      - eco give [player] 1400
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 24
-      levelUntil: 24
-    '25':
-      command:
-      - eco give [player] 1500
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 25
-      levelUntil: 25
-    '26':
-      command:
-      - eco give [player] 1600
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 26
-      levelUntil: 26
-    '27':
-      command:
-      - eco give [player] 1700
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 27
-      levelUntil: 27
-    '28':
-      command:
-      - eco give [player] 1800
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 28
-      levelUntil: 28
-    '29':
-      command:
-      - eco give [player] 1900
-      - minecraft:xp add [player] 45 points
-      - sk modifier add [player] wisdom job 0.3 true true
-      levelFrom: 29
-      levelUntil: 29
-    '30':
-      command:
-      - eco give [player] 2000
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 30
-      levelUntil: 30
-    '31':
-      command:
-      - eco give [player] 2100
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 31
-      levelUntil: 31
-    '32':
-      command:
-      - eco give [player] 2200
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 32
-      levelUntil: 32
-    '33':
-      command:
-      - eco give [player] 2300
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 33
-      levelUntil: 33
-    '34':
-      command:
-      - eco give [player] 2400
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 34
-      levelUntil: 34
-    '35':
-      command:
-      - eco give [player] 2500
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 35
-      levelUntil: 35
-    '36':
-      command:
-      - eco give [player] 2600
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 36
-      levelUntil: 36
-    '37':
-      command:
-      - eco give [player] 2700
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 37
-      levelUntil: 37
-    '38':
-      command:
-      - eco give [player] 2800
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 38
-      levelUntil: 38
-    '39':
-      command:
-      - eco give [player] 2900
-      - minecraft:xp add [player] 50 points
-      - sk modifier add [player] wisdom job 0.4 true true
-      levelFrom: 39
-      levelUntil: 39
-    '40':
-      command:
-      - eco give [player] 3000
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 40
-      levelUntil: 40
-    '41':
-      command:
-      - eco give [player] 3100
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 41
-      levelUntil: 41
-    '42':
-      command:
-      - eco give [player] 3200
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 42
-      levelUntil: 42
-    '43':
-      command:
-      - eco give [player] 3300
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 43
-      levelUntil: 43
-    '44':
-      command:
-      - eco give [player] 3400
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 44
-      levelUntil: 44
-    '45':
-      command:
-      - eco give [player] 3500
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 45
-      levelUntil: 45
-    '46':
-      command:
-      - eco give [player] 3600
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 46
-      levelUntil: 46
-    '47':
-      command:
-      - eco give [player] 3700
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 47
-      levelUntil: 47
-    '48':
-      command:
-      - eco give [player] 3800
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 48
-      levelUntil: 48
-    '49':
-      command:
-      - eco give [player] 3900
-      - minecraft:xp add [player] 100 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 49
-      levelUntil: 49
-    '50':
-      command:
-      - eco give [player] 4000
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 50
-      levelUntil: 50
-    '51':
-      command:
-      - eco give [player] 4500
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 51
-      levelUntil: 51
-    '52':
-      command:
-      - eco give [player] 5000
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 52
-      levelUntil: 52
-    '53':
-      command:
-      - eco give [player] 5500
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 53
-      levelUntil: 53
-    '54':
-      command:
-      - eco give [player] 6000
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 54
-      levelUntil: 54
-    '55':
-      command:
-      - eco give [player] 6500
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 55
-      levelUntil: 55
-    '56':
-      command:
-      - eco give [player] 7000
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 56
-      levelUntil: 56
-    '57':
-      command:
-      - eco give [player] 7500
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 57
-      levelUntil: 57
-    '58':
-      command:
-      - eco give [player] 8000
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 58
-      levelUntil: 58
-    '59':
-      command:
-      - eco give [player] 8500
-      - minecraft:xp add [player] 200 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 59
-      levelUntil: 59
-    '60':
-      command:
-      - eco give [player] 9000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 60
-      levelUntil: 60
-    '61':
-      command:
-      - eco give [player] 9500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 61
-      levelUntil: 61
-    '62':
-      command:
-      - eco give [player] 10000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 62
-      levelUntil: 62
-    '63':
-      command:
-      - eco give [player] 10500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 63
-      levelUntil: 63
-    '64':
-      command:
-      - eco give [player] 11000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 64
-      levelUntil: 64
-    '65':
-      command:
-      - eco give [player] 11500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 65
-      levelUntil: 65
-    '66':
-      command:
-      - eco give [player] 12000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 66
-      levelUntil: 66
-    '67':
-      command:
-      - eco give [player] 12500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 67
-      levelUntil: 67
-    '68':
-      command:
-      - eco give [player] 13000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 68
-      levelUntil: 68
-    '69':
-      command:
-      - eco give [player] 13500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 69
-      levelUntil: 69
-    '70':
-      command:
-      - eco give [player] 14000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 70
-      levelUntil: 70
-    '71':
-      command:
-      - eco give [player] 14500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 71
-      levelUntil: 71
-    '72':
-      command:
-      - eco give [player] 15000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 72
-      levelUntil: 72
-    '73':
-      command:
-      - eco give [player] 15500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 73
-      levelUntil: 73
-    '74':
-      command:
-      - eco give [player] 16000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 74
-      levelUntil: 74
-    '75':
-      command:
-      - eco give [player] 16500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 75
-      levelUntil: 75
-    '76':
-      command:
-      - eco give [player] 17000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 76
-      levelUntil: 76
-    '77':
-      command:
-      - eco give [player] 17500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 77
-      levelUntil: 77
-    '78':
-      command:
-      - eco give [player] 18000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 78
-      levelUntil: 78
-    '79':
-      command:
-      - eco give [player] 18500
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 79
-      levelUntil: 79
-    '80':
-      command:
-      - eco give [player] 19000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 80
-      levelUntil: 80
-    '81':
-      command:
-      - eco give [player] 20000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 81
-      levelUntil: 81
-    '82':
-      command:
-      - eco give [player] 21000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 82
-      levelUntil: 82
-    '83':
-      command:
-      - eco give [player] 22000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 83
-      levelUntil: 83
-    '84':
-      command:
-      - eco give [player] 23000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 84
-      levelUntil: 84
-    '85':
-      command:
-      - eco give [player] 24000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 85
-      levelUntil: 85
-    '86':
-      command:
-      - eco give [player] 25000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 86
-      levelUntil: 86
-    '87':
-      command:
-      - eco give [player] 26000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 87
-      levelUntil: 87
-    '88':
-      command:
-      - eco give [player] 27000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 88
-      levelUntil: 88
-    '89':
-      command:
-      - eco give [player] 28000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 89
-      levelUntil: 89
-    '90':
-      command:
-      - eco give [player] 29000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 90
-      levelUntil: 90
-    '91':
-      command:
-      - eco give [player] 30000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 91
-      levelUntil: 91
-    '92':
-      command:
-      - eco give [player] 31000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 92
-      levelUntil: 92
-    '93':
-      command:
-      - eco give [player] 32000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 93
-      levelUntil: 93
-    '94':
-      command:
-      - eco give [player] 33000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 94
-      levelUntil: 94
-    '95':
-      command:
-      - eco give [player] 34000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 95
-      levelUntil: 95
-    '96':
-      command:
-      - eco give [player] 35000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 96
-      levelUntil: 96
-    '97':
-      command:
-      - eco give [player] 36000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 97
-      levelUntil: 97
-    '98':
-      command:
-      - eco give [player] 37000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 98
-      levelUntil: 98
-    '99':
-      command:
-      - eco give [player] 38000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 99
-      levelUntil: 99
-    '100':
-      command:
-      - eco give [player] 40000
-      - minecraft:xp add [player] 300 points
-      - sk modifier add [player] wisdom job 0.5 true true
-      levelFrom: 100
-      levelUntil: 100
+    # '6':
+    #   command:
+    #   - eco give [player] 200
+    #   - minecraft:xp add [player] 35 points
+    #   - sk modifier add [player] wisdom job 0.1 true true
+    #   levelFrom: 6
+    #   levelUntil: 6
+    # '7':
+    #   command:
+    #   - eco give [player] 250
+    #   - minecraft:xp add [player] 35 points
+    #   - sk modifier add [player] wisdom job 0.1 true true
+    #   levelFrom: 7
+    #   levelUntil: 7
+    # '8':
+    #   command:
+    #   - eco give [player] 300
+    #   - minecraft:xp add [player] 35 points
+    #   - sk modifier add [player] wisdom job 0.1 true true
+    #   levelFrom: 8
+    #   levelUntil: 8
+    # '9':
+    #   command:
+    #   - eco give [player] 350
+    #   - minecraft:xp add [player] 35 points
+    #   - sk modifier add [player] wisdom job 0.1 true true
+    #   levelFrom: 9
+    #   levelUntil: 9
+    # '10':
+    #   command:
+    #   - eco give [player] 400
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 10
+    #   levelUntil: 10
+    # '11':
+    #   command:
+    #   - eco give [player] 450
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 11
+    #   levelUntil: 11
+    # '12':
+    #   command:
+    #   - eco give [player] 500
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 12
+    #   levelUntil: 12
+    # '13':
+    #   command:
+    #   - eco give [player] 550
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 13
+    #   levelUntil: 13
+    # '14':
+    #   command:
+    #   - eco give [player] 600
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 14
+    #   levelUntil: 14
+    # '15':
+    #   command:
+    #   - eco give [player] 650
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 15
+    #   levelUntil: 15
+    # '16':
+    #   command:
+    #   - eco give [player] 700
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 16
+    #   levelUntil: 16
+    # '17':
+    #   command:
+    #   - eco give [player] 750
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 17
+    #   levelUntil: 17
+    # '18':
+    #   command:
+    #   - eco give [player] 800
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 18
+    #   levelUntil: 18
+    # '19':
+    #   command:
+    #   - eco give [player] 900
+    #   - minecraft:xp add [player] 40 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 19
+    #   levelUntil: 19
+    # '20':
+    #   command:
+    #   - eco give [player] 1000
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.2 true true
+    #   levelFrom: 20
+    #   levelUntil: 20
+    # '21':
+    #   command:
+    #   - eco give [player] 1100
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 21
+    #   levelUntil: 21
+    # '22':
+    #   command:
+    #   - eco give [player] 1200
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 22
+    #   levelUntil: 22
+    # '23':
+    #   command:
+    #   - eco give [player] 1300
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 23
+    #   levelUntil: 23
+    # '24':
+    #   command:
+    #   - eco give [player] 1400
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 24
+    #   levelUntil: 24
+    # '25':
+    #   command:
+    #   - eco give [player] 1500
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 25
+    #   levelUntil: 25
+    # '26':
+    #   command:
+    #   - eco give [player] 1600
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 26
+    #   levelUntil: 26
+    # '27':
+    #   command:
+    #   - eco give [player] 1700
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 27
+    #   levelUntil: 27
+    # '28':
+    #   command:
+    #   - eco give [player] 1800
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 28
+    #   levelUntil: 28
+    # '29':
+    #   command:
+    #   - eco give [player] 1900
+    #   - minecraft:xp add [player] 45 points
+    #   - sk modifier add [player] wisdom job 0.3 true true
+    #   levelFrom: 29
+    #   levelUntil: 29
+    # '30':
+    #   command:
+    #   - eco give [player] 2000
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 30
+    #   levelUntil: 30
+    # '31':
+    #   command:
+    #   - eco give [player] 2100
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 31
+    #   levelUntil: 31
+    # '32':
+    #   command:
+    #   - eco give [player] 2200
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 32
+    #   levelUntil: 32
+    # '33':
+    #   command:
+    #   - eco give [player] 2300
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 33
+    #   levelUntil: 33
+    # '34':
+    #   command:
+    #   - eco give [player] 2400
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 34
+    #   levelUntil: 34
+    # '35':
+    #   command:
+    #   - eco give [player] 2500
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 35
+    #   levelUntil: 35
+    # '36':
+    #   command:
+    #   - eco give [player] 2600
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 36
+    #   levelUntil: 36
+    # '37':
+    #   command:
+    #   - eco give [player] 2700
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 37
+    #   levelUntil: 37
+    # '38':
+    #   command:
+    #   - eco give [player] 2800
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 38
+    #   levelUntil: 38
+    # '39':
+    #   command:
+    #   - eco give [player] 2900
+    #   - minecraft:xp add [player] 50 points
+    #   - sk modifier add [player] wisdom job 0.4 true true
+    #   levelFrom: 39
+    #   levelUntil: 39
+    # '40':
+    #   command:
+    #   - eco give [player] 3000
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 40
+    #   levelUntil: 40
+    # '41':
+    #   command:
+    #   - eco give [player] 3100
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 41
+    #   levelUntil: 41
+    # '42':
+    #   command:
+    #   - eco give [player] 3200
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 42
+    #   levelUntil: 42
+    # '43':
+    #   command:
+    #   - eco give [player] 3300
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 43
+    #   levelUntil: 43
+    # '44':
+    #   command:
+    #   - eco give [player] 3400
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 44
+    #   levelUntil: 44
+    # '45':
+    #   command:
+    #   - eco give [player] 3500
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 45
+    #   levelUntil: 45
+    # '46':
+    #   command:
+    #   - eco give [player] 3600
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 46
+    #   levelUntil: 46
+    # '47':
+    #   command:
+    #   - eco give [player] 3700
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 47
+    #   levelUntil: 47
+    # '48':
+    #   command:
+    #   - eco give [player] 3800
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 48
+    #   levelUntil: 48
+    # '49':
+    #   command:
+    #   - eco give [player] 3900
+    #   - minecraft:xp add [player] 100 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 49
+    #   levelUntil: 49
+    # '50':
+    #   command:
+    #   - eco give [player] 4000
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 50
+    #   levelUntil: 50
+    # '51':
+    #   command:
+    #   - eco give [player] 4500
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 51
+    #   levelUntil: 51
+    # '52':
+    #   command:
+    #   - eco give [player] 5000
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 52
+    #   levelUntil: 52
+    # '53':
+    #   command:
+    #   - eco give [player] 5500
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 53
+    #   levelUntil: 53
+    # '54':
+    #   command:
+    #   - eco give [player] 6000
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 54
+    #   levelUntil: 54
+    # '55':
+    #   command:
+    #   - eco give [player] 6500
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 55
+    #   levelUntil: 55
+    # '56':
+    #   command:
+    #   - eco give [player] 7000
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 56
+    #   levelUntil: 56
+    # '57':
+    #   command:
+    #   - eco give [player] 7500
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 57
+    #   levelUntil: 57
+    # '58':
+    #   command:
+    #   - eco give [player] 8000
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 58
+    #   levelUntil: 58
+    # '59':
+    #   command:
+    #   - eco give [player] 8500
+    #   - minecraft:xp add [player] 200 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 59
+    #   levelUntil: 59
+    # '60':
+    #   command:
+    #   - eco give [player] 9000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 60
+    #   levelUntil: 60
+    # '61':
+    #   command:
+    #   - eco give [player] 9500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 61
+    #   levelUntil: 61
+    # '62':
+    #   command:
+    #   - eco give [player] 10000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 62
+    #   levelUntil: 62
+    # '63':
+    #   command:
+    #   - eco give [player] 10500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 63
+    #   levelUntil: 63
+    # '64':
+    #   command:
+    #   - eco give [player] 11000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 64
+    #   levelUntil: 64
+    # '65':
+    #   command:
+    #   - eco give [player] 11500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 65
+    #   levelUntil: 65
+    # '66':
+    #   command:
+    #   - eco give [player] 12000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 66
+    #   levelUntil: 66
+    # '67':
+    #   command:
+    #   - eco give [player] 12500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 67
+    #   levelUntil: 67
+    # '68':
+    #   command:
+    #   - eco give [player] 13000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 68
+    #   levelUntil: 68
+    # '69':
+    #   command:
+    #   - eco give [player] 13500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 69
+    #   levelUntil: 69
+    # '70':
+    #   command:
+    #   - eco give [player] 14000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 70
+    #   levelUntil: 70
+    # '71':
+    #   command:
+    #   - eco give [player] 14500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 71
+    #   levelUntil: 71
+    # '72':
+    #   command:
+    #   - eco give [player] 15000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 72
+    #   levelUntil: 72
+    # '73':
+    #   command:
+    #   - eco give [player] 15500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 73
+    #   levelUntil: 73
+    # '74':
+    #   command:
+    #   - eco give [player] 16000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 74
+    #   levelUntil: 74
+    # '75':
+    #   command:
+    #   - eco give [player] 16500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 75
+    #   levelUntil: 75
+    # '76':
+    #   command:
+    #   - eco give [player] 17000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 76
+    #   levelUntil: 76
+    # '77':
+    #   command:
+    #   - eco give [player] 17500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 77
+    #   levelUntil: 77
+    # '78':
+    #   command:
+    #   - eco give [player] 18000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 78
+    #   levelUntil: 78
+    # '79':
+    #   command:
+    #   - eco give [player] 18500
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 79
+    #   levelUntil: 79
+    # '80':
+    #   command:
+    #   - eco give [player] 19000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 80
+    #   levelUntil: 80
+    # '81':
+    #   command:
+    #   - eco give [player] 20000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 81
+    #   levelUntil: 81
+    # '82':
+    #   command:
+    #   - eco give [player] 21000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 82
+    #   levelUntil: 82
+    # '83':
+    #   command:
+    #   - eco give [player] 22000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 83
+    #   levelUntil: 83
+    # '84':
+    #   command:
+    #   - eco give [player] 23000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 84
+    #   levelUntil: 84
+    # '85':
+    #   command:
+    #   - eco give [player] 24000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 85
+    #   levelUntil: 85
+    # '86':
+    #   command:
+    #   - eco give [player] 25000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 86
+    #   levelUntil: 86
+    # '87':
+    #   command:
+    #   - eco give [player] 26000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 87
+    #   levelUntil: 87
+    # '88':
+    #   command:
+    #   - eco give [player] 27000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 88
+    #   levelUntil: 88
+    # '89':
+    #   command:
+    #   - eco give [player] 28000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 89
+    #   levelUntil: 89
+    # '90':
+    #   command:
+    #   - eco give [player] 29000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 90
+    #   levelUntil: 90
+    # '91':
+    #   command:
+    #   - eco give [player] 30000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 91
+    #   levelUntil: 91
+    # '92':
+    #   command:
+    #   - eco give [player] 31000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 92
+    #   levelUntil: 92
+    # '93':
+    #   command:
+    #   - eco give [player] 32000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 93
+    #   levelUntil: 93
+    # '94':
+    #   command:
+    #   - eco give [player] 33000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 94
+    #   levelUntil: 94
+    # '95':
+    #   command:
+    #   - eco give [player] 34000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 95
+    #   levelUntil: 95
+    # '96':
+    #   command:
+    #   - eco give [player] 35000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 96
+    #   levelUntil: 96
+    # '97':
+    #   command:
+    #   - eco give [player] 36000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 97
+    #   levelUntil: 97
+    # '98':
+    #   command:
+    #   - eco give [player] 37000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 98
+    #   levelUntil: 98
+    # '99':
+    #   command:
+    #   - eco give [player] 38000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 99
+    #   levelUntil: 99
+    # '100':
+    #   command:
+    #   - eco give [player] 40000
+    #   - minecraft:xp add [player] 300 points
+    #   - sk modifier add [player] wisdom job 0.5 true true
+    #   levelFrom: 100
+    #   levelUntil: 100

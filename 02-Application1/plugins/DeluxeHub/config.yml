@@ -93,16 +93,11 @@ scoreboard:
   title: "&a&lApplication - 01 &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
-    - " &e&lPlayer: &f%player%"
+    - " &e&lPlayer: &7&l%player%"
     - ""
     - " &a&lMoney: &6%gemseconomy_balance_default% &7&lcoins"
     - ""
-    - " &c&lCurrent Jobs:"
-    - "   &d&lJob 1: &l&7%jobsr_user_job_1% lvl:"
-    
-    - "   &d&lJob 2: &l&7%jobsr_user_job_2%"
-    - "   &d&lJob 3: &l&7%jobsr_user_job_3%"
-    - ""
+    - " &c&lJob: &7&l%jobsr_user_job_1%"
     - "&7&m----------------------"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -154,10 +149,10 @@ announcements:
   # Announcement list
   announcements:
     test1:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Welcome to my TFG Project!</center>"
-      - "&r"
+      # - "&r"
+      # - "<center>&e&lANNOUNCEMENT</center>"
+      # - "<center>&7Welcome to my TFG Project!</center>"
+      # - "&r"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | LAUNCHPAD                                |

@@ -6373,3 +6373,1586 @@ expected <block end>, but found '<scalar>'
 20:17:39 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
 20:17:39 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
 20:17:39 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+20:22:47 [INFORMACIÓN] Using standard Java JCE cipher.
+20:22:47 [INFORMACIÓN] Using standard Java compressor.
+20:22:47 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+20:22:48 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+20:22:49 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:49 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+20:22:52 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+20:22:52 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:52 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+20:22:52 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:52 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:52 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:52 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:53 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+20:22:53 [ADVERTENCIA] Forced host server pvp is not defined
+20:22:53 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+20:22:53 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:22:53 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+20:22:53 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+20:22:54 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+20:22:54 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+20:22:55 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+20:22:55 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+20:22:56 [INFORMACIÓN] §b       §3 __    
+20:22:56 [INFORMACIÓN] [LuckPerms] Loading configuration...
+20:22:56 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+20:22:56 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+20:22:56 [INFORMACIÓN] 
+20:22:58 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+20:22:58 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+20:22:58 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+20:22:58 [INFORMACIÓN] luckperms-hikari - Starting...
+20:22:58 [INFORMACIÓN] luckperms-hikari - Start completed.
+20:22:59 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+20:22:59 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+20:22:59 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+20:23:00 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+20:23:00 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+20:23:01 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 5551ms)
+20:23:01 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+20:23:01 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:23:02 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+20:23:02 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+20:23:02 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+20:23:02 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+20:23:02 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+20:23:03 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+20:23:03 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+20:23:03 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+20:23:03 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+20:23:03 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:23:03 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:23:03 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:23:03 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+20:23:03 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+20:23:04 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+20:23:05 [INFORMACIÓN] Listening on /0.0.0.0:25585
+20:28:03 [INFORMACIÓN] [/127.0.0.1:57099] <-> InitialHandler has pinged
+20:28:03 [INFORMACIÓN] [/127.0.0.1:57102] <-> InitialHandler has connected
+20:28:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+20:28:05 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+20:28:05 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+20:28:06 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+20:31:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /gamemode creative
+20:31:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /holograms
+20:31:56 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dh create
+20:32:09 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /dh hologram create spawn
+20:39:59 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /hologram
+21:06:02 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+21:07:03 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:08:51 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs create 01 player Application01-Jobs
+21:08:59 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs create 01 player Application01
+21:09:51 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs skin 01 https://www.minecraftskins.com/uploads/skins/2021/01/20/hayden-the-wandering-arcanist-edit-16442658.png?v577
+21:12:43 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+21:12:43 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+21:12:43 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+21:12:44 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+21:12:44 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+21:13:10 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+21:13:11 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+21:13:11 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+21:13:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+21:13:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+21:13:24 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs reload
+21:13:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:13:32 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+21:15:15 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:15:24 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 set &r&6&lJob Master &6&lCedric
+21:16:35 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines remove 0
+21:16:39 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:16:41 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:16:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:16:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 set &r&6&lJob Master &6&lCedric
+21:17:08 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 add &e&lSeek ye a noble occupation?&f
+21:17:11 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:18 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 add &r&6&lJob Master &6&lCedric
+21:17:23 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 add &r&2&lApplication 01 - Jobs
+21:17:46 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:17:56 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 add &r&2&lApplication 01 &6&lJobs
+21:18:05 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 add &r&6&lJob Master &6&lCedric
+21:18:11 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs lines 01 remove 0
+21:27:53 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:28:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add SERVER application-1
+21:28:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add SERVER application-1
+21:30:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action
+21:31:00 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:31:20 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs toggle 01 glow GOLD
+21:32:23 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add SERVER application-1
+21:32:27 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+21:33:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:35:31 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:35:33 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:35:40 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add CMD server application-1
+21:36:06 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:36:10 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add CMD /server application-1
+21:36:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /server application-1
+21:36:36 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+21:36:37 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+21:36:37 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+21:36:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+21:36:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+21:36:49 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+21:36:49 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+21:36:49 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+21:36:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+21:36:50 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+21:37:03 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:37:05 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:37:09 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add CMD /server application-1
+21:37:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 remove 0
+21:37:23 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:37:41 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 01 add SERVER application-1
+21:38:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs create 02 player
+21:38:27 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs create 02 player test
+21:38:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action 02 add SERVER application-1
+21:38:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+21:39:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs delete 02
+21:40:31 [ADVERTENCIA] Forced host server pvp is not defined
+21:40:31 [INFORMACIÓN] Closing listener [id: 0xaf7d93cb, L:/[0:0:0:0:0:0:0:0]:25585]
+21:40:31 [INFORMACIÓN] Listening on /0.0.0.0:25585
+21:40:31 [INFORMACIÓN] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+21:40:37 [INFORMACIÓN] Using standard Java JCE cipher.
+21:40:37 [INFORMACIÓN] Using standard Java compressor.
+21:40:37 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+21:40:38 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+21:40:38 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+21:40:38 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+21:40:38 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [ADVERTENCIA] Error loading plugin ServersNPC
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:281)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 13 more
+21:40:38 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+21:40:38 [ADVERTENCIA] Forced host server pvp is not defined
+21:40:38 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+21:40:38 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+21:40:38 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+21:40:38 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+21:40:38 [INFORMACIÓN] §b       §3 __    
+21:40:38 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+21:40:38 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+21:40:38 [INFORMACIÓN] 
+21:40:38 [INFORMACIÓN] [LuckPerms] Loading configuration...
+21:40:38 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+21:40:39 [INFORMACIÓN] luckperms-hikari - Starting...
+21:40:39 [INFORMACIÓN] luckperms-hikari - Start completed.
+21:40:39 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+21:40:39 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+21:40:39 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+21:40:39 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 954ms)
+21:40:39 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+21:40:39 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:39 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+21:40:39 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+21:40:39 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+21:40:39 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+21:40:39 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+21:40:39 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+21:40:39 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+21:40:39 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+21:40:39 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+21:40:39 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+21:40:39 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+21:40:39 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:39 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:39 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:39 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:40:39 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+21:40:39 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+21:40:39 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+21:40:39 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+21:40:40 [INFORMACIÓN] Listening on /0.0.0.0:25585
+21:40:49 [INFORMACIÓN] [/127.0.0.1:64040] <-> InitialHandler has connected
+21:40:50 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+21:40:50 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+21:40:51 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+21:40:51 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+21:41:11 [INFORMACIÓN] Using standard Java JCE cipher.
+21:41:11 [INFORMACIÓN] Using standard Java compressor.
+21:41:11 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+21:41:11 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:11 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+21:41:12 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+21:41:12 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+21:41:12 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+21:41:12 [ADVERTENCIA] Forced host server pvp is not defined
+21:41:12 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+21:41:12 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+21:41:12 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+21:41:12 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+21:41:12 [INFORMACIÓN] §b       §3 __    
+21:41:12 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+21:41:12 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+21:41:12 [INFORMACIÓN] 
+21:41:12 [INFORMACIÓN] [LuckPerms] Loading configuration...
+21:41:12 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+21:41:12 [INFORMACIÓN] luckperms-hikari - Starting...
+21:41:12 [INFORMACIÓN] luckperms-hikari - Start completed.
+21:41:12 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+21:41:13 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+21:41:13 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+21:41:13 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 891ms)
+21:41:13 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+21:41:13 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:13 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+21:41:13 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+21:41:13 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+21:41:13 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+21:41:13 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+21:41:13 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+21:41:13 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+21:41:13 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+21:41:13 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+21:41:13 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+21:41:13 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+21:41:13 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+21:41:13 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+21:41:13 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:13 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:13 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:13 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+21:41:14 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+21:41:14 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+21:41:14 [INFORMACIÓN] Listening on /0.0.0.0:25585
+21:41:24 [INFORMACIÓN] [/127.0.0.1:64119] <-> InitialHandler has connected
+21:41:25 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+21:41:25 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+21:41:26 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+21:41:26 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+21:41:39 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+21:41:39 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+21:41:39 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+21:41:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+21:41:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+21:43:07 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+21:43:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation create Cedric
+21:43:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs gui
+21:43:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+21:43:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+21:44:04 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Hello
+21:44:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+21:52:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+21:54:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:55:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:55:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:55:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:56:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:56:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:56:57 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:57:07 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:57:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:57:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:57:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /papi reload
+21:57:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:58:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:58:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:58:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:58:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:59:14 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:59:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:59:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+21:59:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:00:04 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:00:11 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:00:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:01:07 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:01:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:01:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:02:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:02:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:02:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /dhub reload
+22:02:44 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+22:02:44 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+22:02:44 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+22:02:45 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+22:02:45 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+22:02:56 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+22:02:56 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+22:02:56 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+22:02:57 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+22:02:57 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+22:03:56 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+22:05:32 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /deluxemenu reload
+22:05:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /jobs reload
+22:12:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 03 "&a&lMistress &2&lElara &a&lthe Botanist"
+22:12:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 03 "&a&lElara
+22:13:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 3 &2&lElara
+22:13:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+22:13:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 3 player "&a&lMistress &2&lElara &a&lthe Botanist"
+22:14:15 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs skin 3 https://www.minecraftskins.com/uploads/skins/2022/06/30/botanic-recital---rce-20502899.png?v577
+22:14:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs delete 3
+22:14:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 3 Elara
+22:14:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 3 PLAYER Elara
+22:14:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+22:15:04 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs skin 3 https://www.minecraftskins.com/uploads/skins/2022/06/30/botanic-recital---rce-20502899.png?v577
+22:15:17 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+22:15:27 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines remove 0
+22:15:31 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 remove 0
+22:15:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 remove
+22:16:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 remove 0
+22:16:31 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+22:16:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 remove 0
+22:17:12 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 add &a&lMistress &2&lElara &a&lthe Botanist
+22:17:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 remove 0
+22:17:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs lines 3 add &2&lElara &a&lthe Botanist
+22:19:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs create 4 SLIME &b&eBubbles
+22:19:46 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+22:19:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs teleport 4
+22:20:06 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:20:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:20:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:20:29 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:20:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:20:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:21:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:21:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:21:20 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /gamemode creative
+22:21:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs move 4
+22:23:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs
+22:24:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation create Elara
+22:24:16 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:32:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /msg Telmiyo &aWelcome, &2young wanderer, &ato the realm of &2flora and wonder. &aIf you seek knowledge and the secrets of plants, you've come to the right place. &aFeel free to approach and ask me about the &2botanical marvels &athat surround us. &aLet's
+22:32:29 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §aWelcome, §2young wanderer, §ato the realm of §2flora and wonder. §aIf you seek knowledge and the secrets of plants, you've come to the right place. §aFeel free to approach and ask me about the §2botanical marvels §athat surround us. §aLet's embark on a &
+22:33:09 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §a[§2Mistress Elara§a] Welcome, §2young wanderer, §ato the realm of §2flora and wonder. §aIf you seek knowledge and the secrets of plants, you've come to the right place. §aFeel free to approach and ask me about the §2botanical marvels §athat surround us.
+22:33:30 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aMistress Elara§e] §bWelcome, §6young wanderer, §bto the realm of §6flora and wonder. §bIf you seek knowledge and the secrets of plants, you've come to the right place. §bFeel free to approach and ask me about the §6botanical marvels §bthat surround us
+22:34:01 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§6Mistress Elara§e] §aWelcome, §2young wanderer, §ato the realm of §2flora and wonder. §aIf you seek knowledge and the secrets of plants, you've come to the right place. §aFeel free to approach and ask me about the §2botanical marvels §athat surround us
+22:34:08 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§6Mistress Elara§e] §aWelcome, §2young wanderer, §ato the realm of §2flora and wonder. §aIf you seek knowledge and the secrets of plants, you've come to the right place. §aFeel free to approach and ask me about the §2botanical marvels §athat surround us
+22:34:56 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aMistress-Elara§e]-§bWelcome,-§6young-wanderer,-§bto-the-realm-of-§6flora-and-wonder.-§bIf-you-seek-knowledge-and-the-secrets-of-plants,-you've-come-to-the-right-place.-§bFeel-free-to-approach-and-ask-me-about-the-§6botanical-marvels-§bthat-surround-us
+22:35:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:35:25 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aMistress-Elara§e]-§bWelcome,-§6young-wanderer,-§bto-the-realm-of-§6flora-and-wonder.-§bIf-you-seek-knowledge-and-the-secrets-of-plants,-you've-come-to-the-right-place.-§bFeel-free-to-approach-and-ask-me-about-the-§6botanical-marvels-§bthat-surround-us
+22:35:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:37:28 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aElara§e]-§bWelcome,-§6young-wanderer,-§bto-the-realm-of-§6flora-and-wonder.-§bIf-you-seek-knowledge-and-the-secrets-of-plants,-you've-come-to-the-right-place.-§bFeel-free-to-approach-and-ask-me-about-the-§6botanical-marvels-§bthat-surround-us
+22:37:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:37:41 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: fdasfdas
+22:37:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:38:38 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:38:43 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aMistress-Elara§e]-§bWelcome,-§6young-wanderer,-§bto-the-realm-of-§6flora-and-wonder.-§bIf-you-seek-knowledge-and-the-secrets-of-plants,-you've-come-to-the-right-place.-§bFeel-free-to-approach-and-ask-me-about-the-§6botanical-marvels-§bthat-surround-us
+22:38:47 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:39:28 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /stop
+22:39:29 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+22:39:29 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+22:39:29 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+22:39:29 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+22:40:33 [INFORMACIÓN] [/127.0.0.1:53411] <-> InitialHandler has pinged
+22:40:34 [INFORMACIÓN] [/127.0.0.1:53414] <-> InitialHandler has connected
+22:40:34 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+22:40:34 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+22:40:35 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+22:40:39 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+22:40:39 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+22:40:39 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+22:40:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+22:40:40 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+22:40:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:41:07 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: §e[§aMistress-Elara§e]-§bWelcome,-§6young-wanderer,-§bto-the-realm-of-§6flora-and-wonder.-§bIf-you-seek-knowledge-and-the-secrets-of-plants,-you've-come-to-the-right-place.-§bFeel-free-to-approach-and-ask-me-about-the-§6botanical-marvels-§bthat-surround-us
+22:41:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:43:54 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /server lobby
+22:43:54 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+22:43:54 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+22:43:54 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+22:43:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+22:43:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+22:44:12 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs conversation gui
+22:44:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs conversation create
+22:44:19 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+22:44:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs conversation create test
+22:44:28 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+22:44:36 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs conversation gui
+22:44:39 [INFORMACIÓN] [BungeeChat] LOCAL > lobby > Telmiyo: fkjadskfljasdkfjadsklj
+22:44:42 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs conversation gui
+22:44:54 [ADVERTENCIA] [Telmiyo] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+22:44:54 [INFORMACIÓN] [Telmiyo] disconnected with: §fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:394
+22:44:54 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+22:44:54 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+22:44:54 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+22:47:19 [INFORMACIÓN] [Telmiyo,/127.0.0.1:54131] <-> InitialHandler has connected
+22:47:20 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+22:47:20 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+22:47:21 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+22:47:45 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+22:47:45 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+22:47:45 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+22:47:46 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+22:47:46 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+22:48:19 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation set 3 Elara RADIUS
+22:48:43 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:48:47 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Hello
+22:49:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+22:50:09 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /znpcs conversation gui
+22:50:16 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: hello
+22:50:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /bungeechat modules
+22:50:54 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+22:50:54 [INFORMACIÓN] [BungeeChat] LEAVE > application-1 > Telmiyo: §eTelmiyo has left the network!
+22:50:54 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+22:50:54 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+22:51:09 [INFORMACIÓN] Using standard Java JCE cipher.
+22:51:09 [INFORMACIÓN] Using standard Java compressor.
+22:51:09 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+22:51:10 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+22:51:10 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+22:51:10 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+22:51:10 [ADVERTENCIA] Forced host server pvp is not defined
+22:51:10 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+22:51:10 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+22:51:10 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+22:51:10 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+22:51:10 [INFORMACIÓN] §b       §3 __    
+22:51:10 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+22:51:10 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+22:51:10 [INFORMACIÓN] 
+22:51:10 [INFORMACIÓN] [LuckPerms] Loading configuration...
+22:51:11 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+22:51:11 [INFORMACIÓN] luckperms-hikari - Starting...
+22:51:11 [INFORMACIÓN] luckperms-hikari - Start completed.
+22:51:11 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+22:51:11 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+22:51:11 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+22:51:11 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+22:51:11 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+22:51:11 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+22:51:11 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+22:51:11 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 906ms)
+22:51:11 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+22:51:11 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:11 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:11 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:11 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:11 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+22:51:11 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+22:51:11 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+22:51:11 [INFORMACIÓN] Listening on /0.0.0.0:25585
+22:51:26 [INFORMACIÓN] [/127.0.0.1:54673] <-> InitialHandler has pinged
+22:52:22 [INFORMACIÓN] [/127.0.0.1:54804] <-> InitialHandler has pinged
+22:52:23 [INFORMACIÓN] [/127.0.0.1:54806] <-> InitialHandler has pinged
+22:52:24 [INFORMACIÓN] [/127.0.0.1:54808] <-> InitialHandler has connected
+22:52:26 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+22:52:26 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+22:52:27 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+22:52:31 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+22:52:32 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+22:52:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+22:52:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+23:13:58 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+23:13:58 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+23:13:59 [INFORMACIÓN] [/127.0.0.1:56849] <-> InitialHandler has pinged
+23:15:43 [INFORMACIÓN] [/127.0.0.1:57008] <-> InitialHandler has pinged
+23:16:50 [INFORMACIÓN] [Telmiyo,/127.0.0.1:57155] <-> InitialHandler has connected
+23:16:50 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+23:16:52 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+23:16:55 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+23:16:55 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+23:16:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+23:16:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+23:46:23 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+23:46:23 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+23:46:23 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+23:47:26 [INFORMACIÓN] [Telmiyo,/127.0.0.1:60034] <-> InitialHandler has connected
+23:47:27 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+23:47:28 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+23:47:32 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+23:47:32 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+23:47:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+23:47:33 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+23:48:38 [INFORMACIÓN] Using standard Java JCE cipher.
+23:48:38 [INFORMACIÓN] Using standard Java compressor.
+23:48:38 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+23:48:38 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+23:48:38 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+23:48:38 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+23:48:38 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:38 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+23:48:38 [ADVERTENCIA] Forced host server pvp is not defined
+23:48:38 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+23:48:39 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+23:48:39 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+23:48:39 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+23:48:39 [INFORMACIÓN] §b       §3 __    
+23:48:39 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+23:48:39 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:48:39 [INFORMACIÓN] 
+23:48:39 [INFORMACIÓN] [LuckPerms] Loading configuration...
+23:48:39 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+23:48:39 [INFORMACIÓN] luckperms-hikari - Starting...
+23:48:39 [INFORMACIÓN] luckperms-hikari - Start completed.
+23:48:39 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+23:48:39 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+23:48:39 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+23:48:40 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 919ms)
+23:48:40 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+23:48:40 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:40 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+23:48:40 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+23:48:40 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+23:48:40 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+23:48:40 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+23:48:40 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+23:48:40 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+23:48:40 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+23:48:40 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+23:48:40 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+23:48:40 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+23:48:40 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:40 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:40 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:40 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:48:40 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+23:48:40 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+23:48:40 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+23:48:40 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+23:48:40 [INFORMACIÓN] Listening on /0.0.0.0:25585
+23:48:46 [INFORMACIÓN] [/127.0.0.1:60174] <-> InitialHandler has connected
+23:48:47 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+23:48:47 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+23:48:48 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+23:48:48 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+23:48:52 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+23:48:52 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+23:48:52 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+23:48:53 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+23:48:53 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+23:48:57 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Hello
+23:50:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quest list
+23:50:21 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.ChatLoggingListener took 126ms to process event ChatEvent(super=TargetedEvent(sender=Telmiyo, receiver=net.md_5.bungee.ServerConnection@6955d2ea), cancelled=false, message=/quest list)!
+23:50:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests list
+23:50:25 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.ChatLoggingListener took 146ms to process event ChatEvent(super=TargetedEvent(sender=Telmiyo, receiver=net.md_5.bungee.ServerConnection@6955d2ea), cancelled=false, message=/quests list)!
+23:50:55 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+23:50:55 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+23:50:55 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+23:50:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+23:50:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+23:51:19 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs
+23:51:23 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs list
+23:51:43 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+23:52:02 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 SERVER application-1
+23:52:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action set 1 SERVER application-1
+23:52:35 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 SERVER application-1
+23:53:02 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD server application-1
+23:56:07 [INFORMACIÓN] Using standard Java JCE cipher.
+23:56:07 [INFORMACIÓN] Using standard Java compressor.
+23:56:07 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+23:56:07 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+23:56:07 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+23:56:07 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+23:56:07 [INFORMACIÓN] Loaded plugin SlashServer version 3 by Bloodsplat
+23:56:07 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+23:56:07 [ADVERTENCIA] Forced host server pvp is not defined
+23:56:07 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+23:56:07 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+23:56:07 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+23:56:07 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+23:56:07 [INFORMACIÓN] §b       §3 __    
+23:56:07 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+23:56:07 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:56:07 [INFORMACIÓN] 
+23:56:07 [INFORMACIÓN] [LuckPerms] Loading configuration...
+23:56:08 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+23:56:08 [INFORMACIÓN] luckperms-hikari - Starting...
+23:56:08 [INFORMACIÓN] luckperms-hikari - Start completed.
+23:56:08 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+23:56:08 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+23:56:08 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+23:56:08 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 920ms)
+23:56:08 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+23:56:08 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:09 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+23:56:09 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+23:56:09 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+23:56:09 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+23:56:09 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+23:56:09 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+23:56:09 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+23:56:09 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+23:56:09 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+23:56:09 [INFORMACIÓN] Enabled plugin SlashServer version 3 by Bloodsplat
+23:56:09 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:09 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:09 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:09 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+23:56:09 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+23:56:09 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+23:56:09 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+23:56:09 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+23:56:09 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+23:56:09 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+23:56:09 [INFORMACIÓN] Listening on /0.0.0.0:25585
+23:56:53 [INFORMACIÓN] [/127.0.0.1:61049] <-> InitialHandler has pinged
+23:56:54 [INFORMACIÓN] [/127.0.0.1:61053] <-> InitialHandler has connected
+23:56:55 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+23:56:55 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+23:56:56 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+23:56:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+23:58:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /server lobby
+23:58:25 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /lpb editor
+23:59:15 [INFORMACIÓN] [LuckPerms] [Messaging] Sending log with id: c3f189ff-67f7-4a72-b6aa-cd81a594dfe5
+23:59:15 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §8(§eTelmiyo@bungee§8)§r §8[§aG§8]§r §8(§bdefault§8)
+23:59:15 [INFORMACIÓN] §7[§b§lL§3§lP§7]§r §3LOG§r §3§l>§r §fwebeditor add slashserver.application-1 true
+23:59:17 [INFORMACIÓN] [LuckPerms] [Messaging] Sending ping with id: 5ed6279b-85fa-448f-be3f-b4f877146a7d
+23:59:30 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+23:59:30 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+23:59:31 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+23:59:32 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+23:59:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD server application-1
+23:59:55 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /server application-1
+23:59:55 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+23:59:55 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+23:59:55 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+23:59:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+23:59:56 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+00:01:28 [INFORMACIÓN] §cCommand not found
+00:01:33 [ADVERTENCIA] Forced host server pvp is not defined
+00:01:33 [INFORMACIÓN] Closing listener [id: 0xe40c946d, L:/[0:0:0:0:0:0:0:0]:25585]
+00:01:33 [INFORMACIÓN] Listening on /0.0.0.0:25585
+00:01:33 [INFORMACIÓN] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+00:01:38 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:01:38 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+00:01:38 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+00:01:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:01:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+00:02:04 [INFORMACIÓN] Using standard Java JCE cipher.
+00:02:04 [INFORMACIÓN] Using standard Java compressor.
+00:02:04 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+00:02:04 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:02:04 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+00:02:04 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+00:02:04 [INFORMACIÓN] Loaded plugin SlashServer version 3 by Bloodsplat
+00:02:04 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:04 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:02:05 [ADVERTENCIA] Forced host server pvp is not defined
+00:02:05 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+00:02:05 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+00:02:05 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:02:05 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+00:02:05 [INFORMACIÓN] §b       §3 __    
+00:02:05 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+00:02:05 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+00:02:05 [INFORMACIÓN] 
+00:02:05 [INFORMACIÓN] [LuckPerms] Loading configuration...
+00:02:05 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+00:02:05 [INFORMACIÓN] luckperms-hikari - Starting...
+00:02:05 [INFORMACIÓN] luckperms-hikari - Start completed.
+00:02:05 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+00:02:05 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+00:02:05 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+00:02:06 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:02:06 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+00:02:06 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 928ms)
+00:02:06 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+00:02:06 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:06 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:02:06 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+00:02:06 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+00:02:06 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+00:02:06 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+00:02:06 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+00:02:06 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+00:02:06 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+00:02:06 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+00:02:06 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+00:02:06 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+00:02:06 [INFORMACIÓN] Enabled plugin SlashServer version 3 by Bloodsplat
+00:02:06 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:06 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:06 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:06 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:02:06 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+00:02:06 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:02:06 [INFORMACIÓN] Listening on /0.0.0.0:25585
+00:02:21 [INFORMACIÓN] [/127.0.0.1:61585] <-> InitialHandler has connected
+00:02:22 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:02:22 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+00:02:22 [ADVERTENCIA] Plugin listener dev.aura.bungeechat.listener.BungeeChatEventsListener took 56ms to process event ServerSwitchEvent(player=Telmiyo, from=null)!
+00:02:23 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+00:02:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:03:43 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:03:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:04:10 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 SERVER server application-1
+00:04:26 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:04:28 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 SERVER application-1
+00:04:33 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:04:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CHAT /server application-1
+00:04:51 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CHAT server application-1
+00:04:55 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:04:58 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:05:07 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD /server application-1
+00:05:13 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD server application-1
+00:05:16 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:05:18 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:05:19 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:05:21 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD server application-1
+00:05:51 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /slashserverreload
+00:07:04 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /application-1
+00:07:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+00:07:04 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+00:07:04 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:07:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+00:07:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+00:07:09 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:07:09 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+00:07:09 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+00:07:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:07:10 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+00:07:21 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:07:22 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action remove 1 0
+00:07:30 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD application-1
+00:07:53 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /znpcs action add 1 CMD application-1
+00:08:27 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /reload
+00:08:45 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /application-1
+00:08:45 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+00:08:45 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+00:08:45 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:08:46 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+00:08:46 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+00:09:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:09:04 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+00:09:04 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+00:09:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:09:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+00:09:15 [INFORMACIÓN] [BungeeChat] COMMAND > lobby > Telmiyo: /stop
+00:09:16 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+00:09:16 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+00:09:16 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+00:09:16 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:09:54 [INFORMACIÓN] [/127.0.0.1:62356] <-> InitialHandler has pinged
+00:09:54 [INFORMACIÓN] [Telmiyo,/127.0.0.1:62359] <-> InitialHandler has connected
+00:09:55 [INFORMACIÓN] [Telmiyo] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25599
+00:09:55 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Tried to send pack info of none for player Telmiyo but server was null!
+00:09:55 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+00:19:56 [INFORMACIÓN] [/127.0.0.1:63327] <-> InitialHandler has pinged
+00:20:04 [INFORMACIÓN] [Telmiyo,/127.0.0.1:63339] <-> InitialHandler has connected
+00:20:04 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:20:04 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+00:20:05 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:22:11 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+00:22:11 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+00:22:11 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:22:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+00:22:12 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+00:22:49 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:22:59 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 2
+00:23:02 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:23:15 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Introduction to Herbalism
+00:23:23 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:25:01 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quest editor
+00:25:03 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:25:07 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: 2
+00:25:18 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests reload
+00:25:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:25:42 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests
+00:25:51 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests quit
+00:25:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests quit editor
+00:26:00 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor delete
+00:26:05 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests delete
+00:26:50 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:26:55 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:27:14 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /reload
+00:27:24 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:27:39 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests
+00:27:41 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: gdavdascv
+00:27:43 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: fdasf
+00:27:44 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: asdfasdf
+00:27:45 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: 1
+00:27:46 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: 2
+00:27:47 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: 3
+00:27:53 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:27:57 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: fdasfdsa
+00:28:01 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 4
+00:28:14 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:34:23 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:34:24 [INFORMACIÓN] [BungeeChat] SWITCH > lobby > Telmiyo: §eTelmiyo has moved to the §clobby §eserver!
+00:34:24 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+00:34:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:34:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+00:34:51 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+00:34:51 [INFORMACIÓN] [BungeeChat] LEAVE > lobby > Telmiyo: §eTelmiyo has left the network!
+00:34:51 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+00:34:51 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:36:08 [INFORMACIÓN] Using standard Java JCE cipher.
+00:36:08 [INFORMACIÓN] Using standard Java compressor.
+00:36:08 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+00:36:08 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:08 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:36:09 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+00:36:09 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] Loaded plugin BungeeChat version 2.2.3.1241 by BrainStone
+00:36:09 [INFORMACIÓN] Loaded plugin SlashServer version 3 by Bloodsplat
+00:36:09 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:36:09 [ADVERTENCIA] Forced host server pvp is not defined
+00:36:09 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+00:36:09 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+00:36:09 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+00:36:09 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:36:09 [INFORMACIÓN] §b       §3 __    
+00:36:09 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+00:36:09 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+00:36:09 [INFORMACIÓN] 
+00:36:09 [INFORMACIÓN] [LuckPerms] Loading configuration...
+00:36:10 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+00:36:10 [INFORMACIÓN] luckperms-hikari - Starting...
+00:36:10 [INFORMACIÓN] luckperms-hikari - Start completed.
+00:36:10 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+00:36:10 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+00:36:10 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+00:36:10 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 937ms)
+00:36:10 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+00:36:10 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:10 [INFORMACIÓN] [BungeeChat] §6---------------- §bBungee Chat§6 ----------------
+00:36:10 [INFORMACIÓN] [BungeeChat] §eAuthors: §aBrainStone§f, §ashawn_ian
+00:36:10 [INFORMACIÓN] [BungeeChat] §eVersion: §a2.2.3.1241
+00:36:10 [INFORMACIÓN] [BungeeChat] §eModules: §aLuckPerms5§f, §aAlert§f, §aAntiAdvertising§f, §aAntiCapslock§f, §aAntiDuplication§f, §aAntiSwear§f, §aChatLock§f, §aChatLogging§f, §aClearChat§f, §aGlobalChat§f, §aHelpOp§f, §aIgnoring§f, §aJoinMessage§f, §aLeaveMessage§f, §aLocalChat§f, §aLocalTo§f, §aMessenger§f, §aMOTD§f, §aMuting§f, §aServerSwitchMessages§f, §aSpy§f, §aStaffChat§f, §aVanish§f, §aVersionChecker§f, §aWelcomeMessage
+00:36:10 [INFORMACIÓN] [BungeeChat] §eContributors: §aAwesomestGamer§f, §aBrianetta§f, §aCryLegend§f, §agb2233§f, §aHodel1§f, §aLuck§f, §aMineTech13§f, §an0dai
+00:36:10 [INFORMACIÓN] [BungeeChat] §eTranslators: §aDardBrinza§f, §aFantasenf§f, §afjeddy§f, §aGarixer§f, §agb2233§f, §aItaquito§f, §amarzenie§f, §aMaxime_74§f, §apovsister
+00:36:10 [INFORMACIÓN] [BungeeChat] §eDonators: §aBreantique§f, §aNickT
+00:36:10 [INFORMACIÓN] [BungeeChat] §6---------------------------------------------
+00:36:10 [INFORMACIÓN] Enabled plugin BungeeChat version 2.2.3.1241 by BrainStone
+00:36:10 [INFORMACIÓN] Enabled plugin SlashServer version 3 by Bloodsplat
+00:36:10 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:10 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:10 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:10 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:36:10 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+00:36:11 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:36:11 [INFORMACIÓN] Listening on /0.0.0.0:25585
+00:36:11 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:36:11 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+00:36:11 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:36:11 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+00:36:12 [INFORMACIÓN] [/127.0.0.1:65026] <-> InitialHandler has connected
+00:36:13 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:36:13 [INFORMACIÓN] [BungeeChat] JOIN > lobby > Telmiyo: §eTelmiyo has joined the network!
+00:36:14 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+00:36:14 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:37:16 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+00:37:16 [INFORMACIÓN] [BungeeChat] SWITCH > application-1 > Telmiyo: §eTelmiyo has moved to the §capplication-1 §eserver!
+00:37:16 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:37:17 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+00:37:17 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+00:37:45 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:37:48 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:38:04 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Introduction to Herbalism
+00:38:07 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 2
+00:38:21 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 14
+00:38:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:38:25 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:38:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /clearchat
+00:38:34 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /clearchat local
+00:38:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests list
+00:38:56 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:38:58 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:39:01 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Introduction to Herbalism
+00:39:10 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 2
+00:39:13 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:39:15 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Introduction to Herbalism
+00:39:35 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 13
+00:39:36 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 13
+00:39:37 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:39:40 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 14
+00:39:41 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:39:44 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests list
+00:41:22 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests editor
+00:41:30 [INFORMACIÓN] [BungeeChat] COMMAND > application-1 > Telmiyo: /quests choice 1
+00:41:41 [INFORMACIÓN] [BungeeChat] LOCAL > application-1 > Telmiyo: Introduction
+00:42:23 [INFORMACIÓN] Using standard Java JCE cipher.
+00:42:23 [INFORMACIÓN] Using standard Java compressor.
+00:42:23 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+00:42:23 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:42:23 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+00:42:23 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin SlashServer version 3 by Bloodsplat
+00:42:23 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:42:23 [ADVERTENCIA] Forced host server pvp is not defined
+00:42:23 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+00:42:23 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+00:42:23 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+00:42:23 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+00:42:23 [INFORMACIÓN] §b       §3 __    
+00:42:23 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+00:42:23 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+00:42:23 [INFORMACIÓN] 
+00:42:23 [INFORMACIÓN] [LuckPerms] Loading configuration...
+00:42:24 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+00:42:24 [INFORMACIÓN] luckperms-hikari - Starting...
+00:42:24 [INFORMACIÓN] luckperms-hikari - Start completed.
+00:42:24 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+00:42:24 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+00:42:24 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+00:42:24 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 889ms)
+00:42:24 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+00:42:24 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:24 [INFORMACIÓN] Enabled plugin SlashServer version 3 by Bloodsplat
+00:42:24 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:24 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:24 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:24 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+00:42:24 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+00:42:24 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+00:42:24 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+00:42:24 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+00:42:24 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+00:42:24 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+00:42:24 [INFORMACIÓN] Listening on /0.0.0.0:25585
+00:42:35 [INFORMACIÓN] [/127.0.0.1:49292] <-> InitialHandler has connected
+00:42:36 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+00:42:37 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+00:42:37 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+00:42:41 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+00:42:41 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+00:42:42 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+00:42:42 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+14:46:24 [INFORMACIÓN] Using standard Java JCE cipher.
+14:46:24 [INFORMACIÓN] Using standard Java compressor.
+14:46:24 [INFORMACIÓN] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:188d502:1708
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:46:24 [INFORMACIÓN] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:46:25 [INFORMACIÓN] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+14:46:25 [INFORMACIÓN] Loaded plugin LuckPerms version 5.4.79 by Luck
+14:46:25 [INFORMACIÓN] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin SlashServer version 3 by Bloodsplat
+14:46:25 [INFORMACIÓN] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] Loaded plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+14:46:25 [ADVERTENCIA] Forced host server pvp is not defined
+14:46:25 [INFORMACIÓN] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading config!
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Debug level: INFO
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Found locale en
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading packs:
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] jobs - https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip - b16ec5fdc821636c2fef898f08bce9afa0b1c823
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] {url=https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip, hash=b16ec5fdc821636c2fef898f08bce9afa0b1c823, local-path=null, format=null, version=null, restricted=false, permission=bungeeresourcepacks.pack.jobs, type=null, variants=null}
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading global assignment...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Optional packs:
+14:46:25 [ADVERTENCIA] [BungeeResourcepacks] No pack with the name lobbypack defined?
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send delay: 20
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded PackAssignment{name=global, pack=empty, optional-packs=[], sendDelay=20}
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading server assignments...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server lobby...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: empty
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=lobby, pack=empty, optional-packs=[], sendDelay=-1}
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Loading assignment for server application-1...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Pack: jobs
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Loaded server assignment PackAssignment{name=application-1, pack=jobs, optional-packs=[], sendDelay=-1}
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Stored packs override assignments: false
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Append hash to pack URL: true
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Registering ResourcePackSendPacket...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] BungeeCord 1.9.4+ (762) detected!
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.8+ Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.9+ Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12+ Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.12.1+ Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.13+ Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.14+ Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.15+ Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16+ Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.16.2+ Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.17+ Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19+ Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.1+ Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.3+ Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Found mapping for 1.19.4+ Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Generating hashes...
+14:46:25 [INFORMACIÓN] [BungeeResourcepacks] Downloading jobs...
+14:46:25 [INFORMACIÓN] Enabled plugin BungeeResourcepacks version 1.8.7-SNAPSHOT (build 509) by Phoenix616
+14:46:26 [INFORMACIÓN] §b       §3 __    
+14:46:26 [INFORMACIÓN] §b  |    §3|__)   §2LuckPerms§r §bv5.4.79
+14:46:26 [INFORMACIÓN] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+14:46:26 [INFORMACIÓN] 
+14:46:26 [INFORMACIÓN] [LuckPerms] Loading configuration...
+14:46:26 [INFORMACIÓN] [LuckPerms] Loading storage provider... [MYSQL]
+14:46:26 [INFORMACIÓN] luckperms-hikari - Starting...
+14:46:26 [INFORMACIÓN] luckperms-hikari - Start completed.
+14:46:26 [INFORMACIÓN] [LuckPerms] Loading messaging service... [SQL]
+14:46:26 [INFORMACIÓN] [LuckPerms] Loading internal permission managers...
+14:46:26 [INFORMACIÓN] [LuckPerms] Performing initial data load...
+14:46:26 [INFORMACIÓN] [LuckPerms] Successfully enabled. (took 942ms)
+14:46:26 [INFORMACIÓN] Enabled plugin LuckPerms version 5.4.79 by Luck
+14:46:26 [INFORMACIÓN] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:26 [INFORMACIÓN] Enabled plugin SlashServer version 3 by Bloodsplat
+14:46:26 [INFORMACIÓN] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:26 [INFORMACIÓN] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:26 [INFORMACIÓN] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:26 [INFORMACIÓN] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:188d502:1708 by SpigotMC
+14:46:26 [INFORMACIÓN] [BungeeTabListPlus] Starting UpdateChecker Task
+14:46:26 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of jobs: b16ec5fdc821636c2fef898f08bce9afa0b1c823
+14:46:26 [INFORMACIÓN] [BungeeResourcepacks] Downloading empty...
+14:46:26 [INFORMACIÓN] Enabled plugin BungeeTabListPlus version 3.6.0 by CodeCrafter47
+14:46:27 [INFORMACIÓN] Listening on /0.0.0.0:25585
+14:46:27 [INFORMACIÓN] [BungeeResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+14:46:27 [INFORMACIÓN] [BungeeResourcepacks] No hash changed!
+14:46:53 [INFORMACIÓN] [/127.0.0.1:51893] <-> InitialHandler has pinged
+14:46:55 [INFORMACIÓN] [Telmiyo,/127.0.0.1:51897] <-> InitialHandler has connected
+14:46:56 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+14:47:00 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Tried to send pack info of none for player Telmiyo but server was null!
+14:47:00 [ADVERTENCIA] Plugin listener de.themoep.resourcepacksplugin.bungee.listeners.DisconnectListener took 558ms to process event PlayerDisconnectEvent(player=Telmiyo)!
+14:47:01 [ADVERTENCIA] Plugin listener codecrafter47.bungeetablistplus.listener.TabListListener took 81ms to process event PlayerDisconnectEvent(player=Telmiyo)!
+14:47:01 [ADVERTENCIA] Event PlayerDisconnectEvent(player=Telmiyo) took 713ms to process!
+14:47:01 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+14:47:25 [ADVERTENCIA] No client connected for pending server!
+14:47:25 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has disconnected
+14:48:00 [INFORMACIÓN] [/127.0.0.1:52060] <-> InitialHandler has connected
+14:48:02 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+14:48:03 [INFORMACIÓN] Netty is not using direct IO buffers.
+
+14:48:03 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+14:50:37 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+14:50:37 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+14:50:37 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+14:53:13 [INFORMACIÓN] [Telmiyo,/127.0.0.1:52615] <-> InitialHandler has connected
+14:53:14 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+14:53:15 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+14:59:06 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+14:59:06 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+14:59:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+14:59:07 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+14:59:14 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+14:59:14 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+14:59:15 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+14:59:15 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack empty (http://cdn.moep.tv/files/Empty.zip) to Telmiyo
+15:00:38 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+15:00:38 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:00:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+15:00:39 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+15:01:01 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+15:01:01 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+15:01:01 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected
+15:03:04 [INFORMACIÓN] [Telmiyo,/127.0.0.1:53632] <-> InitialHandler has connected
+15:03:05 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [lobby] has connected
+15:03:06 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment lobby due to main pack
+15:03:15 [INFORMACIÓN] [Telmiyo] <-> ServerConnector [application-1] has connected
+15:03:15 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:03:16 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Telmiyo matched assignment application-1 due to main pack
+15:03:16 [INFORMACIÓN] [BungeeResourcepacks] [DEBUG] Send pack jobs (https://download.mc-packs.net/pack/b16ec5fdc821636c2fef898f08bce9afa0b1c823.zip) to Telmiyo
+15:39:02 [INFORMACIÓN] [Telmiyo] disconnected with: §f§fServer closed
+15:39:02 [INFORMACIÓN] [Telmiyo] -> UpstreamBridge has disconnected
+15:39:02 [INFORMACIÓN] [Telmiyo] <-> DownstreamBridge <-> [application-1] has disconnected

@@ -1,0 +1,98 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      flyable: true
+    name: '&b&eBubbles'
+    uuid: e28699e9-ad70-49c1-88f2-3eea6b928832
+    traits:
+      owner:
+        uuid: 0772a00a-7da6-4054-9836-2c8071a10b5e
+      spawned: true
+      gravity:
+        enabled: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: dmenu open jobs_progress_florist <p>
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PARROT
+      age:
+        age: -24000
+        locked: true
+      location:
+        bodyYaw: -167.2587
+        world: world
+        x: '-6.6184'
+        y: '100.5'
+        z: '14.5266'
+        yaw: '-167.2587'
+        pitch: '-4.0E-4'
+    traitnames: owner,scoreboardtrait,spawned,gravity,commandtrait,type,age,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: 1f115daa-9c95-4577-ae90-f628da0ba58b
+    name: '&2&lElara &a&lthe Herbalist'
+    uuid: 6972a924-30d2-4ff4-a4e0-cb37a203f358
+    traits:
+      owner:
+        uuid: 0772a00a-7da6-4054-9836-2c8071a10b5e
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      type: PLAYER
+      location:
+        bodyYaw: -128.93019
+        world: world
+        x: '-4.4315'
+        y: '101.0'
+        z: '12.5635'
+        yaw: '-128.9302'
+        pitch: '9.6683'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: fbsm3pWsf1LZNbvhUIJHsxMc7mm1diEr16pWnc/uUqnvuTpGtLkcPf1zAvkT/eEEgVaAFlz4AgvuTFBWZzFspU6u9USk8rYEvZwEH6n7Nf2KT25/bEelzLZPqX2ve/gQLRzURXzXLGTUqAWG6sTIGzVqTNErJ7gTnMzhubDOSC4PsYgGLQLuSIqmRA3OfqFt+PtTCGNzLKA29+tgoUR6Mr8JXH7FHKD1cDQ4m0vtqDVcoVxOG7TRSBCVJnF7GlvVd83b6AEWScbBZvUsMkMmntWm8Parop6TxmPkYWXMrBvv0nsDneCR18L5OHDH7X8WQaspCp7rk/Zmicqs+zIcu/1RzRmUspDG/WHZgLrJ12CiT0If6BiuN1hbcy2gHIE41KtCeknAvElE71uBC6TNX4Jg2uc3YmoPjDU6weCN4JoTFZXixpi9AKNkcyMD5rnSIDjTKpNS3V1cCu/96reTXUmiyctHphqv851B+qUcSGrLsv+1zmgBuIapheNV4FGUzE9g0WvmEBflP26YKjvwjoKLajZH7PgxRpPQbXGEdD7v98J7d4D9S3d1K4tRLv2DHmZ0yM5C81GpHbxNdOlVFZFGrYodxl6cshQWa6S7Usg1F8wzoQ7HGqq/lQAnkmeYqCWy/CUZiHqD0Jw/R6fxiMjM1JUD1EFG2ABnA6IaX3E=
+        skinName: 1f115daa-9c95-4577-ae90-f628da0ba58b
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY3Njc1NzIxODI4NywKICAicHJvZmlsZUlkIiA6ICJjNzBiZjg2MTZmYWQ0ZWNiYjU3MTZkMjFmNWFiYjE2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYXNzcGlzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MjBjN2UzZjE1N2ZlMWQ4NDQxMDMwOWQ5ZDRlYTg2YmUyMzVjMDc3MDk0NWQwMjRkNTZlNTI0OTQ3YzA5YTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: owner,lookclose,rotationtrait,scoreboardtrait,hologramtrait,spawned,type,mounttrait,inventory,location,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
