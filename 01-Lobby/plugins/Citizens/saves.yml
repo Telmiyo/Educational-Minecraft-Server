@@ -63,7 +63,7 @@ npc:
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-    traitnames: spawned,skintrait,type,lookclose,hologramtrait,owner,location,commandtrait,rotationtrait,inventory,mounttrait,scoreboardtrait
+    traitnames: mounttrait,type,hologramtrait,location,commandtrait,skintrait,owner,scoreboardtrait,lookclose,inventory,rotationtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

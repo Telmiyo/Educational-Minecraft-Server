@@ -21,7 +21,7 @@ npc:
         persistSequence: false
         commands:
           '0':
-            command: dmenu open jobs_progress_florist <p>
+            command: dmenu open jobs_progress_herbalist <p>
             hand: RIGHT
             player: false
             op: false
@@ -41,7 +41,7 @@ npc:
         z: '14.5266'
         yaw: '-167.2587'
         pitch: '-4.0E-4'
-    traitnames: location,mounttrait,type,scoreboardtrait,age,commandtrait,owner,spawned,gravity
+    traitnames: age,spawned,type,mounttrait,owner,location,gravity,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -78,20 +78,20 @@ npc:
         lineHeight: -1.0
       type: PLAYER
       location:
-        bodyYaw: 139.75632
+        bodyYaw: 141.7482
         world: world
         x: '-4.4315'
         y: '101.0'
         z: '12.5635'
-        yaw: '152.6999'
-        pitch: '15.1429'
+        yaw: '161.7482'
+        pitch: '18.1932'
       skintrait:
         fetchDefaultSkin: true
         signature: fbsm3pWsf1LZNbvhUIJHsxMc7mm1diEr16pWnc/uUqnvuTpGtLkcPf1zAvkT/eEEgVaAFlz4AgvuTFBWZzFspU6u9USk8rYEvZwEH6n7Nf2KT25/bEelzLZPqX2ve/gQLRzURXzXLGTUqAWG6sTIGzVqTNErJ7gTnMzhubDOSC4PsYgGLQLuSIqmRA3OfqFt+PtTCGNzLKA29+tgoUR6Mr8JXH7FHKD1cDQ4m0vtqDVcoVxOG7TRSBCVJnF7GlvVd83b6AEWScbBZvUsMkMmntWm8Parop6TxmPkYWXMrBvv0nsDneCR18L5OHDH7X8WQaspCp7rk/Zmicqs+zIcu/1RzRmUspDG/WHZgLrJ12CiT0If6BiuN1hbcy2gHIE41KtCeknAvElE71uBC6TNX4Jg2uc3YmoPjDU6weCN4JoTFZXixpi9AKNkcyMD5rnSIDjTKpNS3V1cCu/96reTXUmiyctHphqv851B+qUcSGrLsv+1zmgBuIapheNV4FGUzE9g0WvmEBflP26YKjvwjoKLajZH7PgxRpPQbXGEdD7v98J7d4D9S3d1K4tRLv2DHmZ0yM5C81GpHbxNdOlVFZFGrYodxl6cshQWa6S7Usg1F8wzoQ7HGqq/lQAnkmeYqCWy/CUZiHqD0Jw/R6fxiMjM1JUD1EFG2ABnA6IaX3E=
         skinName: 1f115daa-9c95-4577-ae90-f628da0ba58b
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY3Njc1NzIxODI4NywKICAicHJvZmlsZUlkIiA6ICJjNzBiZjg2MTZmYWQ0ZWNiYjU3MTZkMjFmNWFiYjE2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYXNzcGlzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MjBjN2UzZjE1N2ZlMWQ4NDQxMDMwOWQ5ZDRlYTg2YmUyMzVjMDc3MDk0NWQwMjRkNTZlNTI0OTQ3YzA5YTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: location,mounttrait,type,scoreboardtrait,hologramtrait,inventory,owner,rotationtrait,lookclose,spawned,skintrait
+    traitnames: skintrait,spawned,hologramtrait,inventory,type,mounttrait,owner,location,rotationtrait,lookclose,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -123,7 +123,7 @@ npc:
         skinName: af349825-8dab-41b1-9d2d-64d0798b64b8
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MzIxNzcxNTY0MywKICAicHJvZmlsZUlkIiA6ICI2OTBkMDM2OGM2NTE0OGM5ODZjMzEwN2FjMmRjNjFlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5emZyXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdhYmJkNGU4ZDIzN2NjZWFhMTY0MzlkZGVjMWY0MzhmMzM3NWU3NjgyZmM5NWFlNzE2NzgzMzA2N2E4MzkxYiIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: location,mounttrait,type,scoreboardtrait,hologramtrait,inventory,owner,spawned,skintrait
+    traitnames: skintrait,spawned,inventory,hologramtrait,type,mounttrait,owner,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

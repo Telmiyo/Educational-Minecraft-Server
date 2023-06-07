@@ -34,8 +34,8 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: 909e6ca1-7dd2-4325-aba5-b1d50cbf186a
 player_limit: -1
-prevent_proxy_connections: false
 ip_forward: true
 groups:
   Telmiyo:
@@ -43,7 +43,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: 909e6ca1-7dd2-4325-aba5-b1d50cbf186a
+prevent_proxy_connections: false
 online_mode: true
 forge_support: false
 disabled_commands:
