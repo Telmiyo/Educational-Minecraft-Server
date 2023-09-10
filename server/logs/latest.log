@@ -1,0 +1,1304 @@
+[00:39:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:39:39] [Worker-Main-13/INFO]: Loaded 7 recipes
+[00:39:41] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[00:39:41] [Server thread/INFO]: Loading properties
+[00:39:41] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[00:39:41] [Server thread/INFO]: Debug logging is disabled
+[00:39:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:39:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:39:41] [Server thread/INFO]: Default game type: SURVIVAL
+[00:39:41] [Server thread/INFO]: Generating keypair
+[00:39:41] [Server thread/INFO]: Starting Minecraft server on *:25599
+[00:39:41] [Server thread/INFO]: Using default channel type
+[00:39:42] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[00:39:42] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[00:39:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:39:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2904a269]
+[00:39:43] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:39:43] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:39:44] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[00:39:44] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:39:44] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[00:39:44] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[00:39:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:39:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:39:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:39:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[00:39:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:39:45] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:39:45] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:39:45] [Server thread/INFO]: [WorldEdit]   
+[00:39:45] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[00:39:45] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[00:39:45] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[00:39:45] [Server thread/INFO]: [WorldEdit]   
+[00:39:45] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[00:39:45] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[00:39:45] [Server thread/INFO]: [WorldEdit]   
+[00:39:45] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[00:39:45] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[00:39:45] [Server thread/INFO]: [WorldEdit]   
+[00:39:45] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[00:39:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:39:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:39:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:39:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:39:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:39:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:39:45] [Server thread/INFO]: Preparing level "world"
+[00:39:46] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:39:46] [Server thread/INFO]: Mob Spawn Range: 6
+[00:39:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:39:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:39:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:39:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:39:46] [Server thread/INFO]: Simulation Distance: 10
+[00:39:46] [Server thread/INFO]: View Distance: 10
+[00:39:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:39:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:39:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:39:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:39:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:39:46] [Server thread/INFO]: Max TNT Explosions: 100
+[00:39:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:39:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:39:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:39:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:39:46] [Server thread/INFO]: Mob Spawn Range: 6
+[00:39:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:39:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:39:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:39:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:39:46] [Server thread/INFO]: Simulation Distance: 10
+[00:39:46] [Server thread/INFO]: View Distance: 10
+[00:39:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:39:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:39:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:39:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:39:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:39:46] [Server thread/INFO]: Max TNT Explosions: 100
+[00:39:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:39:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:39:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:39:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:39:46] [Server thread/INFO]: Mob Spawn Range: 6
+[00:39:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:39:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:39:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:39:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:39:46] [Server thread/INFO]: Simulation Distance: 10
+[00:39:46] [Server thread/INFO]: View Distance: 10
+[00:39:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:39:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:39:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:39:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:39:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:39:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:39:46] [Server thread/INFO]: Max TNT Explosions: 100
+[00:39:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:39:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:39:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:39:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:39:48] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[00:39:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[00:39:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:39:48] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[00:39:48] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[00:39:49] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[00:39:49] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[00:39:50] [Worker-Main-21/INFO]: Preparing spawn area: 1%
+[00:39:50] [Worker-Main-20/INFO]: Preparing spawn area: 3%
+[00:39:51] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[00:39:51] [Worker-Main-22/INFO]: Preparing spawn area: 18%
+[00:39:52] [Worker-Main-20/INFO]: Preparing spawn area: 31%
+[00:39:52] [Worker-Main-15/INFO]: Preparing spawn area: 41%
+[00:39:55] [Worker-Main-18/INFO]: Preparing spawn area: 49%
+[00:39:55] [Worker-Main-22/INFO]: Preparing spawn area: 49%
+[00:39:55] [Worker-Main-18/INFO]: Preparing spawn area: 49%
+[00:39:55] [Worker-Main-22/INFO]: Preparing spawn area: 49%
+[00:39:56] [Worker-Main-22/INFO]: Preparing spawn area: 49%
+[00:39:56] [Worker-Main-22/INFO]: Preparing spawn area: 49%
+[00:39:56] [Worker-Main-20/INFO]: Preparing spawn area: 52%
+[00:39:56] [Worker-Main-15/INFO]: Preparing spawn area: 61%
+[00:39:57] [Worker-Main-16/INFO]: Preparing spawn area: 73%
+[00:39:57] [Worker-Main-18/INFO]: Preparing spawn area: 97%
+[00:39:58] [Server thread/INFO]: Time elapsed: 11512 ms
+[00:39:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:39:59] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[00:39:59] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[00:39:59] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[00:40:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[00:40:00] [Worker-Main-20/INFO]: Preparing spawn area: 1%
+[00:40:01] [Worker-Main-13/INFO]: Preparing spawn area: 20%
+[00:40:01] [Worker-Main-21/INFO]: Preparing spawn area: 63%
+[00:40:01] [Server thread/INFO]: Time elapsed: 3362 ms
+[00:40:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:40:02] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[00:40:02] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:40:02] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[00:40:03] [Worker-Main-15/INFO]: Preparing spawn area: 44%
+[00:40:03] [Server thread/INFO]: Time elapsed: 1721 ms
+[00:40:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:40:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:40:03] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[00:40:04] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[00:40:05] [Server thread/INFO]: [m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[00:40:05] [Server thread/INFO]: [m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[00:40:05] [Server thread/INFO]: [m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[00:40:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[00:40:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[00:40:05] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:40:05] [Server thread/INFO]: [Citizens] Loading external libraries
+[00:40:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[00:40:06] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:40:06] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[00:40:06] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[00:40:06] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[00:40:06] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[00:40:06] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[00:40:06] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[00:40:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[00:40:06] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[00:40:06] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[00:40:06] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[00:40:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:40:06] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:40:06] [Server thread/INFO]: Done (20.609s)! For help, type "help"
+[00:40:06] [Server thread/INFO]: Loaded 7 recipes
+[00:40:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[00:40:07] [Server thread/INFO]: [BetonQuest] Hooked into WorldEdit, PlaceholderAPI, ProtocolLib, Citizens!
+[00:40:07] [Server thread/WARN]: [BetonQuest] Error in 'default.access_building' event (objective): Error while parsing 2 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:40:07] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:40:07] [Server thread/WARN]: [BetonQuest] Error in 'default.marc' conversation: Error in 'open_door' NPC option option's events: Event 'default.give_emerald' is not defined
+[00:40:07] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 0 conversations loaded from 1 packages.
+[00:40:07] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[00:40:07] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[00:40:08] [Craft Scheduler Thread - 2/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=b22e0ef93a0dc2108a7b0881ddc99eb9aa15033d in 1330 ms[m
+[00:40:25] [User Authenticator #1/INFO]: UUID of player Telmiyo is 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+[00:40:25] [Server thread/INFO]: Telmiyo[/127.0.0.1:55194] logged in with entity id 68 at ([world]-36.402536463503424, 4.0, 113.80307553396845)
+[00:40:33] [Server thread/WARN]: [BetonQuest] Conversation 'default.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
+[00:40:36] [Server thread/WARN]: [BetonQuest] Conversation 'default.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
+[00:40:53] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:40:53] [Server thread/WARN]: [BetonQuest] Error in 'default.access_building' event (objective): Error while parsing 2 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:40:53] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:40:53] [Server thread/WARN]: [BetonQuest] Error in 'default.marc' conversation: Error in 'open_door' NPC option option's events: Event 'default.give_emerald' is not defined
+[00:40:53] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 0 conversations loaded from 1 packages.
+[00:40:54] [Server thread/WARN]: [BetonQuest] Conversation 'default.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
+[00:40:55] [Server thread/WARN]: [BetonQuest] Conversation 'default.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
+[00:41:08] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:41:08] [Server thread/WARN]: [BetonQuest] Error in 'default.access_building' event (objective): Error while parsing 2 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:41:08] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:41:08] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 2 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:41:10] [Server thread/WARN]: [BetonQuest] Event default.access_building is not defined
+[00:41:23] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:41:23] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:41:23] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:44:52] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:44:52] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:44:52] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:44:54] [Server thread/WARN]: [BetonQuest] Task #625 for BetonQuest v1.12.10 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_18_R2.block.impl.CraftChest cannot be cast to class org.bukkit.block.data.Openable (org.bukkit.craftbukkit.v1_18_R2.block.impl.CraftChest and org.bukkit.block.data.Openable are in unnamed module of loader java.net.URLClassLoader @15327b79)
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:39) ~[?:?]
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:16) ~[?:?]
+	at pl.betoncraft.betonquest.api.ForceSyncHandler.handle(ForceSyncHandler.java:68) ~[?:?]
+	at pl.betoncraft.betonquest.api.QuestEvent.fire(QuestEvent.java:136) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.event(BetonQuest.java:393) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation$NPCEventRunner.run(Conversation.java:601) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1285) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:429) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1237) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1047) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:45:06] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:45:06] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:45:06] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:45:09] [Server thread/INFO]: Telmiyo issued server command: /reload
+[00:45:09] [Server thread/INFO]: Telmiyo: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[00:45:09] [Server thread/INFO]: Telmiyo: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[00:45:09] [Server thread/INFO]: Debug logging is disabled
+[00:45:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:45:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:45:09] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:45:09] [Server thread/INFO]: Mob Spawn Range: 6
+[00:45:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:45:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:09] [Server thread/INFO]: Simulation Distance: 10
+[00:45:09] [Server thread/INFO]: View Distance: 10
+[00:45:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:45:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:45:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:09] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:45:09] [Server thread/INFO]: Mob Spawn Range: 6
+[00:45:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:45:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:09] [Server thread/INFO]: Simulation Distance: 10
+[00:45:09] [Server thread/INFO]: View Distance: 10
+[00:45:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:45:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:45:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:09] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:45:09] [Server thread/INFO]: Mob Spawn Range: 6
+[00:45:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:45:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:09] [Server thread/INFO]: Simulation Distance: 10
+[00:45:09] [Server thread/INFO]: View Distance: 10
+[00:45:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:45:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:45:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:45:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:09] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:09] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[00:45:09] [Server thread/ERROR]: Error occurred while disabling BetonQuest v1.12.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.validate(CraftScheduler.java:468) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:196) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:187) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:151) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTask(CraftScheduler.java:120) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at pl.betoncraft.betonquest.compatibility.protocollib.conversation.MenuConvIO.end(MenuConvIO.java:646) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation.suspend(Conversation.java:406) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.onDisable(BetonQuest.java:1102) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:544) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.reload(CraftServer.java:888) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.Bukkit.reload(Bukkit.java:801) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:826) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1957) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1796) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1777) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:45:09] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[00:45:09] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:45:09] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
+[00:45:09] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
+[00:45:09] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
+[00:45:09] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?                               WARNING                            ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?     RELOADING THE SERVER WHILE PROTOCOL LIB IS ENABLED MIGHT     ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?                    LEAD TO UNEXPECTED ERRORS!                    ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?                                                                  ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?     Consider to cleanly restart your server if you encounter     ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?    any issues related to Protocol Lib before opening an issue    ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ?                            on GitHub!                            ?
+[00:45:09] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:45:09] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[00:45:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[00:45:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:45:10] [Server thread/INFO]: Loaded 7 recipes
+[00:45:10] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[00:45:10] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[00:45:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:45:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6423ab9c]
+[00:45:10] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:45:10] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:45:11] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[00:45:11] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:45:11] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[00:45:11] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[00:45:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:45:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:45:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:45:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[00:45:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[00:45:12] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:45:12] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:45:12] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:45:12] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:45:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:45:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:45:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:45:12] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[00:45:12] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[00:45:12] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[00:45:13] [Server thread/INFO]: [m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[00:45:13] [Server thread/INFO]: [m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[00:45:13] [Server thread/INFO]: [m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[00:45:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[00:45:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[00:45:13] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:45:13] [Server thread/INFO]: [Citizens] Loading external libraries
+[00:45:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[00:45:13] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:45:13] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[00:45:13] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[00:45:13] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[00:45:13] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[00:45:13] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[00:45:13] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[00:45:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[00:45:13] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[00:45:13] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[00:45:13] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[00:45:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:45:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:45:13] [Server thread/INFO]: Telmiyo: [0;32;1mReload complete.[m
+[00:45:14] [Server thread/INFO]: Loaded 7 recipes
+[00:45:14] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[00:45:14] [Server thread/INFO]: [BetonQuest] Hooked into WorldEdit, PlaceholderAPI, ProtocolLib, Citizens!
+[00:45:14] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:45:14] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:45:14] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[00:45:14] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[00:45:15] [Craft Scheduler Thread - 1/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=b22e0ef93a0dc2108a7b0881ddc99eb9aa15033d in 1070 ms[m
+[00:45:56] [Server thread/WARN]: [BetonQuest] Task #681 for BetonQuest v1.12.10 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_18_R2.block.data.CraftBlockData cannot be cast to class org.bukkit.block.data.Openable (org.bukkit.craftbukkit.v1_18_R2.block.data.CraftBlockData and org.bukkit.block.data.Openable are in unnamed module of loader java.net.URLClassLoader @15327b79)
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:39) ~[?:?]
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:16) ~[?:?]
+	at pl.betoncraft.betonquest.api.ForceSyncHandler.handle(ForceSyncHandler.java:68) ~[?:?]
+	at pl.betoncraft.betonquest.api.QuestEvent.fire(QuestEvent.java:136) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.event(BetonQuest.java:393) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation$NPCEventRunner.run(Conversation.java:601) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1285) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:429) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1237) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1047) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:46:19] [Server thread/INFO]: Telmiyo issued server command: /reload
+[00:46:19] [Server thread/INFO]: Telmiyo: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[00:46:19] [Server thread/INFO]: Telmiyo: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[00:46:19] [Server thread/INFO]: Debug logging is disabled
+[00:46:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:46:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:46:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:46:19] [Server thread/INFO]: Mob Spawn Range: 6
+[00:46:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:46:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:46:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:46:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:46:19] [Server thread/INFO]: Simulation Distance: 10
+[00:46:19] [Server thread/INFO]: View Distance: 10
+[00:46:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:46:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:46:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:46:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:46:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:46:19] [Server thread/INFO]: Max TNT Explosions: 100
+[00:46:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:46:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:46:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:46:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:46:19] [Server thread/INFO]: Mob Spawn Range: 6
+[00:46:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:46:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:46:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:46:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:46:19] [Server thread/INFO]: Simulation Distance: 10
+[00:46:19] [Server thread/INFO]: View Distance: 10
+[00:46:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:46:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:46:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:46:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:46:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:46:19] [Server thread/INFO]: Max TNT Explosions: 100
+[00:46:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:46:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:46:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:46:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:46:19] [Server thread/INFO]: Mob Spawn Range: 6
+[00:46:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:46:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:46:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:46:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:46:19] [Server thread/INFO]: Simulation Distance: 10
+[00:46:19] [Server thread/INFO]: View Distance: 10
+[00:46:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:46:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:46:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:46:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:46:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:46:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:46:19] [Server thread/INFO]: Max TNT Explosions: 100
+[00:46:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:46:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:46:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:46:19] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[00:46:19] [Server thread/ERROR]: Error occurred while disabling BetonQuest v1.12.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.validate(CraftScheduler.java:468) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:196) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:187) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:151) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTask(CraftScheduler.java:120) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at pl.betoncraft.betonquest.compatibility.protocollib.conversation.MenuConvIO.end(MenuConvIO.java:646) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation.suspend(Conversation.java:406) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.onDisable(BetonQuest.java:1102) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:544) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.reload(CraftServer.java:888) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.Bukkit.reload(Bukkit.java:801) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:826) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1957) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1796) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1777) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:46:19] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[00:46:19] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:46:19] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
+[00:46:19] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
+[00:46:19] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
+[00:46:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?                               WARNING                            ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?     RELOADING THE SERVER WHILE PROTOCOL LIB IS ENABLED MIGHT     ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?                    LEAD TO UNEXPECTED ERRORS!                    ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?                                                                  ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?     Consider to cleanly restart your server if you encounter     ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?    any issues related to Protocol Lib before opening an issue    ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ?                            on GitHub!                            ?
+[00:46:19] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:46:19] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[00:46:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[00:46:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:46:19] [Server thread/INFO]: Loaded 7 recipes
+[00:46:19] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[00:46:19] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[00:46:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:46:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@70b00fc9]
+[00:46:20] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:46:20] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:46:20] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[00:46:20] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:46:20] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[00:46:20] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[00:46:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:46:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:46:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:46:20] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[00:46:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[00:46:21] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:46:21] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:46:21] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:46:21] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:46:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:46:21] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:46:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:46:21] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[00:46:21] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[00:46:22] [Server thread/INFO]: [m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[00:46:22] [Server thread/INFO]: [m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[00:46:22] [Server thread/INFO]: [m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[00:46:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[00:46:22] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[00:46:22] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:46:22] [Server thread/INFO]: [Citizens] Loading external libraries
+[00:46:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[00:46:22] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:46:22] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[00:46:22] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[00:46:22] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[00:46:22] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[00:46:22] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[00:46:22] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[00:46:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[00:46:22] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[00:46:22] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[00:46:22] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[00:46:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:46:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:46:22] [Server thread/INFO]: Telmiyo: [0;32;1mReload complete.[m
+[00:46:23] [Server thread/INFO]: Loaded 7 recipes
+[00:46:23] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[00:46:23] [Server thread/INFO]: [BetonQuest] Hooked into WorldEdit, PlaceholderAPI, ProtocolLib, Citizens!
+[00:46:23] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:46:23] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:46:23] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[00:46:23] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[00:46:24] [Craft Scheduler Thread - 1/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=b22e0ef93a0dc2108a7b0881ddc99eb9aa15033d in 1268 ms[m
+[00:46:38] [Server thread/WARN]: [BetonQuest] Task #734 for BetonQuest v1.12.10 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_18_R2.block.data.CraftBlockData cannot be cast to class org.bukkit.block.data.Openable (org.bukkit.craftbukkit.v1_18_R2.block.data.CraftBlockData and org.bukkit.block.data.Openable are in unnamed module of loader java.net.URLClassLoader @15327b79)
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:39) ~[?:?]
+	at pl.betoncraft.betonquest.events.DoorEvent.execute(DoorEvent.java:16) ~[?:?]
+	at pl.betoncraft.betonquest.api.ForceSyncHandler.handle(ForceSyncHandler.java:68) ~[?:?]
+	at pl.betoncraft.betonquest.api.QuestEvent.fire(QuestEvent.java:136) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.event(BetonQuest.java:393) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation$NPCEventRunner.run(Conversation.java:601) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1285) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:429) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1237) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1047) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:48:04] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[00:48:04] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[00:48:04] [Server thread/INFO]: Debug logging is disabled
+[00:48:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:48:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:48:05] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:48:05] [Server thread/INFO]: Mob Spawn Range: 6
+[00:48:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:48:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:05] [Server thread/INFO]: Simulation Distance: 10
+[00:48:05] [Server thread/INFO]: View Distance: 10
+[00:48:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:48:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:48:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:48:05] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:48:05] [Server thread/INFO]: Mob Spawn Range: 6
+[00:48:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:48:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:05] [Server thread/INFO]: Simulation Distance: 10
+[00:48:05] [Server thread/INFO]: View Distance: 10
+[00:48:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:48:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:48:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:48:05] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:48:05] [Server thread/INFO]: Mob Spawn Range: 6
+[00:48:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:48:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:48:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:48:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:48:05] [Server thread/INFO]: Simulation Distance: 10
+[00:48:05] [Server thread/INFO]: View Distance: 10
+[00:48:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:48:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:48:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:48:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:48:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:48:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:48:05] [Server thread/INFO]: Max TNT Explosions: 100
+[00:48:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:48:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:48:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:48:05] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[00:48:05] [Server thread/ERROR]: Error occurred while disabling BetonQuest v1.12.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.validate(CraftScheduler.java:468) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:196) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:187) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:151) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftScheduler.runTask(CraftScheduler.java:120) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at pl.betoncraft.betonquest.compatibility.protocollib.conversation.MenuConvIO.end(MenuConvIO.java:646) ~[?:?]
+	at pl.betoncraft.betonquest.conversation.Conversation.suspend(Conversation.java:406) ~[?:?]
+	at pl.betoncraft.betonquest.BetonQuest.onDisable(BetonQuest.java:1102) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:544) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.reload(CraftServer.java:888) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.Bukkit.reload(Bukkit.java:801) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:826) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchServerCommand(CraftServer.java:811) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.dedicated.DedicatedServer.be(DedicatedServer.java:454) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:430) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1237) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1047) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:48:05] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[00:48:05] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:48:05] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
+[00:48:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
+[00:48:05] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
+[00:48:05] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?                               WARNING                            ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?     RELOADING THE SERVER WHILE PROTOCOL LIB IS ENABLED MIGHT     ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?                    LEAD TO UNEXPECTED ERRORS!                    ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?                                                                  ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?     Consider to cleanly restart your server if you encounter     ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?    any issues related to Protocol Lib before opening an issue    ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ?                            on GitHub!                            ?
+[00:48:05] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:48:05] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[00:48:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[00:48:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:48:05] [Server thread/INFO]: Loaded 7 recipes
+[00:48:05] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[00:48:05] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[00:48:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:48:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@23cf6aab]
+[00:48:05] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:48:05] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:48:06] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[00:48:06] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:48:06] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[00:48:06] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[00:48:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:48:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:48:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:48:06] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[00:48:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[00:48:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:48:06] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:48:06] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:48:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:48:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:48:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:48:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:48:06] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[00:48:07] [Server thread/INFO]: [m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[00:48:07] [Server thread/INFO]: [m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[00:48:07] [Server thread/INFO]: [m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[00:48:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[00:48:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[00:48:07] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:48:07] [Server thread/INFO]: [Citizens] Loading external libraries
+[00:48:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[00:48:08] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:48:08] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[00:48:08] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[00:48:08] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[00:48:08] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[00:48:08] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[00:48:08] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[00:48:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[00:48:08] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[00:48:08] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[00:48:08] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[00:48:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:48:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:48:08] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[00:48:08] [Server thread/INFO]: Loaded 7 recipes
+[00:48:08] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[00:48:08] [Server thread/INFO]: [BetonQuest] Hooked into WorldEdit, PlaceholderAPI, ProtocolLib, Citizens!
+[00:48:08] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:48:08] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:48:08] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[00:48:08] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[00:48:09] [Craft Scheduler Thread - 8/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=b22e0ef93a0dc2108a7b0881ddc99eb9aa15033d in 1106 ms[m
+[00:49:56] [Server thread/INFO]: Telmiyo issued server command: /reload
+[00:49:56] [Server thread/INFO]: Telmiyo: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[00:49:56] [Server thread/INFO]: Telmiyo: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[00:49:56] [Server thread/INFO]: Debug logging is disabled
+[00:49:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:49:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:49:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:49:56] [Server thread/INFO]: Mob Spawn Range: 6
+[00:49:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:49:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:49:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:49:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:49:56] [Server thread/INFO]: Simulation Distance: 10
+[00:49:56] [Server thread/INFO]: View Distance: 10
+[00:49:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:49:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:49:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:49:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:49:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:49:56] [Server thread/INFO]: Max TNT Explosions: 100
+[00:49:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:49:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:49:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:49:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:49:56] [Server thread/INFO]: Mob Spawn Range: 6
+[00:49:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:49:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:49:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:49:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:49:56] [Server thread/INFO]: Simulation Distance: 10
+[00:49:56] [Server thread/INFO]: View Distance: 10
+[00:49:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:49:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:49:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:49:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:49:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:49:56] [Server thread/INFO]: Max TNT Explosions: 100
+[00:49:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:49:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:49:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:49:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:49:56] [Server thread/INFO]: Mob Spawn Range: 6
+[00:49:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:49:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:49:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:49:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:49:56] [Server thread/INFO]: Simulation Distance: 10
+[00:49:56] [Server thread/INFO]: View Distance: 10
+[00:49:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:49:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:49:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:49:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:49:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:49:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:49:56] [Server thread/INFO]: Max TNT Explosions: 100
+[00:49:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:49:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:49:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:49:56] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[00:49:56] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully disabled!
+[00:49:56] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[00:49:56] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:49:56] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
+[00:49:56] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
+[00:49:56] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
+[00:49:56] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?                               WARNING                            ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?     RELOADING THE SERVER WHILE PROTOCOL LIB IS ENABLED MIGHT     ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?                    LEAD TO UNEXPECTED ERRORS!                    ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?                                                                  ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?     Consider to cleanly restart your server if you encounter     ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?    any issues related to Protocol Lib before opening an issue    ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ?                            on GitHub!                            ?
+[00:49:56] [Server thread/ERROR]: [ProtocolLib] ????????????????????????????????????????????????????????????????????
+[00:49:56] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[00:49:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[00:49:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:49:56] [Server thread/INFO]: Loaded 7 recipes
+[00:49:56] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[00:49:56] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[00:49:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:49:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a1be7e9]
+[00:49:56] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:49:56] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:49:57] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[00:49:57] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:49:57] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[00:49:57] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[00:49:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:49:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:49:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:49:57] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[00:49:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[00:49:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:49:57] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:49:57] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:49:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:49:57] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:49:57] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:49:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:49:58] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[00:49:58] [Server thread/INFO]: [m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[00:49:58] [Server thread/INFO]: [m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[00:49:58] [Server thread/INFO]: [m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[00:49:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[00:49:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[00:49:58] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[00:49:58] [Server thread/INFO]: [Citizens] Loading external libraries
+[00:49:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[00:49:59] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:49:59] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[00:49:59] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[00:49:59] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[00:49:59] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[00:49:59] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[00:49:59] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[00:49:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[00:49:59] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[00:49:59] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[00:49:59] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[00:49:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:49:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:49:59] [Server thread/INFO]: Telmiyo: [0;32;1mReload complete.[m
+[00:49:59] [Server thread/INFO]: Loaded 7 recipes
+[00:49:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[00:49:59] [Server thread/INFO]: [BetonQuest] Hooked into WorldEdit, PlaceholderAPI, ProtocolLib, Citizens!
+[00:49:59] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:49:59] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:49:59] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[00:49:59] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[00:50:08] [Craft Scheduler Thread - 10/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=b22e0ef93a0dc2108a7b0881ddc99eb9aa15033d in 8259 ms[m
+[00:50:21] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:50:21] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:50:21] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:52:32] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:52:32] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:52:32] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:53:09] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:53:09] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:53:09] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:53:24] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:53:24] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:53:25] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:53:40] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:53:40] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:53:40] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:53:50] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:53:50] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:53:50] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:54:10] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:54:10] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:54:10] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:55:00] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:55:00] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:55:00] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 2 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:55:21] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:55:21] [Server thread/WARN]: [BetonQuest] Error in 'default.honding_key' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:55:21] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 2 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:56:12] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:56:12] [Server thread/WARN]: [BetonQuest] Error in 'default.access_building' event (objective): Error while parsing 2 argument: Error while loading objective: Objective 'default.access' is not defined
+[00:56:12] [Server thread/INFO]: [BetonQuest] There are 1 conditions, 2 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:56:18] [Server thread/WARN]: [BetonQuest] Event default.access_building is not defined
+[00:57:04] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[00:57:04] [Server thread/WARN]: [BetonQuest] Error in 'default.access' objective (action): Error while parsing objective conditions: Condition 'default.holding_key' is not defined
+[00:57:04] [Server thread/INFO]: [BetonQuest] There are 1 conditions, 3 events, 0 objectives and 1 conversations loaded from 1 packages.
+[00:57:08] [Server thread/WARN]: [BetonQuest] Error while firing 'default.access_building' event: Objective 'default.access' is not defined, cannot run objective event
+[00:57:12] [Server thread/WARN]: [BetonQuest] Error while firing 'default.access_building' event: Objective 'default.access' is not defined, cannot run objective event
+[01:01:54] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[01:01:54] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[01:03:19] [Server thread/INFO]: Telmiyo issued server command: /bquest reload
+[01:03:19] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 1 events, 0 objectives and 1 conversations loaded from 1 packages.
+[01:03:25] [Server thread/INFO]: Telmiyo issued server command: /citizens reload
+[01:03:30] [Server thread/INFO]: Telmiyo issued server command: /citizens reload
+[01:03:43] [Server thread/INFO]: Telmiyo issued server command: /npc hep
+[01:03:45] [Server thread/INFO]: Telmiyo issued server command: /npc help
+[01:03:59] [Server thread/INFO]: Telmiyo issued server command: /npc move help
+[01:04:20] [Server thread/INFO]: Telmiyo issued server command: /npc select 1
+[01:04:23] [Server thread/INFO]: Telmiyo issued server command: /npc move
+[01:04:33] [Server thread/INFO]: Telmiyo issued server command: /npc help
+[01:04:36] [Server thread/INFO]: Telmiyo issued server command: /npc help 1
+[01:04:38] [Server thread/INFO]: Telmiyo issued server command: /npc help 2
+[01:04:43] [Server thread/INFO]: Telmiyo issued server command: /npc help 3
+[01:05:04] [Server thread/INFO]: Telmiyo issued server command: /npc lookclose
+[01:05:14] [Server thread/INFO]: Telmiyo issued server command: /npc select 0
+[01:05:16] [Server thread/INFO]: Telmiyo issued server command: /npc lookclose
+[01:05:27] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add NPC
+[01:12:48] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add :dialogue:
+[01:12:55] [Server thread/INFO]: Telmiyo issued server command: /o reload pack
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;231;63;52mThe texture specified for npc_dialogue does not exist. This will break all your glyphs.[m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mIt has been temporarily set to a placeholder image. You should edit this in the glyph config.[m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[01:12:55] [Server thread/INFO]: [m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[01:12:55] [Server thread/INFO]: [m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[01:12:55] [Server thread/INFO]: [m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[01:12:55] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[01:12:56] [Craft Scheduler Thread - 10/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=583184ba1556aad812ddd2e313fffa09dd3fac42 in 968 ms[m
+[01:12:57] [Craft Scheduler Thread - 14/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=583184ba1556aad812ddd2e313fffa09dd3fac42 in 1598 ms[m
+[01:13:15] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add ?
+[01:13:51] [Server thread/INFO]: Telmiyo issued server command: /o reload pack
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[01:13:51] [Server thread/INFO]: [m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[01:13:51] [Server thread/INFO]: [m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[01:13:51] [Server thread/INFO]: [m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[01:13:51] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[01:13:52] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[01:13:53] [Craft Scheduler Thread - 10/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=7f1e2981e012f59e53d75efecbe79c3fb73b53ea in 1221 ms[m
+[01:13:53] [Craft Scheduler Thread - 15/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=7f1e2981e012f59e53d75efecbe79c3fb73b53ea in 1416 ms[m
+[01:14:08] [Async Chat Thread - #0/INFO]: <Telmiyo> ?[m
+[01:14:19] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add ?
+[01:14:35] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove
+[01:14:39] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 2
+[01:14:42] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 3
+[01:14:45] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 2
+[01:14:46] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 2
+[01:14:47] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 1
+[01:14:54] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 1
+[01:14:57] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[01:15:09] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add help
+[01:15:13] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 1
+[01:15:15] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[01:15:20] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add ?
+[01:15:56] [Server thread/INFO]: Telmiyo issued server command: /npc select 1
+[01:15:58] [Server thread/INFO]: Telmiyo issued server command: /npc hologram add ?
+[01:16:11] [Server thread/INFO]: Telmiyo issued server command: /save-all
+[01:16:11] [Server thread/INFO]: [Telmiyo: Saved the game]
+[01:16:32] [Server thread/INFO]: Telmiyo lost connection: Disconnected
+[01:16:32] [Server thread/INFO]: Telmiyo left the game

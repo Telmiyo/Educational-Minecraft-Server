@@ -1,0 +1,62 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: b0588118-6e75-410d-b2db-4d3066b223f7
+      cached-skin-uuid-name: marc
+    name: Marc
+    uuid: ff607ee0-b9bd-484e-a166-e0664188df95
+    traits:
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: eT2XZaNDCXGFrGQhJe39fdaUrSWBVX5RtxwmA/i3kVG0J2Aps9optKmH+MOyYfULxWf3wpODhO8CRm4HvqpUGb8oDQiGz/e90AydthZ/tVde6i3L7CAt9vszB7NaTZDKJg4HsWfMvCKKMZ8fh/4nM0sJNaEIPw9PjXefclTh1CTHOO95wsLATHSVVBTbrP10TssvrCd2JxHheUOX732cTRzLOUjnu4XaM6936dBEmPEJhCRDvp2h4shD5AX1L1v/nrIaswhVUJeltX9VViokdMiIwoMra8OudtQQNul5zaN9tNzby9N60g4iQwzuwDpXgdbEt0pTKeI1PqIMDRM/Vhr78+r6IEnIk34fs/gEOrzkg10ZYamT5Ader66DuNtf8HHPEyT+Izu4HnKa+Y7OyKBqg8bsJVrrm70JkXFdESVjCB/yfRJTWA1Cg4JcBN10H7IKwRcbFSzSG5o8Z/DsfA6uKwKCo9jX9voBL44S92K1UNohFPxlWpuw/Egh5wGw4YKp7LxJe3r7W1aV8iJfmtijvc/78CKA4GiocuQ9ETj21kfNabwFEHawioH9T7TPjSp/M1J+AGHKZA9THhnvYZTJzukwE9pNvf6dwkXAJJDr33NxqylUDfObJqD9VXiLBteVC4To+BStHOmwUnrenh4m4WaOLtPKV+cLZPkLqRk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDM4MDg0MzAxOCwKICAicHJvZmlsZUlkIiA6ICJiMDU4ODExODZlNzU0MTBkYjJkYjRkMzA2NmIyMjNmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxZWU0ZjFmMGY4NTk4YmY1ZDk4MGE0YzRkZDg3MWViOGM2MDgwMWNhZDM3OWQ0ZTQ0ZWNlMGVkMjZiMjMzN2MiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: -177.46342
+        world: world
+        x: '-36.0875'
+        y: '4.0'
+        z: '117.1573'
+        yaw: '-177.4634'
+        pitch: '0.8999'
+    traitnames: location,mounttrait,inventory,type,scoreboardtrait,spawned,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid: edb1c4bc-5d4b-4d5a-a24c-e5abfcd246f7
+      cached-skin-uuid-name: marta
+    name: Marta
+    uuid: 87501cc1-909d-44e6-ac88-054828024b41
+    traits:
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EapwJZ1C1OrrShsBez7S6RMug0mFNZx7yLnLVvPZWltwTAz6S9My9a4YrvggrWX8IZVnzqfVzYwR6Q/2/Zc0sBKA0ZzLNwEE5j3ZTXZdolQMmZ1nDXxX4RJUOB1586qXgrXf5DTez6/yEMnwckZtvVXxBy9fXPXiHk74Z118vmkf+k75ERPCllo+8w49undWTs+VsgKgvHAafk+GPcvi0WDE1ILhO81oB1lmmWpGZhRAwLthJxmEgBMKROsdZqxBNYRdXfyf65eYC+sv7B7F9ziXFfPb1nzqTm2KMQUlntrPfjgx5+JQDiCimbFke2cVupp7qIReA1K3PPfPB400wFtJfHtiJJHPeEduH973bp9pcr8XaIitDgj+prPOcjQ/4GRmkMZktvjXdfu/Z233ttlOgxR+PzFiCAvJw/J/nb1tSdyaVm0FRmWYjwHxQqFDcJ8hSdGHYc9s2vPl+xft9yukyo8p0VI8i5sxcumpjKSxvpT50jtSFgX1QpGcRE1EjnIWZfte75tzYRpb5UG4O1Ii1+Jowsx6/TmVlemY3l3LJJWWx75MagM0J2RXDg23ZDMVCBvNrnQ8wFHD/yZecejQiI0M2j/vN8v9KwL1RXjl6lguYYihRdnWK9naNDULTF+7tAFuyvBaLSqHMOYpMhHPZWqssqVsNj5zz2nSoPs=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDM4NTE4OTA3MCwKICAicHJvZmlsZUlkIiA6ICJlZGIxYzRiYzVkNGI0ZDVhYTI0Y2U1YWJmY2QyNDZmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJ0YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZDI1MGI5Y2VlOWVjMGI3NmZhYjQ5NDAxNjBkMjFjZmUwZDNmOGQ5OGVkZDM5NDJmNjNmMGNlYjI3ZjRjMzM3IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: 3.13562
+        world: world
+        x: '-38.606'
+        y: '5.0'
+        z: '138.510'
+        yaw: '3.1356'
+        pitch: '9.15'
+    traitnames: location,mounttrait,inventory,type,spawned,scoreboardtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
