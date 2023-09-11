@@ -3,6 +3,7 @@ remove_hologram: command npc hologram remove 0
 give_point: point progress 2
 
 # Marc Events
+walk_to_door_marc: command npc pathto -37.528 6 120.198
 open_door_marc: door -39;6;121;world on
 select_npc_marc: command npc select 0
 notify_objective_marc: "notify This is a title.\nThis is a subtitle. io:title"

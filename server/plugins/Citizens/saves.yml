@@ -19,13 +19,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 33.21161
+        bodyYaw: 40.882187
         world: world
-        x: '-36.0875'
+        x: '-33.0'
         y: '4.0'
-        z: '117.1573'
-        yaw: '33.2116'
-        pitch: '-23.9118'
+        z: '109.0'
+        yaw: '40.8822'
+        pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -47,7 +47,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: hologramtrait,lookclose,rotationtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
+    traitnames: mounttrait,lookclose,rotationtrait,skintrait,scoreboardtrait,inventory,hologramtrait,type,owner,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -99,7 +99,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: hologramtrait,lookclose,rotationtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
+    traitnames: mounttrait,lookclose,rotationtrait,skintrait,inventory,scoreboardtrait,hologramtrait,type,owner,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -133,7 +133,7 @@ npc:
         lineHeight: -1.0
         lines:
           '0': ꗁ
-    traitnames: hologramtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
+    traitnames: mounttrait,skintrait,inventory,scoreboardtrait,hologramtrait,type,owner,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
