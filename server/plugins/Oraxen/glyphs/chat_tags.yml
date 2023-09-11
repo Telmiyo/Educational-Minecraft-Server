@@ -87,3 +87,48 @@ diagloue_tag:
     - ':dialogue_controls:'
     permission: oraxen.emoji.dialogue_controls
   char: Ꙝ
+npc_tag:
+  texture: default/chat/npc_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':npc_tag:'
+    permission: oraxen.emoji.npc_tag
+  char: ꖿ
+control_w:
+  texture: default/chat/w
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':control_w:'
+    permission: oraxen.emoji.control_w
+  char: ꕢ
+control_s:
+  texture: default/chat/s
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':control_s:'
+    permission: oraxen.emoji.control_s
+  char: ꕧ
+# control_space:
+#   texture: default/chat/space
+#   ascent: 9
+#   height: 10
+#   chat:
+#     placeholders:
+#     - ':control_space:'
+#     permission: oraxen.emoji.control_space
+#   char: ꕨ
+citm:
+  texture: default/chat/citm
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':citm:'
+    permission: oraxen.emoji.citm
+  char: ꕨ

@@ -1,0 +1,52 @@
+quester:
+  en: 'Marta'
+first: 'welcome, next_lesson, progress'
+stop: 'true'
+NPC_options:
+  'welcome':
+    text:
+      en: "Welcome, %player%! I am here to guide you on Minecraft inventory GUI customization."
+    conditions: '!quest02_started, !quest02_completed'
+    pointer: 'inventories'
+  'next_lesson':
+    text:
+      en: "Good Job, %player%! Follow me to the next lesson!"
+    conditions: 'quest02_completed, quest02_started'
+    events: 'select_npc_marta, remove_hologram, walk_to_door_marta, open_door_marta, notify_objective'
+  'progress':
+    text:
+      en: "Talk with Jobs!"
+    conditions: 'quest02_started'
+  'explain_inventory':
+    text:
+      en: 'Minecraft inventory is a crucial part of gameplay. It is a grid-based system where you manage your items and equipment. The grid composition and item placement are essential aspects.'
+    pointer: 'complex_menus'      
+  'explain_complex_menus':
+    text:
+      en: '{explain custom menus here chat}'
+    pointer: 'custom_textures'
+  'explain_custom_textures':
+    text:
+      en: '{explain it here chat}'
+    pointer: 'open_gui'      
+  'end_dialogue':
+    text:
+      en: 'Now that you have more understanding on GUI customization, talk with &3Jobs, &7he will show you an example of GUI customization!'
+    events: 'add_tag_quest02_started, select_npc_marta, remove_hologram, select_npc_jobs, add_hologram '
+player_options:
+  'inventories':
+    text:
+      en: 'What are Inventories'
+    pointer: 'explain_inventory'
+  'complex_menus':
+    text:
+      en: 'How can I create complex menus in Minecraft?'
+    pointer: 'explain_complex_menus'
+  'custom_textures':
+    text:
+      en: 'Tell me more about adding custom textures.'
+    pointer: 'explain_custom_textures'
+  'open_gui':
+    text:
+      en: 'Continue'
+    pointer: 'end_dialogue'

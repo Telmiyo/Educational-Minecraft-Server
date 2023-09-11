@@ -1,14 +1,22 @@
-# Shared Events
+# NPC Events
+select_npc_marc: command npc select 0
+select_npc_lisa: command npc select 3
 remove_hologram: command npc hologram remove 0
-give_point: point progress 2
+add_hologram: command npc hologram add ꗁ
+set_block_debug: setblock REDSTONE_BLOCK -42;6;120;world
+
+# Tags
+add_tag_quest01_started: tag add quest01_started
+add_tag_quest01_completed: tag add quest01_completed
 
 # Marc Events
 walk_to_door_marc: command npc pathto -37.528 6 120.198
 open_door_marc: door -39;6;121;world on
-select_npc_marc: command npc select 0
-notify_objective_marc: "notify This is a title.\nThis is a subtitle. io:title"
+give_key: give key:1
 
-# Marta Events
-open_door_marta: door -44;5;142;world on
-open_gui_marta: command dmenu open jobs_menu_page_1 %player%
-select_npc_marta: command npc select 1
+# Objective
+remove_key: take key:1
+
+# Notifications
+notify_objective_marc: "notify Access the lesson! category:info io:advancement frame:challenge"
+

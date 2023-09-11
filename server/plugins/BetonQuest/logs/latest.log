@@ -1,0 +1,851 @@
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:16:58 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:16:58 INFO]: [BetonQuest] Using SQLite for storing data!
+[23.09.11 21:16:58 FINE]: [BetonQuest] Initializing updater with version v64, destination is v64
+[23.09.11 21:16:58 INFO]: [BetonQuest] Configuration up to date!
+[23.09.11 21:16:58 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:16:58 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:16:58 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:16:58 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:16:58 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:16:58 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering health condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering permission condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering experience condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering tag condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering globaltag condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering point condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering globalpoint condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering and condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering or condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering time condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering weather condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering height condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering item condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering hand condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering location condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering armor condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering effect condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering rating condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering sneak condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering random condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering journal condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering testforblock condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering empty condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering party condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering entities condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering objective condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering check condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chestitem condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering score condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering riding condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering world condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering gamemode condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering advancement condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering variable condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering biome condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering dayofweek condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering partialdate condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering realtime condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering looking condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering facing condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering conversation condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering mooncycle condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering fly condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering message event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering objective event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering command event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering tag event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering globaltag event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering journal event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering teleport event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering explosion event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering lightning event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering point event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering globalpoint event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering give event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering take event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering conversation event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering kill event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering effect event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering deleffect event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering deletepoint event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering spawn event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering killmob event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering time event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering weather event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering folder event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering setblock event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering damage event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering party event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering clear event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering run event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering givejournal event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering sudo event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering opsudo event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chestgive event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chesttake event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chestclear event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering compass event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering cancel event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering score event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering lever event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering door event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering if event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering variable event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering title event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering language event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering playsound event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering pickrandom event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering experience event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering notify event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering notifyall event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chat event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering location objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering block objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering mobkill objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering action objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering die objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering craft objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering smelt objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering tame objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering delay objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering arrow objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering experience objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering step objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering logout objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering login objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering password objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering pickup objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering fish objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering enchant objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering shear objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chestput objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering brew objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering riding objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering consume objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering variable objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering kill objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering interact objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering respawn objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering breed objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering simple conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering tellraw conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chest conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering combined conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering slowtellraw conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering simple interceptor type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering none interceptor type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering suppress notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chat notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering advancement notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering actionbar notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering bossbar notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering title notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering subtitle notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering sound notify IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering condition variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering player variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npc variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering objective variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering point variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering globalpoint variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering item variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering version variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering location variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering math variable type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering ph variable type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into Vault
+[23.09.11 21:16:58 WARNING]: [BetonQuest] There is no economy plugin on the server!
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering permission event type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into ProtocolLib
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering menu conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering packet interceptor type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into Citizens
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering updatevisibility event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npckill objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npcinteract objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npcrange objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering movenpc event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering teleportnpc event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering stopnpc event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering chest conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering combined conversation IO type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering citizen variable type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npcdistance condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering npclocation condition type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into WorldEdit
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering paste event type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Hooking into Jobs
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_canlevel condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_hasjob condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_jobfull condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_joblevel condition type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Registered Conditions [nujobs_canlevel,nujobs_hasjob,nujobs_jobfull,nujobs_joblevel]
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_addexp event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_addlevel event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_dellevel event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_joinjob event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_leavejob event type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_setlevel event type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Registered Events [nujobs_addexp,nujobs_addlevel,nujobs_dellevel,nujobs_joinjob,nujobs_leavejob,nujobs_setlevel]
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_joinjob objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_leavejob objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_levelup objective type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering nujobs_payment objective type
+[23.09.11 21:16:58 INFO]: [BetonQuest] Registered Objectives [nujobs_joinjob,nujobs_leavejob,nujobs_levelup,nujobs_payment]
+[23.09.11 21:16:58 INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering papi condition type
+[23.09.11 21:16:58 FINE]: [BetonQuest] Registering papi variable type
+[23.09.11 21:16:59 INFO]: [BetonQuest] Hooked into PlaceholderAPI, Vault, ProtocolLib, Citizens, WorldEdit, Jobs!
+[23.09.11 21:16:59 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:16:59 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:17:00 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:17:00 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:17:00 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:17:00 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:17:00 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:17:00 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:17:00 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:17:00 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:17:00 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:17:00 INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:17:00 FINE]: [BetonQuest] There are 0 global_tags and 0 global_points loaded
+[23.09.11 21:17:08 FINE]: [BetonQuest] There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player Telmiyo
+[23.09.11 21:17:08 FINE]: [BetonQuest] Inserting data for Telmiyo
+[23.09.11 21:17:16 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:16 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:17:18 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:17:19 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:17:19 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:19 FINE]: [BetonQuest] FALSE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:17:19 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:19 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_completed for Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.select_npc_jobs for Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.add_hologram for Telmiyo
+[23.09.11 21:17:22 FINE]: [BetonQuest] Firing event gui.open_gui for Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:17:25 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:18:58 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:18:58 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:18:58 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:18:58 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:18:58 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:18:58 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:18:58 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:18:58 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:18:58 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:18:58 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:18:58 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:18:58 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:18:58 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.set_block_debug' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:18:58 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:18:58 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:18:58 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:18:58 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:18:58 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:18:58 INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:18:58 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:18:58 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:19:03 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:19:06 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_completed for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.select_npc_jobs for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.add_hologram for Telmiyo
+[23.09.11 21:19:09 FINE]: [BetonQuest] Firing event gui.open_gui for Telmiyo
+[23.09.11 21:19:14 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:19:32 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:19:32 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:19:32 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:19:32 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:19:32 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:19:32 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:19:32 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:19:32 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:19:32 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:19:32 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:19:32 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:19:32 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:19:32 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.set_block_debug' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:19:32 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:19:32 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:19:32 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:19:32 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:19:32 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:19:32 INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:19:32 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:19:32 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:19:34 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] Firing event gui.set_block_debug for Telmiyo
+[23.09.11 21:19:34 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:19:55 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:19:55 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:19:55 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:19:55 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:19:55 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:19:55 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:19:55 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:19:55 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:19:55 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:19:55 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:19:55 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:19:55 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:19:55 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.set_block_debug' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:19:55 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:19:55 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:19:55 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:19:55 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:19:55 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:19:55 INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:19:55 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:19:55 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:19:57 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] Firing event gui.set_block_debug for Telmiyo
+[23.09.11 21:19:57 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:20:09 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:20:09 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:20:09 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:20:09 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:20:09 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:20:09 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:20:09 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:20:09 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:20:09 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:20:09 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:20:09 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:20:09 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:20:09 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.set_block_debug' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:20:09 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:20:09 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:20:09 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:20:09 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:20:09 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:20:09 INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:20:09 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:20:09 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:20:11 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] Firing event gui.set_block_debug for Telmiyo
+[23.09.11 21:20:11 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:20:39 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:20:39 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:20:39 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:20:39 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:20:39 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:20:39 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:20:39 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:20:39 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:20:39 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:20:39 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:20:39 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:20:39 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:20:39 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:20:39 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:20:39 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:20:39 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:20:39 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:20:39 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:20:39 INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:20:39 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:20:39 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:21:11 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [tag, Telmiyo]
+[23.09.11 21:21:11 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:21:11 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:21:11 FINE]: [BetonQuest] Listing tags
+[23.09.11 21:21:20 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [delete, tag, gui.quest02_completed]
+[23.09.11 21:21:20 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:21:20 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:21:23 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [delete, tag, gui.quest02_started]
+[23.09.11 21:21:23 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:21:23 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:21:24 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:24 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:21:26 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:21:27 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:21:27 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:27 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:27 FINE]: [BetonQuest] FALSE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:21:27 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:29 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_completed for Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.select_npc_jobs for Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.add_hologram for Telmiyo
+[23.09.11 21:21:30 FINE]: [BetonQuest] Firing event gui.open_gui for Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] Firing event gui.open_door_marta for Telmiyo
+[23.09.11 21:21:35 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:22:05 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [delete, tag, gui.quest02_started]
+[23.09.11 21:22:05 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:22:05 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:22:06 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [delete, tag, gui.quest02_completed]
+[23.09.11 21:22:06 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:22:06 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:22:10 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [tag, Telmiyo]
+[23.09.11 21:22:10 FINE]: [BetonQuest] Loading data asynchronously
+[23.09.11 21:22:10 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:22:10 FINE]: [BetonQuest] Listing tags
+[23.09.11 21:22:14 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:22:14 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:22:14 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:22:14 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:22:14 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:22:14 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:22:14 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:22:14 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:22:14 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:22:14 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:22:14 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:22:14 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:22:14 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:22:14 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:22:14 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:22:14 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:22:14 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:22:14 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:22:14 INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:22:14 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:22:14 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:22:30 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:22:30 FINE]: [BetonQuest] TRUE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:22:32 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_started for Telmiyo
+[23.09.11 21:22:32 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:22:32 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:22:32 FINE]: [BetonQuest] Firing event gui.select_npc_jobs for Telmiyo
+[23.09.11 21:22:32 FINE]: [BetonQuest] Firing event gui.add_hologram for Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] Firing event gui.add_tag_quest02_completed for Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] Firing event gui.select_npc_jobs for Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:22:34 FINE]: [BetonQuest] Firing event gui.add_hologram for Telmiyo
+[23.09.11 21:22:35 FINE]: [BetonQuest] Firing event gui.open_gui for Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] Firing event gui.open_door_marta for Telmiyo
+[23.09.11 21:22:38 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:23:07 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [reload]
+[23.09.11 21:23:07 FINE]: [BetonQuest] Reloading configuration
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded pl language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded en language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded de language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded fr language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded cn language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded es language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded nl language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded it language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded hu language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loaded vi language
+[23.09.11 21:23:07 FINE]: [BetonQuest] Initializing static events
+[23.09.11 21:23:07 FINE]: [BetonQuest] Searching package lesson
+[23.09.11 21:23:07 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:23:07 FINE]: [BetonQuest] Searching package gui
+[23.09.11 21:23:07 FINE]: [BetonQuest] There are no static events defined, skipping
+[23.09.11 21:23:07 FINE]: [BetonQuest] Static events initialization done
+[23.09.11 21:23:07 FINE]: [BetonQuest] Restarting global locations
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading stuff in package lesson
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.select_npc_marc' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.select_npc_lisa' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.remove_hologram' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.add_hologram' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.set_block_debug' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_started' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.add_tag_quest01_completed' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.walk_to_door_marc' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.open_door_marc' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.give_key' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.remove_key' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'lesson.notify_objective_marc' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Condition 'lesson.quest01_started' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Condition 'lesson.quest01_completed' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Condition 'lesson.has_key' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading merlin conversation from lesson package
+[23.09.11 21:23:07 FINE]: [BetonQuest] Variable lesson-%player% loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest] Conversation loaded: 5 NPC options and 4 player options
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading marc conversation from lesson package
+[23.09.11 21:23:07 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading lisa conversation from lesson package
+[23.09.11 21:23:07 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:23:07 FINE]: [BetonQuest] Everything in package lesson loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading stuff in package gui
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.select_npc_marta' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.select_npc_jobs' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.add_hologram' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.remove_hologram' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.walk_to_door_marta' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.open_door_marta' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.open_gui' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_started' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.add_tag_quest02_completed' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Event 'gui.notify_objective' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Condition 'gui.quest02_started' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest]   Condition 'gui.quest02_completed' loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading marta conversation from gui package
+[23.09.11 21:23:07 FINE]: [BetonQuest] Variable gui-%player% loaded
+[23.09.11 21:23:07 FINE]: [BetonQuest] Conversation loaded: 7 NPC options and 4 player options
+[23.09.11 21:23:07 FINE]: [BetonQuest] Loading jobs conversation from gui package
+[23.09.11 21:23:07 FINE]: [BetonQuest] Conversation loaded: 4 NPC options and 2 player options
+[23.09.11 21:23:07 FINE]: [BetonQuest] Everything in package gui loaded
+[23.09.11 21:23:07 INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[23.09.11 21:23:07 FINE]: [BetonQuest] Updating journal for player Telmiyo
+[23.09.11 21:23:07 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:23:09 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] FALSE: inverted condition gui.quest02_started for player Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] TRUE:  condition gui.quest02_completed for player Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] TRUE:  condition gui.quest02_started for player Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] Firing event gui.select_npc_marta for Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] Firing event gui.remove_hologram for Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] Firing event gui.walk_to_door_marta for Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] Firing event gui.open_door_marta for Telmiyo
+[23.09.11 21:23:09 FINE]: [BetonQuest] Firing event gui.notify_objective for Telmiyo
+[23.09.11 21:23:42 FINE]: [BetonQuest] Executing /betonquest command for user Telmiyo with arguments: [create, items]
+[23.09.11 21:23:42 INFO]: [BetonQuest] Deploying items package!
+[23.09.11 21:23:42 FINE]: [BetonQuest] Command executing done
+[23.09.11 21:23:48 INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[23.09.11 21:23:48 FINE]: [BetonQuest] Killing all timers on disable
+[23.09.11 21:23:48 INFO]: [BetonQuest] BetonQuest succesfully disabled!

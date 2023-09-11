@@ -1,0 +1,8 @@
+# Global Conditions
+
+# Tags
+quest01_started: tag quest01_started
+quest01_completed: tag quest01_completed
+
+has_key: item key:1
+

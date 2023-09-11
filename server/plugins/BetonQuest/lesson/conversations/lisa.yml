@@ -1,0 +1,32 @@
+quester:
+  en: 'Secretary Lisa'
+first: 'welcome_citm, intro'
+stop: 'true'
+NPC_options:
+# Welcome Dialogue
+  'intro':
+    text:
+      en: 'Hello, I am Lisa. Nice to e-meet you!'
+  'welcome_citm':
+    text:
+      en: 'Hello, how can I help you?'
+    conditions: 'quest01_started, !has_key'
+    pointer: 'ask_for_key'
+  'ask_for_name':
+    text:
+      en: 'Awesome, thank you for signing to our lesson. What is your name?'
+    pointer: 'name'
+  'give_key':
+    text:
+      en: 'There you have it, show this card to Instructor Marc to access the lesson. Enjoy young learner!'
+    events: 'give_key, select_npc_lisa, remove_hologram, select_npc_marc, add_hologram'    
+player_options:
+# Welcome Dialogue
+  'ask_for_key':
+    text:
+      en: 'I need an access key'
+    pointer: 'ask_for_name'
+  'name':
+    text:
+      en: '%player%'
+    pointer: 'give_key'

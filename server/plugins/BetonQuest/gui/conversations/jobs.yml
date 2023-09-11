@@ -1,0 +1,33 @@
+quester:
+  en: 'GUI Master Jobs'
+first: 'welcome, intro, intro_completed'
+stop: 'true'
+NPC_options:
+# Welcome Dialogue
+  'intro':
+    text:
+      en: 'Hello, I am Jobs. Nice to e-meet you!'
+  'intro_completed':
+    text:
+      en: 'Do you want to see the menu? Well done!'
+    condition: 'quest02_completed'
+    pointer: 'show_gui'
+  'welcome':
+    text:
+      en: 'Hello, new learner. I am Jobs, the GUI Master. I have created an example of GUI customization where players can join jobs, leave and see their progress though their jobs.'
+    conditions: 'quest02_started'
+    pointer: 'continue'
+  'end_quest':
+      text:
+       en: 'Rembermber you can close the menu with &cE key &7on your keyboard! Go with Martha after having a look to the inventory in order continue your lesson!'
+      events: 'add_tag_quest02_completed, select_npc_jobs, remove_hologram, select_npc_marta, add_hologram'
+      pointer: 'show_gui'
+player_options:
+  'show_gui':
+    text:
+      en: 'Show me the GUI'
+    events: 'open_gui'
+  'continue':
+    text:
+      en: 'continue'
+    pointer: 'end_quest'

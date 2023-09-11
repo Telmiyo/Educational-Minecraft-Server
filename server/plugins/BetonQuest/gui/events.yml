@@ -1,0 +1,17 @@
+# Marta Events
+select_npc_marta: command npc select 1
+select_npc_jobs: command npc select 4
+add_hologram: command npc hologram add ꗁ
+remove_hologram: command npc hologram remove 0
+
+walk_to_door_marta: command npc pathto -47 5 139
+open_door_marta: door -44;5;142;world on
+open_gui: command dmenu open jobs_menu_page_1 %player%
+
+# Tags
+add_tag_quest02_started: tag add quest02_started
+add_tag_quest02_completed: tag add quest02_completed
+
+# Notifications
+notify_objective: "notify GUI Customizatoin! category:info io:advancement frame:challenge"
+

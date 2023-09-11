@@ -1,1005 +1,623 @@
-[16:19:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:19:41] [Worker-Main-14/INFO]: Loaded 7 recipes
-[16:19:43] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[16:19:43] [Server thread/INFO]: Loading properties
-[16:19:43] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
-[16:19:43] [Server thread/INFO]: Debug logging is disabled
-[16:19:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:19:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:19:43] [Server thread/INFO]: Default game type: SURVIVAL
-[16:19:43] [Server thread/INFO]: Generating keypair
-[16:19:43] [Server thread/INFO]: Starting Minecraft server on *:25599
-[16:19:43] [Server thread/INFO]: Using default channel type
-[16:19:45] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:19:47] [Server thread/WARN]: Legacy plugin Beton_PlaceholderAPI v1.0 does not specify an api-version.
-[16:19:47] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
-[16:19:48] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
-[16:19:48] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
-[16:19:48] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
-[16:19:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[16:19:48] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
-[16:19:49] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
-[16:19:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[16:19:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3c01f859]
-[16:19:50] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
-[16:19:50] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
-[16:19:50] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.7-Release
-[16:19:50] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
-[16:19:50] [Server thread/INFO]: [Jobs] Loading Jobs v5.1.3.0
-[16:19:50] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
-[16:19:50] [Server thread/INFO]: [Beton_PlaceholderAPI] Loading Beton_PlaceholderAPI v1.0
-[16:19:50] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
-[16:19:50] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:19:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:19:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:19:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[16:19:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[16:19:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:19:50] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:19:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[16:19:51] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:19:51] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[16:19:51] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[16:19:51] [Server thread/INFO]: [WorldEdit]   
-[16:19:51] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[16:19:51] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[16:19:51] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[16:19:51] [Server thread/INFO]: [WorldEdit]   
-[16:19:51] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[16:19:51] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[16:19:51] [Server thread/INFO]: [WorldEdit]   
-[16:19:51] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[16:19:51] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[16:19:51] [Server thread/INFO]: [WorldEdit]   
-[16:19:51] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[16:19:51] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:19:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:19:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:19:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:19:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:19:51] [Server thread/INFO]: Preparing level "world"
-[16:19:51] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:19:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:19:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:19:51] [Server thread/INFO]: Mob Spawn Range: 6
-[16:19:51] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:19:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:19:51] [Server thread/INFO]: Simulation Distance: 10
-[16:19:51] [Server thread/INFO]: View Distance: 10
-[16:19:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:19:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:19:51] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:19:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:19:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:19:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:19:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:19:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:19:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:19:51] [Server thread/INFO]: Max TNT Explosions: 100
-[16:19:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:19:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:19:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:19:52] [Server thread/INFO]: Mob Spawn Range: 6
-[16:19:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:19:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:19:52] [Server thread/INFO]: Simulation Distance: 10
-[16:19:52] [Server thread/INFO]: View Distance: 10
-[16:19:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:19:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:19:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:19:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:19:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:19:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:19:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:19:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:19:52] [Server thread/INFO]: Max TNT Explosions: 100
-[16:19:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:19:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:19:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:19:52] [Server thread/INFO]: Mob Spawn Range: 6
-[16:19:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:19:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:19:52] [Server thread/INFO]: Simulation Distance: 10
-[16:19:52] [Server thread/INFO]: View Distance: 10
-[16:19:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:19:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:19:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:19:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:19:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:19:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:19:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:19:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:19:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:19:52] [Server thread/INFO]: Max TNT Explosions: 100
-[16:19:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:19:53] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[16:19:53] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[16:19:53] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[16:19:53] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[16:19:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:19:55] [Worker-Main-18/INFO]: Preparing spawn area: 1%
-[16:19:55] [Worker-Main-17/INFO]: Preparing spawn area: 2%
-[16:19:55] [Worker-Main-13/INFO]: Preparing spawn area: 6%
-[16:19:56] [Worker-Main-13/INFO]: Preparing spawn area: 7%
-[16:19:56] [Worker-Main-19/INFO]: Preparing spawn area: 21%
-[16:19:59] [Worker-Main-13/INFO]: Preparing spawn area: 33%
-[16:19:59] [Worker-Main-22/INFO]: Preparing spawn area: 33%
-[16:19:59] [Worker-Main-14/INFO]: Preparing spawn area: 33%
-[16:19:59] [Worker-Main-14/INFO]: Preparing spawn area: 33%
-[16:19:59] [Worker-Main-21/INFO]: Preparing spawn area: 33%
-[16:19:59] [Worker-Main-20/INFO]: Preparing spawn area: 34%
-[16:20:00] [Worker-Main-19/INFO]: Preparing spawn area: 46%
-[16:20:00] [Worker-Main-21/INFO]: Preparing spawn area: 50%
-[16:20:01] [Worker-Main-15/INFO]: Preparing spawn area: 62%
-[16:20:02] [Worker-Main-14/INFO]: Preparing spawn area: 80%
-[16:20:02] [Worker-Main-22/INFO]: Preparing spawn area: 92%
-[16:20:02] [Server thread/INFO]: Time elapsed: 10245 ms
-[16:20:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:20:03] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[16:20:03] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[16:20:03] [Worker-Main-20/INFO]: Preparing spawn area: 3%
-[16:20:04] [Worker-Main-15/INFO]: Preparing spawn area: 51%
-[16:20:04] [Server thread/INFO]: Time elapsed: 1766 ms
-[16:20:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:20:04] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[16:20:05] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:20:05] [Worker-Main-13/INFO]: Preparing spawn area: 19%
-[16:20:05] [Server thread/INFO]: Time elapsed: 1291 ms
-[16:20:05] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:20:06] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
-[16:20:06] [Server thread/INFO]: [0;36;22mServer version: v1_18_R2 - 1.18.2 - spigot[m
-[16:20:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
-[16:20:07] [Server thread/INFO]: PlaceholderAPI hooked.[m
-[16:20:07] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m42ms[m
-[16:20:07] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
-[16:20:07] [Server thread/INFO]: [Citizens] Loading external libraries
-[16:20:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
-[16:20:07] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[16:20:07] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
-[16:20:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
-[16:20:08] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
-[16:20:08] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
-[16:20:08] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
-[16:20:08] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[16:20:09] [Server thread/INFO]: [DeluxeMenus] 117 GUI menus loaded!
-[16:20:09] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[16:20:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
-[16:20:09] [Server thread/INFO]: [Jobs] Enabling Jobs v5.1.3.0
-[16:20:09] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
-[16:20:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jobsr [5.1.3.0]
-[16:20:09] [Server thread/INFO]: [0;33;22mPlaceholderAPI [0;33;1mhooked.[m
-[16:20:09] [Server thread/INFO]: [0;33;1mConnected to database ([0;33;22mSqLite[0;33;1m)[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m9 [0;33;1mtitles[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m119 [0;33;1mprotected blocks timers[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m1229 [0;33;1mcustom item names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m75 [0;33;1mcustom entity names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m2 [0;33;1mcustom MythicMobs names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m38 [0;33;1mcustom enchant names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m21 [0;33;1mcustom enchant names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m16 [0;33;1mcustom color names[m
-[16:20:09] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m9 [0;33;1mshop items[m
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_PLANKS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_ROOTS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICK_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICK_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICKS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUDDY_MANGROVE_ROOTS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OCHRE_FROGLIGHT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PACKED_MUD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PEARLESCENT_FROGLIGHT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SCULK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_MANGROVE_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: VERDANT_FROGLIGHT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: TORCHFLOWER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PITCHER_PLANT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_BLOCK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_PLANKS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_WALL_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_PLANKS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WALL_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_BAMBOO_BLOCK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_CHERRY_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DECORATED_POT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PINK_PETALS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHISELED_BOOKSHELF!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_WALL_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Break type property: FROGSPAWN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Kill type property: TADPOLE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Kill type property: FROG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Place type property: CALIBRATED_SCULK_SENSOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Place type property: CHISELED_BOOKSHELF!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: MANGROVE_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_DOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_DOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_TRAPDOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_TRAPDOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CALIBRATED_SCULK_SENSOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHISELED_BOOKSHELF!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Place type property: SNIFFER_EGG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: FROG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: CAMEL!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: SNIFFER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: MUD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: MUDDY_MANGROVE_ROOTS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: SUSPICIOUS_GRAVEL!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: SUSPICIOUS_SAND!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_ROOTS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: CHERRY_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_MANGROVE_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_BAMBOO_BLOCK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_CHERRY_LOG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: STRIPPED_MANGROVE_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: STRIPPED_CHERRY_WOOD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: ACACIA_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BIRCH_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DARK_OAK_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: JUNGLE_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_DOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_FENCE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_FENCE_GATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_TRAPDOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_WALL!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICKS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUSIC_DISC_5!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: OAK_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RECOVERY_COMPASS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPRUCE_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_BLOCK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_CHEST_RAFT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_DOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_FENCE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_FENCE_GATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_RAFT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_TRAPDOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BRUSH!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_BUTTON!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_CHEST_BOAT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_DOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_FENCE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_FENCE_GATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_PRESSURE_PLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_SLAB!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_STAIRS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_TRAPDOOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DECORATED_POT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHISELED_BOOKSHELF!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: ACACIA_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BIRCH_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CRIMSON_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DARK_OAK_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: JUNGLE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: OAK_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPRUCE_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WARPED_HANGING_SIGN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: NETHERITE_UPGRADE_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: COAST_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: EYE_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: HOST_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RIB_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: VEX_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WARD_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WILD_ARMOR_TRIM_SMITHING_TEMPLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CALIBRATED_SCULK_SENSOR!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: REINFORCED_DEEPSLATE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK_CATALYST!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK_SHRIEKER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Weaponsmith has an invalid Craft type property: BRUSH!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: PINK_PETALS!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: TORCHFLOWER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: PITCHER_PLANT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Florist has an invalid Craft type property: DECORATED_POT!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Break type property: PIGLIN_HEAD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Break type property: PIGLIN_WALL_HEAD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Place type property: PIGLIN_HEAD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Place type property: PIGLIN_WALL_HEAD!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: ALLAY!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: FROG!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: TADPOLE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: WARDEN!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: CAMEL!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: SNIFFER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: MANGROVE_LEAVES!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: MANGROVE_PROPAGULE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: CHERRY_LEAVES!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: TORCHFLOWER!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: PITCHER_CROP!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: CHERRY_SAPLING!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: PITCHER_CROP!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: TORCHFLOWER_CROP!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Trader has an invalid VTrade type property: MANGROVE_PROPAGULE!
-[16:20:10] [Server thread/WARN]: [Jobs] Job Trader has an invalid VTrade type property: CHERRY_SAPLING!
-[16:20:10] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m19 [0;33;1mjobs[m
-[16:20:10] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m0 [0;33;1mboosted items[m
-[16:20:10] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mStarted database save task.[m
-[16:20:10] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mStarted buffered payment thread.[m
-[16:20:10] [Server thread/INFO]: [0;33;1mPreloaded [0;33;22m1 [0;33;1mplayers data in [0;33;22m0.0[m
-[16:20:10] [Server thread/INFO]: [0;33;1mLoading explorer data[m
-[16:20:10] [Server thread/INFO]: [0;33;1mLoaded explorer data ([0;33;22m6[0;33;1m) in 1 ms[m
-[16:20:10] [Server thread/INFO]: [0;33;1mPlugin has been enabled successfully.[m
-[16:20:10] [Server thread/INFO]: [0;33;22m------------------------------------[m
-[16:20:10] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
-[16:20:10] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
-[16:20:10] [Server thread/INFO]: [BetonQuest] Configuration up to date!
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
-[16:20:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into Vault
-[16:20:10] [Server thread/WARN]: [BetonQuest] There is no economy plugin on the server!
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
-[16:20:10] [Server thread/INFO]: [BetonQuest] Hooking into Jobs
-[16:20:10] [Server thread/INFO]: [BetonQuest] Registered Conditions [nujobs_canlevel,nujobs_hasjob,nujobs_jobfull,nujobs_joblevel]
-[16:20:10] [Server thread/INFO]: [BetonQuest] Registered Events [nujobs_addexp,nujobs_addlevel,nujobs_dellevel,nujobs_joinjob,nujobs_leavejob,nujobs_setlevel]
-[16:20:10] [Server thread/INFO]: [BetonQuest] Registered Objectives [nujobs_joinjob,nujobs_leavejob,nujobs_levelup,nujobs_payment]
-[16:20:10] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
-[16:20:10] [Server thread/INFO]: [Beton_PlaceholderAPI] Enabling Beton_PlaceholderAPI v1.0
-[16:20:10] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
-[16:20:10] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
-[16:20:10] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;231;63;52mThe texture specified for diagloue_tag is larger than the supported size.[m
-[16:20:10] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mThe maximum image size is 256x256. Anything bigger will break all your glyphs.[m
-[16:20:10] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mIt has been temporarily set to a placeholder-image. You should edit this in the glyph config.[m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
-[16:20:11] [Server thread/INFO]: [m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
-[16:20:11] [Server thread/INFO]: [m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
-[16:20:11] [Server thread/INFO]: [m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
-[16:20:11] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
-[16:20:12] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
-[16:20:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
-[16:20:12] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
-[16:20:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:20:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:20:12] [Server thread/INFO]: Done (20.617s)! For help, type "help"
-[16:20:12] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
-[16:20:12] [Server thread/ERROR]: [Jobs] Vault detected but economy plugin still missing!
-[16:20:12] [Server thread/ERROR]: [Jobs] Please install Vault supporting economy plugin!
-[16:20:12] [Server thread/ERROR]: [Jobs] ==============================================
-[16:20:12] [Server thread/INFO]: [BetonQuest] Hooked into PlaceholderAPI, Vault, ProtocolLib, Citizens, WorldEdit, Jobs!
-[16:20:12] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 8 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:20:12] [Server thread/INFO]: Loaded 7 recipes
-[16:20:12] [Craft Scheduler Thread - 1/INFO]: [0;32;22mNew version of CMILib was detected. Please update it[m
-[16:20:13] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
-[16:20:13] [Server thread/INFO]: [Citizens] Cargando a 3 NPCs.
-[16:20:13] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
-[16:20:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
-[16:20:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
-[16:20:13] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 2 scripts loaded!
-[16:20:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript [2.1.2]
-[16:20:13] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered! [0;33;22m1 placeholder hook(s) have an update available.[m
-[16:20:13] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
-[16:20:14] [User Authenticator #1/INFO]: UUID of player Telmiyo is 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
-[16:20:14] [Server thread/INFO]: Telmiyo[/127.0.0.1:56928] logged in with entity id 115 at ([world]-38.58806653471763, 5.0, 155.23119091016426)
-[16:20:14] [Craft Scheduler Thread - 1/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=17bd71d138e5703b6573b8d2973c14a1c6182a9a in 1265 ms[m
-[16:20:31] [Server thread/INFO]: Telmiyo issued server command: /npc select 0
-[16:20:46] [Server thread/INFO]: Telmiyo issued server command: /npc pathto -37 4 109
-[16:21:01] [Server thread/INFO]: Telmiyo issued server command: /npc pathto -37 6 120
-[16:21:12] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:22:21] [Server thread/INFO]: Telmiyo issued server command: /npc pathto -36.254 6 120.700
-[16:22:37] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:24:46] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:24:46] [Server thread/WARN]: [BetonQuest] Event type npc is not registered, check if it's spelled correctly in 'lesson.walk_to_door_marc' event.
-[16:24:46] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 8 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:24:50] [Server thread/INFO]: [0;32;1mSelected [0;33;1mMarc[0;32;1m (ID [0;33;1m0[0;32;1m).[m
-[16:24:50] [Server thread/WARN]: [BetonQuest] Event lesson.walk_to_door_marc is not defined
-[16:25:23] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:25:23] [Server thread/WARN]: [BetonQuest] Event type npc is not registered, check if it's spelled correctly in 'lesson.walk_to_door_marc' event.
-[16:25:23] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 8 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:25:24] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:25:24] [Server thread/WARN]: [BetonQuest] Event lesson.walk_to_door_marc is not defined
-[16:25:41] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:25:41] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:25:43] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:25:43] [Server thread/INFO]: [0;32;1mTu solo puedes usar este comando en juego.[m
-[16:25:55] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:25:55] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:25:57] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:26:25] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:26:29] [Server thread/INFO]: Telmiyo issued server command: /npc save
-[16:26:32] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:26:32] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:26:40] [Server thread/INFO]: Telmiyo issued server command: /citizens save
-[16:26:42] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:27:08] [Server thread/INFO]: Telmiyo issued server command: /npc select 0
-[16:27:11] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:27:14] [Server thread/INFO]: Telmiyo issued server command: /citizens save
-[16:27:16] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:27:27] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:27:31] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:27:31] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:27:35] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:27:53] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:27:53] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:27:55] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:28:02] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:28:42] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:28:47] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:28:47] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:28:48] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:31:39] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:31:39] [Server thread/WARN]: [BetonQuest] Error in 'lesson.marc' conversation: NPC option welcome_citm points to press_space player option, but it does not exist
-[16:31:39] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 2 conversations loaded from 1 packages.
-[16:31:40] [Server thread/WARN]: [BetonQuest] Conversation 'lesson.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
-[16:31:41] [Server thread/WARN]: [BetonQuest] Conversation 'lesson.marc' does not exist. Check for errors in your console when running /q reload! It probably couldn't be loaded due to some other error.
-[16:31:45] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:31:45] [Server thread/WARN]: [BetonQuest] Error in 'lesson.marc' conversation: NPC option welcome_citm points to press_space player option, but it does not exist
-[16:31:45] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 2 conversations loaded from 1 packages.
-[16:32:02] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:32:02] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:32:26] [Server thread/INFO]: Telmiyo issued server command: /npc pathto here
-[16:32:39] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:32:39] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:32:43] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
-[16:33:12] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:33:16] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:33:23] [Server thread/INFO]: Telmiyo issued server command: /npc moveto here
-[16:33:33] [Server thread/INFO]: Telmiyo issued server command: /npc moveto -33 4 109
-[16:33:35] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:33:38] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:33:45] [Server thread/INFO]: Telmiyo issued server command: /q reload
-[16:33:45] [Server thread/INFO]: [BetonQuest] There are 0 conditions, 9 events, 0 objectives and 3 conversations loaded from 1 packages.
-[16:33:48] [Server thread/INFO]: Telmiyo issued server command: /spawn
-[16:33:51] [Server thread/INFO]: Telmiyo issued server command: /spawnpoint
-[16:33:51] [Server thread/INFO]: [Telmiyo: Set spawn point to -38, 4, 112 [0.0] in minecraft:overworld for Telmiyo]
-[16:33:58] [Server thread/INFO]: Telmiyo issued server command: /spawnpoint
-[16:33:58] [Server thread/INFO]: [Telmiyo: Set spawn point to -40, 4, 97 [0.0] in minecraft:overworld for Telmiyo]
-[16:34:00] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:01] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:03] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:38] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:47] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:57] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:34:57] [Server thread/ERROR]: Could not pass event PlayerInteractAtEntityEvent to Oraxen v1.161.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.PlayerConnection$4.performInteraction(PlayerConnection.java:2119) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection$4.a(PlayerConnection.java:2166) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$e.a(SourceFile:146) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:66) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2111) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:53) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1190) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.y(SourceFile:131) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.be(MinecraftServer.java:1169) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1162) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bo(SourceFile:116) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1145) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1051) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3498-Spigot-b081915-10ba1be]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NoSuchMethodError: 'void org.bukkit.event.player.PlayerArmorStandManipulateEvent.<init>(org.bukkit.entity.Player, org.bukkit.entity.ArmorStand, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.inventory.EquipmentSlot)'
-	at io.th0rgal.oraxen.mechanics.provided.cosmetic.hat.HatMechanicListener.onClickArmorStand(HatMechanicListener.java:41) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor137.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	... 24 more
-[16:35:04] [Server thread/INFO]: Telmiyo issued server command: //wand
-[16:35:13] [Server thread/INFO]: Telmiyo issued server command: //set 0
-[16:35:17] [Server thread/INFO]: Telmiyo issued server command: //set dirt
-[16:37:06] [Server thread/INFO]: Stopping the server
-[16:37:07] [Server thread/INFO]: Stopping server
-[16:37:07] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
-[16:37:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
-[16:37:07] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
-[16:37:07] [Server thread/INFO]: [Beton_PlaceholderAPI] Disabling Beton_PlaceholderAPI v1.0
-[16:37:07] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
-[16:37:07] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully disabled!
-[16:37:07] [Server thread/INFO]: [Jobs] Disabling Jobs v5.1.3.0
-[16:37:07] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
-[16:37:07] [Server thread/INFO]: [0;33;1m[Jobs] Saved 1 new explorer entries.[m
-[16:37:07] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mDatabase save task shutdown![m
-[16:37:07] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mBuffered payment thread shutdown.[m
-[16:37:07] [Server thread/INFO]: [0;33;22m------------------------------------[m
-[16:37:07] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
-[16:37:07] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
-[16:37:07] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
-[16:37:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[16:37:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:37:07] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
-[16:37:07] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
-[16:37:07] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:37:07] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
-[16:37:07] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-[16:37:07] [Server thread/INFO]: Saving players
-[16:37:07] [Server thread/INFO]: Telmiyo lost connection: Server closed
-[16:37:07] [Server thread/INFO]: Telmiyo left the game.
-[16:37:07] [Server thread/INFO]: Saving worlds
-[16:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:37:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:37:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:37:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:37:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:16:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:16:29] [Worker-Main-14/INFO]: Loaded 7 recipes
+[21:16:31] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[21:16:31] [Server thread/INFO]: Loading properties
+[21:16:31] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[21:16:31] [Server thread/INFO]: Debug logging is disabled
+[21:16:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:16:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:16:31] [Server thread/INFO]: Default game type: SURVIVAL
+[21:16:31] [Server thread/INFO]: Generating keypair
+[21:16:31] [Server thread/INFO]: Starting Minecraft server on *:25599
+[21:16:31] [Server thread/INFO]: Using default channel type
+[21:16:33] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:16:36] [Server thread/WARN]: Legacy plugin Beton_PlaceholderAPI v1.0 does not specify an api-version.
+[21:16:36] [Server thread/INFO]: [Oraxen] Loading 4 libraries... please wait
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\dev\jorel\commandapi-bukkit-shade\9.0.3\commandapi-bukkit-shade-9.0.3.jar
+[21:16:36] [Server thread/INFO]: [Oraxen] Loaded library E:\Educational-Minecraft-Server\server\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+[21:16:36] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[21:16:36] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
+[21:16:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:16:36] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[21:16:37] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3101)
+[21:16:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[21:16:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11e49b5]
+[21:16:38] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
+[21:16:38] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[21:16:38] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.7-Release
+[21:16:38] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[21:16:38] [Server thread/INFO]: [Jobs] Loading Jobs v5.1.3.0
+[21:16:38] [Server thread/INFO]: [BetonQuest] Loading BetonQuest v1.12.10
+[21:16:38] [Server thread/INFO]: [Beton_PlaceholderAPI] Loading Beton_PlaceholderAPI v1.0
+[21:16:38] [Server thread/INFO]: [Oraxen] Loading Oraxen v1.161.0
+[21:16:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:16:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:16:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:16:38] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[21:16:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[21:16:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:16:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:16:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[21:16:39] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:16:39] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:16:39] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[21:16:39] [Server thread/INFO]: [WorldEdit]   
+[21:16:39] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[21:16:39] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:16:39] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[21:16:39] [Server thread/INFO]: [WorldEdit]   
+[21:16:39] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:16:39] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:16:39] [Server thread/INFO]: [WorldEdit]   
+[21:16:39] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[21:16:39] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:16:39] [Server thread/INFO]: [WorldEdit]   
+[21:16:39] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:16:39] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:16:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:16:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:16:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:16:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:16:39] [Server thread/INFO]: Preparing level "world"
+[21:16:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:16:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:16:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:16:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:16:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:16:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:16:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:16:39] [Server thread/INFO]: Max TNT Explosions: 100
+[21:16:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:16:39] [Server thread/INFO]: View Distance: 10
+[21:16:39] [Server thread/INFO]: Simulation Distance: 10
+[21:16:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:16:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:16:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:16:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:16:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:16:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:16:39] [Server thread/INFO]: Mob Spawn Range: 6
+[21:16:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:16:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:16:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:16:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:16:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:16:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:16:40] [Server thread/INFO]: Max TNT Explosions: 100
+[21:16:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:16:40] [Server thread/INFO]: View Distance: 10
+[21:16:40] [Server thread/INFO]: Simulation Distance: 10
+[21:16:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:16:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:16:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:16:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:16:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:16:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:16:40] [Server thread/INFO]: Mob Spawn Range: 6
+[21:16:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:16:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:16:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:16:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:16:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:16:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:16:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:16:40] [Server thread/INFO]: Max TNT Explosions: 100
+[21:16:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:16:40] [Server thread/INFO]: View Distance: 10
+[21:16:40] [Server thread/INFO]: Simulation Distance: 10
+[21:16:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:16:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:16:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:16:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:16:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:16:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:16:40] [Server thread/INFO]: Mob Spawn Range: 6
+[21:16:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:16:41] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[21:16:41] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[21:16:41] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[21:16:42] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[21:16:42] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[21:16:43] [Worker-Main-16/INFO]: Preparing spawn area: 3%
+[21:16:43] [Worker-Main-16/INFO]: Preparing spawn area: 5%
+[21:16:44] [Worker-Main-15/INFO]: Preparing spawn area: 9%
+[21:16:44] [Worker-Main-14/INFO]: Preparing spawn area: 13%
+[21:16:45] [Worker-Main-13/INFO]: Preparing spawn area: 16%
+[21:16:45] [Worker-Main-19/INFO]: Preparing spawn area: 37%
+[21:16:46] [Worker-Main-22/INFO]: Preparing spawn area: 62%
+[21:16:49] [Worker-Main-14/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-18/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-12/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-18/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-12/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-12/INFO]: Preparing spawn area: 81%
+[21:16:49] [Worker-Main-22/INFO]: Preparing spawn area: 99%
+[21:16:49] [Server thread/INFO]: Time elapsed: 9249 ms
+[21:16:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:16:50] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[21:16:50] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[21:16:50] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[21:16:51] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[21:16:51] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[21:16:52] [Worker-Main-12/INFO]: Preparing spawn area: 40%
+[21:16:52] [Server thread/INFO]: Time elapsed: 2804 ms
+[21:16:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:16:53] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[21:16:53] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[21:16:53] [Worker-Main-14/INFO]: Preparing spawn area: 5%
+[21:16:54] [Worker-Main-17/INFO]: Preparing spawn area: 96%
+[21:16:54] [Server thread/INFO]: Time elapsed: 1513 ms
+[21:16:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[21:16:54] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:16:54] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
+[21:16:55] [Server thread/INFO]: [0;36;22mServer version: v1_18_R2 - 1.18.2 - spigot[m
+[21:16:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
+[21:16:55] [Server thread/INFO]: PlaceholderAPI hooked.[m
+[21:16:55] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m49ms[m
+[21:16:55] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[21:16:55] [Server thread/INFO]: [Citizens] Loading external libraries
+[21:16:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[21:16:56] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[21:16:56] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[21:16:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
+[21:16:56] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[21:16:56] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[21:16:56] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
+[21:16:56] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[21:16:57] [Server thread/INFO]: [DeluxeMenus] 117 GUI menus loaded!
+[21:16:57] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[21:16:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
+[21:16:57] [Server thread/INFO]: [Jobs] Enabling Jobs v5.1.3.0
+[21:16:57] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
+[21:16:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jobsr [5.1.3.0]
+[21:16:57] [Server thread/INFO]: [0;33;22mPlaceholderAPI [0;33;1mhooked.[m
+[21:16:57] [Server thread/INFO]: [0;33;1mConnected to database ([0;33;22mSqLite[0;33;1m)[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m9 [0;33;1mtitles[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m119 [0;33;1mprotected blocks timers[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m1229 [0;33;1mcustom item names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m75 [0;33;1mcustom entity names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m2 [0;33;1mcustom MythicMobs names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m38 [0;33;1mcustom enchant names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m21 [0;33;1mcustom enchant names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m16 [0;33;1mcustom color names[m
+[21:16:57] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m9 [0;33;1mshop items[m
+[21:16:57] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Break type property: FROGSPAWN!
+[21:16:57] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Kill type property: TADPOLE!
+[21:16:57] [Server thread/WARN]: [Jobs] Job Fisherman has an invalid Kill type property: FROG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: PINK_PETALS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: TORCHFLOWER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Florist has an invalid Place type property: PITCHER_PLANT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Florist has an invalid Craft type property: DECORATED_POT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Break type property: PIGLIN_HEAD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Break type property: PIGLIN_WALL_HEAD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Place type property: PIGLIN_HEAD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Place type property: PIGLIN_WALL_HEAD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: ALLAY!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: FROG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: TADPOLE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: WARDEN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: CAMEL!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: SNIFFER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Place type property: CALIBRATED_SCULK_SENSOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Place type property: CHISELED_BOOKSHELF!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: MANGROVE_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_DOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_DOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_TRAPDOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_TRAPDOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHERRY_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: BAMBOO_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CALIBRATED_SCULK_SENSOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Engineer has an invalid Craft type property: CHISELED_BOOKSHELF!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_ROOTS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Break type property: CHERRY_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_MANGROVE_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_BAMBOO_BLOCK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid StripLogs type property: STRIPPED_CHERRY_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: STRIPPED_MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Woodcutter has an invalid Craft type property: STRIPPED_CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: MANGROVE_LEAVES!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: MANGROVE_PROPAGULE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: CHERRY_LEAVES!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: TORCHFLOWER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: PITCHER_CROP!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: CHERRY_SAPLING!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: PITCHER_CROP!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: TORCHFLOWER_CROP!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: REINFORCED_DEEPSLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK_CATALYST!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: SCULK_SHRIEKER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Trader has an invalid VTrade type property: MANGROVE_PROPAGULE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Trader has an invalid VTrade type property: CHERRY_SAPLING!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Weaponsmith has an invalid Craft type property: BRUSH!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: MUD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: MUDDY_MANGROVE_ROOTS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: SUSPICIOUS_GRAVEL!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Digger has an invalid Break type property: SUSPICIOUS_SAND!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_PLANKS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_ROOTS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICK_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICK_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUD_BRICKS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MUDDY_MANGROVE_ROOTS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OCHRE_FROGLIGHT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PACKED_MUD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PEARLESCENT_FROGLIGHT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SCULK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_MANGROVE_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_MANGROVE_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: VERDANT_FROGLIGHT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: TORCHFLOWER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PITCHER_PLANT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_BLOCK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_MOSAIC_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_PLANKS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BAMBOO_WALL_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_PLANKS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WALL_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_BAMBOO_BLOCK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_CHERRY_WOOD!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: STRIPPED_CHERRY_LOG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DECORATED_POT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: PINK_PETALS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CHISELED_BOOKSHELF!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: ACACIA_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: BIRCH_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: CRIMSON_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: DARK_OAK_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: JUNGLE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: MANGROVE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: OAK_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: SPRUCE_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: WARPED_WALL_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Place type property: SNIFFER_EGG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: FROG!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: CAMEL!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Tamer has an invalid Breed type property: SNIFFER!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: ACACIA_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BIRCH_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DARK_OAK_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: JUNGLE_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_DOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_FENCE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_FENCE_GATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_TRAPDOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICK_WALL!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUD_BRICKS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MUSIC_DISC_5!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: OAK_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RECOVERY_COMPASS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPRUCE_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_BLOCK!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_CHEST_RAFT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_DOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_FENCE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_FENCE_GATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_MOSAIC_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_RAFT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BAMBOO_TRAPDOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BRUSH!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_BUTTON!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_CHEST_BOAT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_DOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_FENCE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_FENCE_GATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_PRESSURE_PLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_SLAB!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_STAIRS!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHERRY_TRAPDOOR!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DECORATED_POT!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CHISELED_BOOKSHELF!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: ACACIA_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: BIRCH_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CRIMSON_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DARK_OAK_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: JUNGLE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: MANGROVE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: OAK_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPRUCE_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WARPED_HANGING_SIGN!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: NETHERITE_UPGRADE_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: COAST_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: EYE_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: HOST_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: RIB_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: VEX_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WARD_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: WILD_ARMOR_TRIM_SMITHING_TEMPLATE!
+[21:16:58] [Server thread/WARN]: [Jobs] Job Crafter has an invalid Craft type property: CALIBRATED_SCULK_SENSOR!
+[21:16:58] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m19 [0;33;1mjobs[m
+[21:16:58] [Server thread/INFO]: [0;33;1mLoaded [0;33;22m0 [0;33;1mboosted items[m
+[21:16:58] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mStarted database save task.[m
+[21:16:58] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mStarted buffered payment thread.[m
+[21:16:58] [Server thread/INFO]: [0;33;1mPreloaded [0;33;22m1 [0;33;1mplayers data in [0;33;22m0.0[m
+[21:16:58] [Server thread/INFO]: [0;33;1mLoading explorer data[m
+[21:16:58] [Server thread/INFO]: [0;33;1mLoaded explorer data ([0;33;22m9[0;33;1m) in 2 ms[m
+[21:16:58] [Server thread/INFO]: [0;33;1mPlugin has been enabled successfully.[m
+[21:16:58] [Server thread/INFO]: [0;33;22m------------------------------------[m
+[21:16:58] [Server thread/INFO]: [BetonQuest] Enabling BetonQuest v1.12.10
+[21:16:58] [Server thread/INFO]: [BetonQuest] A new log file was created, and the old one was renamed to '23-09-11-21-16.log'.
+[21:16:58] [Server thread/INFO]: [BetonQuest] Using SQLite for storing data!
+[21:16:58] [Server thread/INFO]: [BetonQuest] Configuration up to date!
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into PlaceholderAPI
+[21:16:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betonquest [1.12.10]
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into Vault
+[21:16:58] [Server thread/WARN]: [BetonQuest] There is no economy plugin on the server!
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into ProtocolLib
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into Citizens
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into WorldEdit
+[21:16:58] [Server thread/INFO]: [BetonQuest] Hooking into Jobs
+[21:16:58] [Server thread/INFO]: [BetonQuest] Registered Conditions [nujobs_canlevel,nujobs_hasjob,nujobs_jobfull,nujobs_joblevel]
+[21:16:58] [Server thread/INFO]: [BetonQuest] Registered Events [nujobs_addexp,nujobs_addlevel,nujobs_dellevel,nujobs_joinjob,nujobs_leavejob,nujobs_setlevel]
+[21:16:58] [Server thread/INFO]: [BetonQuest] Registered Objectives [nujobs_joinjob,nujobs_leavejob,nujobs_levelup,nujobs_payment]
+[21:16:58] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully enabled!
+[21:16:58] [Server thread/INFO]: [Beton_PlaceholderAPI] Enabling Beton_PlaceholderAPI v1.0
+[21:16:58] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.161.0
+[21:16:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully updated settings.yml[m
+[21:16:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;231;63;52mThe texture specified for diagloue_tag does not exist. This will break all your glyphs.[m
+[21:16:58] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mIt has been temporarily set to a placeholder image. You should edit this in the glyph config.[m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mConverting global lang file to individual language files...[m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [0;34;1mVerifying formatting for textures and models...[m
+[21:16:59] [Server thread/INFO]: [m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo broken models or textures were found in the resourcepack[m
+[21:16:59] [Server thread/INFO]: [m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mGenerating atlas-file for 1.19.3+ Resource Pack format[m
+[21:16:59] [Server thread/INFO]: [m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;249;241;120mAttempting to merge imported font files[m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mNo duplicate font files found![m
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully loaded on Windows 11[m
+[21:16:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oraxen [1.161.0]
+[21:16:59] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mPlugin "PlaceholderAPI" detected, enabling hooks[m
+[21:16:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:16:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:16:59] [Server thread/INFO]: Done (20.425s)! For help, type "help"
+[21:16:59] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[21:16:59] [Server thread/ERROR]: [Jobs] Vault detected but economy plugin still missing!
+[21:16:59] [Server thread/ERROR]: [Jobs] Please install Vault supporting economy plugin!
+[21:16:59] [Server thread/ERROR]: [Jobs] ==============================================
+[21:16:59] [Server thread/INFO]: [BetonQuest] Hooked into PlaceholderAPI, Vault, ProtocolLib, Citizens, WorldEdit, Jobs!
+[21:17:00] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:17:00] [Server thread/INFO]: Loaded 7 recipes
+[21:17:00] [Craft Scheduler Thread - 1/INFO]: [0;32;22mNew version of CMILib was detected. Please update it[m
+[21:17:01] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;213;214;216mAutomatic upload of the resource pack is enabled, uploading...[m
+[21:17:01] [Server thread/INFO]: [Citizens] Cargando a 5 NPCs.
+[21:17:01] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[21:17:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[21:17:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
+[21:17:01] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 2 scripts loaded!
+[21:17:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript [2.1.2]
+[21:17:01] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered! [0;33;22m1 placeholder hook(s) have an update available.[m
+[21:17:01] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[21:17:02] [Craft Scheduler Thread - 2/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mResourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=cb66c7a50fd34addbdb6e83927671be88b7aad78 in 1344 ms[m
+[21:17:08] [User Authenticator #1/INFO]: UUID of player Telmiyo is 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+[21:17:09] [Server thread/INFO]: Telmiyo[/127.0.0.1:54771] logged in with entity id 140 at ([world]-39.042897807423316, 5.0, 136.24837797574688)
+[21:17:22] [Server thread/INFO]: [0;32;1mSelected [0;33;1mJobs[0;32;1m (ID [0;33;1m4[0;32;1m).[m
+[21:17:22] [Server thread/INFO]: [0;32;1mRemoved line [0;33;1m0[0;32;1m.[m
+[21:17:22] [Server thread/INFO]: [0;32;1mSelected [0;33;1mMarta[0;32;1m (ID [0;33;1m1[0;32;1m).[m
+[21:17:22] [Server thread/INFO]: [0;32;1mAdded a new hologram line: [0;33;1m?[0;32;1m.[m
+[21:17:25] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:18:58] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:18:58] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:19:09] [Server thread/INFO]: [0;32;1mSelected [0;33;1mJobs[0;32;1m (ID [0;33;1m4[0;32;1m).[m
+[21:19:09] [Server thread/INFO]: [0;32;1mRemoved line [0;33;1m0[0;32;1m.[m
+[21:19:09] [Server thread/INFO]: [0;32;1mSelected [0;33;1mMarta[0;32;1m (ID [0;33;1m1[0;32;1m).[m
+[21:19:09] [Server thread/INFO]: [0;32;1mAdded a new hologram line: [0;33;1m?[0;32;1m.[m
+[21:19:32] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:19:32] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:19:34] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:19:55] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:19:55] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:19:57] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:20:09] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:20:09] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 23 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:20:11] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:20:39] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:20:39] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:20:44] [Server thread/INFO]: Telmiyo issued server command: /npc list
+[21:20:46] [Server thread/INFO]: Telmiyo issued server command: /npc tph --id 1
+[21:20:51] [Server thread/INFO]: Telmiyo issued server command: /npc select 1
+[21:20:57] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[21:20:58] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[21:20:58] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[21:21:05] [Server thread/INFO]: Telmiyo issued server command: /citizens save
+[21:21:11] [Server thread/INFO]: Telmiyo issued server command: /q tag Telmiyo
+[21:21:20] [Server thread/INFO]: Telmiyo issued server command: /q delete tag gui.quest02_completed
+[21:21:23] [Server thread/INFO]: Telmiyo issued server command: /q delete tag gui.quest02_started
+[21:21:30] [Server thread/INFO]: [0;32;1mSelected [0;33;1mJobs[0;32;1m (ID [0;33;1m4[0;32;1m).[m
+[21:21:30] [Server thread/INFO]: [0;32;1mInvalid line number.[m
+[21:21:30] [Server thread/INFO]: [0;32;1mSelected [0;33;1mMarta[0;32;1m (ID [0;33;1m1[0;32;1m).[m
+[21:21:30] [Server thread/INFO]: [0;32;1mAdded a new hologram line: [0;33;1m?[0;32;1m.[m
+[21:21:35] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:22:05] [Server thread/INFO]: Telmiyo issued server command: /q delete tag gui.quest02_started
+[21:22:06] [Server thread/INFO]: Telmiyo issued server command: /q delete tag gui.quest02_completed
+[21:22:10] [Server thread/INFO]: Telmiyo issued server command: /q tag Telmiyo
+[21:22:14] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:22:14] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:22:19] [Server thread/INFO]: Telmiyo issued server command: /npc list
+[21:22:21] [Server thread/INFO]: Telmiyo issued server command: /npc tph --id 1
+[21:22:26] [Server thread/INFO]: Telmiyo issued server command: /npc select 1
+[21:22:29] [Server thread/INFO]: Telmiyo issued server command: /npc hologram remove 0
+[21:22:32] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:22:32] [Server thread/INFO]: [0;32;1mRemoved line [0;33;1m0[0;32;1m.[m
+[21:22:32] [Server thread/INFO]: [0;32;1mSelected [0;33;1mJobs[0;32;1m (ID [0;33;1m4[0;32;1m).[m
+[21:22:32] [Server thread/INFO]: [0;32;1mAdded a new hologram line: [0;33;1m?[0;32;1m.[m
+[21:22:34] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:22:34] [Server thread/INFO]: [0;32;1mRemoved line [0;33;1m0[0;32;1m.[m
+[21:22:34] [Server thread/INFO]: [0;32;1mSelected [0;33;1mMarta[0;32;1m (ID [0;33;1m1[0;32;1m).[m
+[21:22:34] [Server thread/INFO]: [0;32;1mAdded a new hologram line: [0;33;1m?[0;32;1m.[m
+[21:22:38] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:23:07] [Server thread/INFO]: Telmiyo issued server command: /q reload
+[21:23:07] [Server thread/INFO]: [BetonQuest] There are 5 conditions, 22 events, 0 objectives and 5 conversations loaded from 2 packages.
+[21:23:09] [Server thread/INFO]: [0;32;1mYa tienes al NPC seleccionado.[m
+[21:23:09] [Server thread/INFO]: [0;32;1mRemoved line [0;33;1m0[0;32;1m.[m
+[21:23:26] [Server thread/INFO]: Telmiyo issued server command: /npc list
+[21:23:28] [Server thread/INFO]: Telmiyo issued server command: /npc tph --id 2
+[21:23:42] [Server thread/INFO]: Telmiyo issued server command: /q create items
+[21:23:42] [Server thread/INFO]: [BetonQuest] Deploying items package!
+[21:23:48] [Server thread/INFO]: Stopping the server
+[21:23:48] [Server thread/INFO]: Stopping server
+[21:23:48] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.161.0
+[21:23:48] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mUnhooking plugin "PlaceholderAPI"[m
+[21:23:48] [Server thread/INFO]: [38;2;144;85;255mO[38;2;128;103;250mr[38;2;113;120;246ma[38;2;97;138;241mx[38;2;82;156;237me[38;2;66;173;232mn[38;2;50;191;227m [38;2;40;43;63m| [38;2;85;255;164mSuccessfully unloaded[m
+[21:23:48] [Server thread/INFO]: [Beton_PlaceholderAPI] Disabling Beton_PlaceholderAPI v1.0
+[21:23:48] [Server thread/INFO]: [BetonQuest] Disabling BetonQuest v1.12.10
+[21:23:48] [Server thread/INFO]: [BetonQuest] BetonQuest succesfully disabled!
+[21:23:48] [Server thread/INFO]: [Jobs] Disabling Jobs v5.1.3.0
+[21:23:48] [Server thread/INFO]: [0;33;22m------------- [0;32;22mJobs [0;33;22m-------------[m
+[21:23:48] [Jobs-DatabaseSaveTask/INFO]: [0;33;1mDatabase save task shutdown![m
+[21:23:48] [Server thread/INFO]: [0;33;22m------------------------------------[m
+[21:23:48] [Jobs-BufferedPaymentThread/INFO]: [0;33;1mBuffered payment thread shutdown.[m
+[21:23:48] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
+[21:23:48] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[21:23:48] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
+[21:23:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[21:23:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:23:48] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3101)
+[21:23:48] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[21:23:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:23:48] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
+[21:23:48] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[21:23:48] [Server thread/INFO]: Saving players
+[21:23:48] [Server thread/INFO]: Telmiyo lost connection: Server closed
+[21:23:48] [Server thread/INFO]: Telmiyo left the game.
+[21:23:48] [Server thread/INFO]: Saving worlds
+[21:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
