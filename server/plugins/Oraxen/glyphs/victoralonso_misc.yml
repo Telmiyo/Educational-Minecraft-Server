@@ -1,0 +1,26 @@
+# JobsCustom
+error_green:
+  texture: victoralonso/font/error_green
+  ascent: 7
+  height: 7
+  char: 괅
+error_message:
+  texture: victoralonso/font/error_message
+  ascent: 7
+  height: 7
+  char: 괆
+error_red:
+  texture: victoralonso/font/error_red
+  ascent: 7
+  height: 7
+  char: 괇
+click_l:
+  texture: victoralonso/font/click_l
+  ascent: 9
+  height: 10
+  char: 괈
+click_r:
+  texture: victoralonso/font/click_r
+  ascent: 9
+  height: 10
+  char: 괉

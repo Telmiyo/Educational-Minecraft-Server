@@ -1,0 +1,195 @@
+jobs_menu:
+  texture: victoralonso/gui/jobs/jobs_menu
+  ascent: 39
+  height: 256
+  char: 가
+menu_info:
+  texture: victoralonso/gui/jobs/menu_info
+  ascent: 39
+  height: 256
+  char: 각
+menu_shop:
+  texture: victoralonso/gui/jobs/menu_shop
+  ascent: 39
+  height: 256
+  char: 갂
+menu_quest:
+  texture: victoralonso/gui/jobs/menu_quest
+  ascent: 39
+  height: 256
+  char: 갃
+leaving_job:
+  texture: victoralonso/gui/jobs/leaving_job
+  ascent: 39
+  height: 256
+  char: 간
+_menu_progress:
+  texture: victoralonso/gui/jobs/progress/_menu_progress
+  ascent: 39
+  height: 256
+  char: 갅
+brewer:
+  texture: victoralonso/gui/jobs/progress/brewer
+  ascent: 39
+  height: 256
+  char: 갆
+builder:
+  texture: victoralonso/gui/jobs/progress/builder
+  ascent: 39
+  height: 256
+  char: 갇
+cooker:
+  texture: victoralonso/gui/jobs/progress/cooker
+  ascent: 39
+  height: 256
+  char: 갈
+crafter:
+  texture: victoralonso/gui/jobs/progress/crafter
+  ascent: 39
+  height: 256
+  char: 갉
+digger:
+  texture: victoralonso/gui/jobs/progress/digger
+  ascent: 39
+  height: 256
+  char: 갊
+enchanter:
+  texture: victoralonso/gui/jobs/progress/enchanter
+  ascent: 39
+  height: 256
+  char: 갋
+engineer:
+  texture: victoralonso/gui/jobs/progress/engineer
+  ascent: 39
+  height: 256
+  char: 갌
+explorer:
+  texture: victoralonso/gui/jobs/progress/explorer
+  ascent: 39
+  height: 256
+  char: 갍
+farmer:
+  texture: victoralonso/gui/jobs/progress/farmer
+  ascent: 39
+  height: 256
+  char: 갎
+fisherman:
+  texture: victoralonso/gui/jobs/progress/fisherman
+  ascent: 39
+  height: 256
+  char: 갏
+florist:
+  texture: victoralonso/gui/jobs/progress/florist
+  ascent: 39
+  height: 256
+  char: 감
+hunter:
+  texture: victoralonso/gui/jobs/progress/hunter
+  ascent: 39
+  height: 256
+  char: 갑
+miner:
+  texture: victoralonso/gui/jobs/progress/miner
+  ascent: 39
+  height: 256
+  char: 값
+smelter:
+  texture: victoralonso/gui/jobs/progress/smelter
+  ascent: 39
+  height: 256
+  char: 갓
+tamer:
+  texture: victoralonso/gui/jobs/progress/tamer
+  ascent: 39
+  height: 256
+  char: 갔
+taster:
+  texture: victoralonso/gui/jobs/progress/taster
+  ascent: 39
+  height: 256
+  char: 강
+trader:
+  texture: victoralonso/gui/jobs/progress/trader
+  ascent: 39
+  height: 256
+  char: 갖
+weaponsmith:
+  texture: victoralonso/gui/jobs/progress/weaponsmith
+  ascent: 39
+  height: 256
+  char: 갗
+woodcutter:
+  texture: victoralonso/gui/jobs/progress/woodcutter
+  ascent: 39
+  height: 256
+  char: 갘
+level_up_1:
+  texture: victoralonso/font/jobs/level_up_1
+  ascent: 7
+  height: 9
+  char: 관
+level_up_2:
+  texture: victoralonso/font/jobs/level_up_2
+  ascent: 7
+  height: 9
+  char: 괁
+level_up_3:
+  texture: victoralonso/font/jobs/level_up_3
+  ascent: 7
+  height: 8
+  char: 괂
+level_up_4:
+  texture: victoralonso/font/jobs/level_up_4
+  ascent: 8
+  height: 8
+  char: 괃
+progress_bar:
+  texture: victoralonso/font/jobs/progress_bar
+  ascent: 3
+  height: 4
+  char: 괄
+job_rank_newbie:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_newbie
+  ascent: 7
+  height: 9
+  char: 뀀
+job_rank_member:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_member
+  ascent: 7
+  height: 9
+  char: 뀁
+job_rank_skilled:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_skilled
+  ascent: 7
+  height: 9
+  char: 뀂
+job_rank_intermediate:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_intermediate
+  ascent: 7
+  height: 9
+  char: 뀃
+job_rank_proficient:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_proficient
+  ascent: 7
+  height: 9
+  char: 뀄
+job_rank_experienced:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_experienced
+  ascent: 7
+  height: 9
+  char: 뀅
+job_rank_advanced:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_advanced
+  ascent: 7
+  height: 9
+  char: 뀆
+job_rank_expert:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_expert
+  ascent: 7
+  height: 9
+  char: 뀇
+job_rank_professional:
+  texture: victoralonso/font/jobs/jobs_ranks/job_rank_professional
+  ascent: 7
+  height: 9
+  char: 뀈

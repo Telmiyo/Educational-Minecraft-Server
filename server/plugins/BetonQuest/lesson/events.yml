@@ -1,0 +1,13 @@
+# Shared Events
+remove_hologram: command npc hologram remove 0
+give_point: point progress 2
+
+# Marc Events
+open_door_marc: door -39;6;121;world on
+select_npc_marc: command npc select 0
+notify_objective_marc: "notify This is a title.\nThis is a subtitle. io:title"
+
+# Marta Events
+open_door_marta: door -44;5;142;world on
+open_gui_marta: command dmenu open jobs_menu_page_1 %player%
+select_npc_marta: command npc select 1

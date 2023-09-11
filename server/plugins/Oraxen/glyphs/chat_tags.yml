@@ -78,12 +78,12 @@ god_tag:
     permission: oraxen.emoji.god
   char: ꐗ
 
-npc_dialogue:
-  texture: default/chat/dialogue
+diagloue_tag:
+  texture: default/chat/dialogue-controls
   ascent: 9
   height: 10
   chat:
     placeholders:
-    - ':dialogue:'
-    permission: oraxen.emoji.dialogue
-  char: ꗁ
+    - ':dialogue_controls:'
+    permission: oraxen.emoji.dialogue_controls
+  char: Ꙝ

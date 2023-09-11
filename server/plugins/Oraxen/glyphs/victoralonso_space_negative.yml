@@ -1,0 +1,16 @@
+# JobsCustom
+space_split-4:
+  texture: victoralonso/space/space_split
+  ascent: -32768
+  height: -4
+  char: ㆼ
+space_split-50:
+  texture: victoralonso/space/space_split
+  ascent: -32768
+  height: -50
+  char: ㆽ
+space_split-219:
+  texture: victoralonso/space/space_split
+  ascent: -32768
+  height: -219
+  char: ㆾ

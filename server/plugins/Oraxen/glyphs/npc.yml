@@ -1,0 +1,26 @@
+npc_dialogue:
+  texture: default/npc/dialogue
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':dialogue:'
+  char: ꗁ
+marc_frame:
+  texture: default/npc/marc
+  ascent: 9
+  height: 50
+  chat:
+    placeholders:
+    - ':marc_frame:'
+  char: ꘍
+player_frame:
+  texture: default/npc/player-frame
+  ascent: 9
+  height: 35
+  chat:
+    placeholders:
+    - ':player_frame:'
+  char: ꑘ
+
+

@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 1
+last-created-npc-id: 2
 npc:
   '0':
     metadata:
@@ -19,14 +19,35 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -177.46342
+        bodyYaw: 33.21161
         world: world
         x: '-36.0875'
         y: '4.0'
         z: '117.1573'
-        yaw: '-177.4634'
-        pitch: '0.8999'
-    traitnames: location,mounttrait,inventory,type,scoreboardtrait,spawned,owner,skintrait
+        yaw: '33.2116'
+        pitch: '-23.9118'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: hologramtrait,lookclose,rotationtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -48,14 +69,71 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 3.13562
+        bodyYaw: 116.98425
         world: world
         x: '-38.606'
         y: '5.0'
-        z: '138.510'
-        yaw: '3.1356'
-        pitch: '9.15'
-    traitnames: location,mounttrait,inventory,type,spawned,scoreboardtrait,owner,skintrait
+        z: '138.51'
+        yaw: '96.9843'
+        pitch: '-30.7833'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0': ꗁ
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: hologramtrait,lookclose,rotationtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: 7f6d4be3-e490-41e0-9ea0-a7c3f40acbb9
+      cached-skin-uuid-name: merlin
+    name: merlin
+    uuid: b4bbc135-4c61-448c-867f-f354371c91d1
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: jUI1VSzavbVMOa63SUBpKIwA9TSKfv0Cw7dOxMBNCRzl1osb9vO0kyjqo0XclD4VCyHpl69tMfTXQkCTMi57BxX59xjAPF+jHoHBmq3xBmqb9QJR9xR7+8k9rR6o+6h0sapsoAoGj4Nu1Yyr3WqezZcwU8foranmi2micraiXlN0KM35bY8rI0kWqsJvLai7QIM6EHtcDyBzOAbpMrQ3h6n26w3OYfpXpuJ8WhDyL1APdJ1JRGq80JnCnxWnI+UO06LiJDEdIkiT3m+k5vlaZnYefQeD1yhgV9QvEyUNZPxzIMqWP3T+IisXDkoUfRyKw7oU6KEtmSd310QeGu2KUtuKHM5L7F5NXnWkITS0rwbTfzOc884hU1XyN7c20rDCXlyaUii5OOidfKlezL0T40OaPTH4dcajpa/Q8ENJ3fHDsi75gXC+hVKbseJM2GLleSKXoCbj2O+JJVJMUKw+p4ZqhqjanroRFrssKDRMjzcD7VDQEp8cPQ4OOtfygXxUgH/LnqeEBf3zuolHDsbO5taJvZnb8Nas4oDHRZA0PgJ62k+z42CTbH96ulq1I1uBv0gwXucUGwJ02GjEqsahA15P8fYTREuyDJaMtn/uXRcVmCEf7bpU16fDIghksMkroXJfEpuPhjzVt1ZyhqPVEeaNwvB38wlFFSUusuRxSzY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDQwMTA0NzU1OSwKICAicHJvZmlsZUlkIiA6ICI3ZjZkNGJlM2U0OTA0MWUwOWVhMGE3YzNmNDBhY2JiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJsaW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY0MWVjMDBhZTljZWMzZWY4MTMyNWQ2YTFiNTUwZDQyNTlmN2M4NjgxZjk3OGQzOWVjMzVhMmVkNDdkMDM4MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: -178.95337
+        world: world
+        x: '-38.6165'
+        y: '5.0'
+        z: '159.5046'
+        yaw: '-178.9534'
+        pitch: '7.6504'
+      spawned: true
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0': ꗁ
+    traitnames: hologramtrait,location,inventory,type,mounttrait,spawned,scoreboardtrait,skintrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

@@ -5,48 +5,6 @@
 # Random UUID generator: https://www.uuidgenerator.net/
 # Color codes: https://docs.adventure.kyori.net/minimessage.html#format
 
-test:
-  
-  displayname: <gradient:#FA7CBB:#F14658><bold>Mi Tremendo Turbo
-  material: WOODEN_SWORD
-  injectID: false # allow Oraxen to recognise the item if true or not set
-  durability: 10
-  
-  ItemFlags:
-  - HIDE_ENCHANTS
-  - HIDE_ATTRIBUTES
-  - HIDE_UNBREAKABLE
-  - HIDE_DESTROYS
-  - HIDE_PLACED_ON
-  - HIDE_POTION_EFFECTS
-  
-  PersistentData:
-  - key: test:hello
-    type: STRING
-    value: Here is a value
-  
-  AttributeModifiers:
-  - name: oraxen_speed
-    attribute: GENERIC_MOVEMENT_SPEED
-    amount: 0.1
-    operation: 0
-    slot: HAND
-    uuid: e47beee7-2885-4041-8e3e-a3f0af53ebdd
-  
-  Pack:
-    generate_model: false
-    model: default/test # .json extension is not mandatory
-    custom_model_data: 1016
-  
-  Enchantments:
-    protection: 4
-    flame: 34
-    sharpness: 18
-  
-  Mechanics:
-    durability:
-      value: 10
-
 example_custom_mechanic:
   displayname: <gradient:#FA7CBB:#F14658><bold>My Item With A Custom Mechanic
   material: DIAMOND_SWORD
@@ -153,11 +111,3 @@ fire:
     generate_model: false
     model: block/fire_floor0 # so we use the already existing fire model
     custom_model_data: 1025
-test1:
-  displayname: <gradient:#F06966:#FAD6A6>Fire
-  material: PAPER
-  Pack:
-    generate_model: false
-    model: default/test # so we use the already existing fire model
-    custom_model_data: 1040
-

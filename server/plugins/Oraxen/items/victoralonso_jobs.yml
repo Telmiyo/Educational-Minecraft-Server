@@ -1,0 +1,594 @@
+empty_texture:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/empty_texture
+    custom_model_data: 10000
+locked:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/progress/locked
+    custom_model_data: 10001
+unlocked:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/progress/unlocked
+    custom_model_data: 10002
+current:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/progress/current
+    custom_model_data: 10003
+button_back:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/back
+    custom_model_data: 10004
+button_next:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/next
+    custom_model_data: 10005
+quest_daily:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/quest/quest_daily
+    custom_model_data: 10006
+quest_log:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/quest/quest_log
+    custom_model_data: 10007
+button_comingsoon:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/comingsoon
+    custom_model_data: 11000
+brewer:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/brewer
+    custom_model_data: 11001
+brewer_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/brewer_select
+    custom_model_data: 11002
+brewer_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/brewer_disable
+    custom_model_data: 11003
+builder:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/builder
+    custom_model_data: 11004
+builder_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/builder_select
+    custom_model_data: 11005
+builder_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/builder_disable
+    custom_model_data: 11006
+cooker:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/cooker
+    custom_model_data: 11007
+cooker_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/cooker_select
+    custom_model_data: 11008
+cooker_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/cooker_disable
+    custom_model_data: 11009
+crafter:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/crafter
+    custom_model_data: 11010
+crafter_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/crafter_select
+    custom_model_data: 11011
+crafter_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/crafter_disable
+    custom_model_data: 11012
+digger:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/digger
+    custom_model_data: 11013
+digger_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/digger_select
+    custom_model_data: 11014
+digger_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/digger_disable
+    custom_model_data: 11015
+enchanter:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/enchanter
+    custom_model_data: 11016
+enchanter_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/enchanter_select
+    custom_model_data: 11017
+enchanter_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/enchanter_disable
+    custom_model_data: 11018
+engineer:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/engineer
+    custom_model_data: 11019
+engineer_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/engineer_select
+    custom_model_data: 11020
+engineer_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/engineer_disable
+    custom_model_data: 11021
+explorer:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/explorer
+    custom_model_data: 11022
+explorer_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/explorer_select
+    custom_model_data: 11023
+explorer_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/explorer_disable
+    custom_model_data: 11024
+farmer:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/farmer
+    custom_model_data: 11025
+farmer_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/farmer_select
+    custom_model_data: 11026
+farmer_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/farmer_disable
+    custom_model_data: 11027
+fisherman:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/fisherman
+    custom_model_data: 11028
+fisherman_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/fisherman_select
+    custom_model_data: 11029
+fisherman_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/fisherman_disable
+    custom_model_data: 11030
+florist:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/florist
+    custom_model_data: 11031
+florist_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/florist_select
+    custom_model_data: 11032
+florist_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/florist_disable
+    custom_model_data: 11033
+hunter:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/hunter
+    custom_model_data: 11034
+hunter_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/hunter_select
+    custom_model_data: 11035
+hunter_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/hunter_disable
+    custom_model_data: 11036
+miner:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/miner
+    custom_model_data: 11037
+miner_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/miner_select
+    custom_model_data: 11038
+miner_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/miner_disable
+    custom_model_data: 11039
+smelter:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/smelter
+    custom_model_data: 11040
+smelter_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/smelter_select
+    custom_model_data: 11041
+smelter_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/smelter_disable
+    custom_model_data: 11042
+tamer:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/tamer
+    custom_model_data: 11043
+tamer_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/tamer_select
+    custom_model_data: 11044
+tamer_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/tamer_disable
+    custom_model_data: 11045
+taster:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/taster
+    custom_model_data: 11046
+taster_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/taster_select
+    custom_model_data: 11047
+taster_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/taster_disable
+    custom_model_data: 11048
+trader:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/trader
+    custom_model_data: 11049
+trader_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/trader_select
+    custom_model_data: 11050
+trader_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/trader_disable
+    custom_model_data: 11051
+weaponsmith:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/weaponsmith
+    custom_model_data: 11052
+weaponsmith_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/weaponsmith_select
+    custom_model_data: 11053
+weaponsmith_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/weaponsmith_disable
+    custom_model_data: 11054
+woodcutter:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/woodcutter
+    custom_model_data: 11055
+woodcutter_select:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/woodcutter_select
+    custom_model_data: 11056
+woodcutter_disable:
+  displayname: "<white>"
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - victoralonso/icons/jobs/jobs_icons/woodcutter_disable
+    custom_model_data: 11057
