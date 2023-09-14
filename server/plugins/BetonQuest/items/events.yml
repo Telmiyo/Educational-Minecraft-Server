@@ -1,0 +1,21 @@
+# Marta Events
+select_npc: command npc select 2
+add_hologram: command npc hologram add ꗁ
+remove_hologram: command npc hologram remove 0
+set_block_debug: setblock REDSTONE_BLOCK -44;5;163;world
+
+walk_phase_1: command npc pathto -35 5 145
+walk_phase_2: command npc pathto -43 5 153
+walk_phase_3: command npc pathto -43 5 159
+open_door: door -44;5;163;world on
+
+# Tags
+add_tag_quest03_started: tag add quest03_started
+add_tag_quest03_phase1: tag add quest03_phase1
+add_tag_quest03_phase2: tag add quest03_phase2
+add_tag_quest03_phase3: tag add quest03_phase3
+add_tag_quest03_completed: tag add quest03_completed
+
+# Notifications
+notify_objective: "notify Item and Entity Master! category:info io:advancement frame:challenge"
+

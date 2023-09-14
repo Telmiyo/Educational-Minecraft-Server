@@ -12,7 +12,7 @@ NPC_options:
     text:
       en: "Good Job, %player%! Follow me to the next lesson!"
     conditions: 'quest02_completed, quest02_started'
-    events: 'select_npc_marta, remove_hologram, walk_to_door_marta, open_door_marta, notify_objective'
+    events: 'select_npc_marta, remove_hologram, walk_to_door_marta, open_door_marta, notify_objective, give_point'
   'progress':
     text:
       en: "Talk with Jobs!"

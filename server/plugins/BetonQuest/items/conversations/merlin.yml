@@ -1,0 +1,85 @@
+quester:
+  en: 'Merlin'
+first: 'open_door, explain_gameplay_items, explain_items, start_quest'
+stop: 'true'
+NPC_options:
+# Welcome Dialogue
+  'start_quest':
+    text:
+      en: 'Lizz, Hello young learner. I will show you entity and items on server creation, let see my incredible magical entities, follow me!'
+    pointer: 'follow_merlin'
+  'lizz':
+    text:
+      en: 'Lizz lizz'
+    events: 'add_tag_quest03_phase1, select_npc, walk_phase_1'
+  'in_quest':
+    text:
+      en: 'Great! Come back once you are ready!'
+    conditions: 'quest03_started'   
+# Phase 1
+  'explain_items':
+    text:
+      en: 'Look at here, these are my incredible friends. As you can see, we can add them custom names! What do you think about it?'
+    conditions: 'quest03_phase1'
+    pointer: 'like'
+  'explain_items_2':
+    text:
+      en: 'Glad you like them lizz. Follow me here lizzz, I will sho you my decorative items. Follow me!'
+    pointer: 'follow_merlin_2'
+  'lizz_2':
+    text:
+      en: 'Lizz lizz'
+    events: 'select_npc, walk_phase_2, add_tag_quest03_phase2'
+# Phase 2
+  'explain_gameplay_items':
+    text:
+      en: 'Look at here, these are my incredible decorative items. As you can see,they are pretty cool lizz?'
+    conditions: 'quest03_phase2'
+    pointer: 'like_2'
+  'explain_gameplay_items_2':
+    text:
+      en: 'Glad you like them lizz. To sum up liz, I will sho you my last items. The gampelay itemss, lizz, Follow me!'
+    pointer: 'follow_merlin_3'
+  'lizz_3':
+    text:
+      en: 'Lizz lizzaaa'
+    events: 'select_npc, walk_phase_3, add_tag_quest03_phase3'
+# Phase 2
+  'open_door':
+    text:
+      en: 'Look at here, at my magical weapons. As you can see,they are pretty cool lizz?'
+    conditions: 'quest03_phase3'
+    pointer: 'like_3'
+  'explain_gameplay_items_3':
+    text:
+      en: 'You can use them, if you want. Anyways, I will open the door lizz so you can continue on the last lesson. Good Luck! lizz...'
+    events: 'open_door'
+
+player_options:
+# Welcome Dialogue
+  'follow_merlin':
+    text:
+      en: 'I will follow you!'
+    pointer: 'lizz'
+# Phase2
+  'like':
+    text:
+      en: 'I like them!'
+    pointer: 'explain_items_2'
+  'follow_merlin_2':
+    text:
+      en: 'I will follow you!'
+    pointer: 'lizz_2'
+# Phase2
+  'like_2':
+    text:
+      en: 'Awesome!'
+    pointer: 'explain_gameplay_items_2'
+  'follow_merlin_3':
+    text:
+      en: 'I will follow you!'
+    pointer: 'lizz_3'
+  'like_3':
+    text:
+      en: 'Yes!'
+    pointer: 'explain_gameplay_items_3'

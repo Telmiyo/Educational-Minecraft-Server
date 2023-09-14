@@ -10,7 +10,7 @@ NPC_options:
   'intro_completed':
     text:
       en: 'Do you want to see the menu? Well done!'
-    condition: 'quest02_completed'
+    conditions: 'quest02_completed'
     pointer: 'show_gui'
   'welcome':
     text:

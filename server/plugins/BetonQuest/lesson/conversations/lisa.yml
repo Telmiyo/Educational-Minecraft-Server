@@ -6,7 +6,7 @@ NPC_options:
 # Welcome Dialogue
   'intro':
     text:
-      en: 'Hello, I am Lisa. Nice to e-meet you!'
+      en: '%point.progress.left:9% Hello, I am Lisa. Nice to e-meet you!'
   'welcome_citm':
     text:
       en: 'Hello, how can I help you?'

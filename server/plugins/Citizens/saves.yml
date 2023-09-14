@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 4
+last-created-npc-id: 7
 npc:
   '0':
     metadata:
@@ -19,13 +19,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 6.8485947
+        bodyYaw: 33.955894
         world: world
-        x: '-37.2956'
-        y: '6.0'
-        z: '119.3113'
-        yaw: '6.8486'
-        pitch: '5.4248'
+        x: '-36.8882'
+        y: '4.0'
+        z: '110.7464'
+        yaw: '33.9559'
+        pitch: '-14.2593'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -49,7 +49,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: rotationtrait,location,mounttrait,hologramtrait,type,owner,spawned,skintrait,inventory,scoreboardtrait,lookclose
+    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -71,12 +71,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -24.592117
+        bodyYaw: -23.59977
         world: world
-        x: '-45.3371'
+        x: '-45.3277'
         y: '5.0'
-        z: '139.2996'
-        yaw: '-24.5921'
+        z: '139.2931'
+        yaw: '-23.5998'
         pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
@@ -99,7 +99,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: rotationtrait,location,mounttrait,hologramtrait,type,owner,spawned,skintrait,inventory,scoreboardtrait,lookclose
+    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,hologramtrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -118,13 +118,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -179.2428
+        bodyYaw: 14.253845
         world: world
-        x: '-38.5251'
-        y: '5.0'
-        z: '159.4247'
-        yaw: '-178.9534'
-        pitch: '1.6498'
+        x: '-42.5'
+        y: '5.0625'
+        z: '158.2643'
+        yaw: '14.2538'
+        pitch: '0.7347'
       spawned: true
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
@@ -133,7 +133,25 @@ npc:
         lineHeight: -1.0
         lines:
           '0': ꗁ
-    traitnames: location,mounttrait,hologramtrait,type,owner,spawned,skintrait,inventory,scoreboardtrait
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -155,17 +173,35 @@ npc:
         updateSkins: false
       spawned: true
       location:
-        bodyYaw: -173.10793
+        bodyYaw: -140.83807
         world: world
         x: '-46.4286'
         y: '4.0'
         z: '118.3933'
-        yaw: '-173.1079'
-        pitch: '11.25'
+        yaw: '-140.8381'
+        pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-    traitnames: location,mounttrait,hologramtrait,type,owner,spawned,skintrait,inventory,scoreboardtrait
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -190,14 +226,99 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDQ1NTQ0OTI1MiwKICAicHJvZmlsZUlkIiA6ICI0OTcwZTE1YzFhZTQ0MWEwOTY4NDdhOTA0OGFkOWI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb2JzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2MTczYWI5MzE5NzJhZTg3MjhkOTE4YTViM2MzOGQ0YmMyOThiMDIwYzE4YTEzZWI3Mjg1ODQ5ZmNmYzFiOGMiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 93.90204
+        bodyYaw: 127.10831
         world: world
         x: '-31.0583'
         y: '5.0'
         z: '137.1823'
-        yaw: '93.902'
-        pitch: '1.5'
-    traitnames: location,mounttrait,hologramtrait,type,owner,spawned,skintrait,inventory,scoreboardtrait
+        yaw: '122.9284'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: Poo
+    uuid: 343a4ffe-0179-4df7-9d40-67a864485dc0
+    traits:
+      location:
+        bodyYaw: 79.66504
+        world: world
+        x: '-31.2086'
+        y: '5.0'
+        z: '152.2973'
+        yaw: '89.665'
+        pitch: '9.1646'
+      type: PANDA
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      spawned: true
+    traitnames: mounttrait,location,owner,spawned,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Pumba
+    uuid: 310e01d8-941b-4c48-b8fc-9806392d4e76
+    traits:
+      location:
+        bodyYaw: 73.36084
+        world: world
+        x: '-31.7142'
+        y: '5.0'
+        z: '148.5259'
+        yaw: '83.3608'
+        pitch: '15.1645'
+      type: HOGLIN
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      spawned: true
+    traitnames: mounttrait,location,owner,spawned,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      flyable: true
+    name: Maya
+    uuid: 2d6ab824-e4e4-4078-a8c5-dfc412124f54
+    traits:
+      location:
+        bodyYaw: 87.7959
+        world: world
+        x: '-30.3'
+        y: '6.0'
+        z: '159.4181'
+        yaw: '91.5166'
+        pitch: '0.0'
+      type: BEE
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      gravity:
+        enabled: true
+      spawned: true
+    traitnames: mounttrait,location,owner,gravity,spawned,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

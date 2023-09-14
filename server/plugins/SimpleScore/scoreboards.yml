@@ -27,8 +27,8 @@ simple:
     16:
       - '&7&m+----------------+'
       - '&7&m------------------'
-    15: ' &7»ꑘ'
-    14: '%point.progress.left:15%'
+    15: ' &7»'
+    14: '%point.progress.left:9%'
     13: '%version.Citizens%'
     12: '%player.display%'
     11: '    &7%player%'
