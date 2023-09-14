@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 7
+last-created-npc-id: 8
 npc:
   '0':
     metadata:
@@ -19,13 +19,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 33.955894
+        bodyYaw: 21.892006
         world: world
         x: '-36.8882'
         y: '4.0'
         z: '110.7464'
-        yaw: '33.9559'
-        pitch: '-14.2593'
+        yaw: '21.892'
+        pitch: '-5.991'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -49,7 +49,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
+    traitnames: mounttrait,skintrait,location,inventory,lookclose,hologramtrait,spawned,rotationtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -71,12 +71,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -23.59977
+        bodyYaw: -22.958595
         world: world
         x: '-45.3277'
         y: '5.0'
         z: '139.2931'
-        yaw: '-23.5998'
+        yaw: '-22.9586'
         pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
@@ -99,7 +99,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,hologramtrait,scoreboardtrait,type
+    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -118,13 +118,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 14.253845
+        bodyYaw: 14.059105
         world: world
         x: '-42.5'
         y: '5.0625'
         z: '158.2643'
-        yaw: '14.2538'
-        pitch: '0.7347'
+        yaw: '14.0591'
+        pitch: '0.7249'
       spawned: true
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
@@ -151,7 +151,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
+    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -201,7 +201,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
+    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -251,7 +251,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,location,owner,skintrait,lookclose,rotationtrait,spawned,scoreboardtrait,hologramtrait,type
+    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -272,7 +272,7 @@ npc:
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       spawned: true
-    traitnames: mounttrait,location,owner,spawned,scoreboardtrait,type
+    traitnames: mounttrait,location,spawned,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -293,7 +293,7 @@ npc:
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       spawned: true
-    traitnames: mounttrait,location,owner,spawned,scoreboardtrait,type
+    traitnames: mounttrait,location,spawned,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -318,7 +318,39 @@ npc:
       gravity:
         enabled: true
       spawned: true
-    traitnames: mounttrait,location,owner,gravity,spawned,scoreboardtrait,type
+    traitnames: mounttrait,location,gravity,spawned,type,scoreboardtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      cached-skin-uuid: 0fbd487a-4787-4bd4-a805-6dd0f2078d3a
+      cached-skin-uuid-name: andrea
+    name: Andrea
+    uuid: 864c1973-8498-4fca-ab4f-9d9bae81e4bd
+    traits:
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: lIRB/6kFZQC9qjEaKxweHFOAAexwwYYFdSf3p6e0KR0fUtsCzVVWgIRs16NB1qp3rjVeU6hjgGbHolrxFsLIQ4Haio9G+PauEgYsbEetqnv/yhbBVPRmHfe9oeGVt8eMcn2kh4STkv1pFG2UZ2qCIr6Yzinsy9NRcGDQkM73tf+7+8rvzsx0Cpyl8U8fdQdkKfS33QDBEG29zWQRHjnqxBY59ReJ261Lq4nNyfWG4OwyYatFdBcMfanQUN8Xuxowrka9QYo92rIjhV4jldD+e9+ICPh1zmv2QVVn8bqn7WNjgjR94IoGgm7dToJHwcaQw67Juqomx4tBk+v0+fyAIfxAek2B0IWUaVV7elKgJNE6clyvLLJdbfyhJHBHL1K+gSmbQPo/kZ/7jAUD4xBVvDQtUVwDvRihAI3mZIVmS/O4qSZvipV2V1/PnioXpzNLmWNHIQk44yh9AJQPJQWUZTBM+wbqSIgfxdwIZohpvJ8xAZGlY/+/q7PQEy31o1rySy3i2Vft7qvneKzGV04Ev57L+/4e5oUisd2sJetsJbsjvICItveZOP+Rb/qT8oUrHuLSVF1GfO9wo7RJcXCN155qdF/6sxdnarWHkGIHkewiW+6JPPWQrrySjZdgTUJjRWgMeYFltnTx0kgyYA7hiQg+lFI/SiSf0BjaDpUPDf8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDY1NTM2Njg4OSwKICAicHJvZmlsZUlkIiA6ICIwZmJkNDg3YTQ3ODc0YmQ0YTgwNTZkZDBmMjA3OGQzYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRyZWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBmNWJhMzFjMGUwZGFlNWRiZDhiOTUwYjQ1ZTVhZmU2ZDU3OGVmMTk0NTVlZDNhOGRhYjhlOGUyYmUzNDRmNCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: -178.65851
+        world: world
+        x: '-38.5188'
+        y: '5.0'
+        z: '180.5521'
+        yaw: '-178.6585'
+        pitch: '-0.9'
+      owner:
+        uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
+      spawned: true
+    traitnames: mounttrait,skintrait,location,inventory,spawned,hologramtrait,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

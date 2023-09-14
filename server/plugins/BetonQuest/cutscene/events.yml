@@ -1,0 +1,6 @@
+select_cutscene: command pc startother %player% end_cutscene
+start_cutscene: command cam start
+# NPC Events
+select_npc: command npc select 8
+remove_hologram: command npc hologram remove 0
+add_hologram: command npc hologram add ꗁ

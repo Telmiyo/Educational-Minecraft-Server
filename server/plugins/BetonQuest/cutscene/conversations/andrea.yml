@@ -1,0 +1,37 @@
+quester:
+  en: 'Andrea Filmaker'
+first: 'welcome'
+stop: 'true'
+NPC_options:
+# Welcome Dialogue
+  'welcome':
+    text:
+      en: 'Hello, did you know you can create cutscenes on Minecraft servers?'
+    pointer: 'yes, no'
+  'yes_answer':
+    text:
+      en: 'Cool! I just released a new cutscene for this server. Do you want to see my work?'
+    pointer: 'sure'
+  'play_scene':
+    text:
+      en: 'Hope you like it!'
+    events: 'select_cutscene, start_cutscene, select_npc, remove_hologram'    
+  'bye':
+    text:
+      en: 'Come back when you are ready to see my work!' 
+  
+player_options:
+
+# Welcome Dialogue
+  'yes':
+    text:
+      en: 'Yes!'
+    pointer: 'yes_answer'
+  'no':
+    text:
+      en: 'No!'
+    pointer: 'bye'
+  'sure':
+    text:
+      en: 'Of Course!'
+    pointer: 'play_scene'

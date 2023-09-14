@@ -29,6 +29,47 @@ cameras:
     - command:fill 24 254 256 24 254 243 minecraft:air
     - location:linear:29db9147-9383-4fc9-a169-3ad2ae98c310;24.410196166175623;253.0;251.43776564759258;179.69543;11.999997
     - command:fill 22 253 257 26 255 242 minecraft:air
+  final_scene:
+    duration: 10
+    points:
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-43.60375424162764;5.0;165.8981681262349;-177.45691;-0.3000874
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-43.512430506582646;5.0;161.37334454215704;-177.45691;-0.3000874
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-43.630758728989186;5.0;144.7478094207214;179.24286;0.14991184
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-43.65650202132628;5.0;140.43475545445946;179.24286;0.14991184
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.671999250548915;6.0;122.43711751903332;-179.70734;3.1499033
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.659213730574656;11.118190916557753;105.60334389965634;2.5427856;29.849884
+  testing:
+    duration: 10
+    points:
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-53.66194002694593;4.5491385452200195;173.65432372024335;-90.458374;2.3812056E-5
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.494132062305425;6.0;121.13327815755814;3.1416605;4.2000303
+  end_cutscene:
+    duration: 10
+    points:
+    - command:title %player% times 20 60 20
+    - command:title Thank You! subtitle {"text":"By Telmo Beroiz","color":"#ED6E13"}
+    - command:fill 22 253 257 26 255 257 minecraft:glowstone
+    - command:fill 22 253 256 26 255 256 minecraft:red_wool
+    - command:fill 22 253 255 26 255 255 minecraft:orange_wool
+    - command:fill 22 253 254 26 255 254 minecraft:yellow_wool
+    - command:fill 22 253 253 26 255 253 minecraft:green_wool
+    - command:fill 22 253 252 26 255 252 minecraft:blue_wool
+    - command:fill 22 253 251 26 255 251 minecraft:purple_wool
+    - command:fill 22 253 250 26 255 250 minecraft:magenta_wool
+    - command:fill 22 253 249 26 255 249 minecraft:red_wool
+    - command:fill 22 253 248 26 255 248 minecraft:orange_wool
+    - command:fill 22 253 247 26 255 247 minecraft:yellow_wool
+    - command:fill 22 253 246 26 255 246 minecraft:green_wool
+    - command:fill 22 253 245 26 255 245 minecraft:blue_wool
+    - command:fill 22 253 244 26 255 244 minecraft:purple_wool
+    - command:fill 22 253 243 26 255 243 minecraft:magenta_wool
+    - command:fill 22 253 242 26 255 242 minecraft:black_wool
+    - command:fill 23 254 256 25 254 243 minecraft:lantern
+    - command:fill 24 254 256 24 254 243 minecraft:air
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.071574856416404;7.532928275344887;182.69999998807907;-179.55841;6.000036
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.48750001192093;6.0;120.33878883443411;1.6413615;2.700034
+    - location:linear:1e2b61b2-65e7-4b2f-8e1f-717811df58a6;-38.909718529904694;22.81914864839527;95.30000001192093;-0.008639663;37.350014
 
-players: []
+players:
+- 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
 version: '0.6'
