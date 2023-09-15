@@ -6,7 +6,7 @@ npc:
     metadata:
       cached-skin-uuid: b0588118-6e75-410d-b2db-4d3066b223f7
       cached-skin-uuid-name: marc
-    name: Marc
+    name: Instructor Marc
     uuid: ff607ee0-b9bd-484e-a166-e0664188df95
     traits:
       owner:
@@ -14,23 +14,22 @@ npc:
       spawned: true
       skintrait:
         fetchDefaultSkin: true
-        signature: eT2XZaNDCXGFrGQhJe39fdaUrSWBVX5RtxwmA/i3kVG0J2Aps9optKmH+MOyYfULxWf3wpODhO8CRm4HvqpUGb8oDQiGz/e90AydthZ/tVde6i3L7CAt9vszB7NaTZDKJg4HsWfMvCKKMZ8fh/4nM0sJNaEIPw9PjXefclTh1CTHOO95wsLATHSVVBTbrP10TssvrCd2JxHheUOX732cTRzLOUjnu4XaM6936dBEmPEJhCRDvp2h4shD5AX1L1v/nrIaswhVUJeltX9VViokdMiIwoMra8OudtQQNul5zaN9tNzby9N60g4iQwzuwDpXgdbEt0pTKeI1PqIMDRM/Vhr78+r6IEnIk34fs/gEOrzkg10ZYamT5Ader66DuNtf8HHPEyT+Izu4HnKa+Y7OyKBqg8bsJVrrm70JkXFdESVjCB/yfRJTWA1Cg4JcBN10H7IKwRcbFSzSG5o8Z/DsfA6uKwKCo9jX9voBL44S92K1UNohFPxlWpuw/Egh5wGw4YKp7LxJe3r7W1aV8iJfmtijvc/78CKA4GiocuQ9ETj21kfNabwFEHawioH9T7TPjSp/M1J+AGHKZA9THhnvYZTJzukwE9pNvf6dwkXAJJDr33NxqylUDfObJqD9VXiLBteVC4To+BStHOmwUnrenh4m4WaOLtPKV+cLZPkLqRk=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDM4MDg0MzAxOCwKICAicHJvZmlsZUlkIiA6ICJiMDU4ODExODZlNzU0MTBkYjJkYjRkMzA2NmIyMjNmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxZWU0ZjFmMGY4NTk4YmY1ZDk4MGE0YzRkZDg3MWViOGM2MDgwMWNhZDM3OWQ0ZTQ0ZWNlMGVkMjZiMjMzN2MiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
+        signature: u/XP86D6V3cLfZO6gdYNZbminDqPNdQM7G/4qa3v1rmdTlMFE3A79Wg5YGXwSW6k2/Y7WwjTJFehEZfENOaVaq0NvoKJiO0DPyQGjtqndu8Kb+vonyhX+xzST8tZbddkPmFXxFxnvVwz0ChboRKECd6Jh0Q53gvzb5rs5dNZPJBAdu72SMDYEYMJvqQvOv3UM+MN5pt1ijZYZJNJOEeHRXHWA3SrgprXsiKZO3k0cz/jtVPnq9hrEjTQGfyBAkgui9p6sbAXSyqQnD1pNnGAjwJg6/IbPpZi/G3CXmX7PYFI2cFn01uGf7RSuCZKgsPTss8yUNmjlOkk1BWSSzAHY50aaiCXaRF8+T/jdgasF06GHwO2ZJBXV3v0yF9LVXmR3xsboIIgNIvhx+wl2UwUKA/YAfUZPwd6KdXCKGGOHnxULl4+9CBooCQI0g9cAnNuTcJN4Ji7PERlNZMAaBSjmKTyzNSN79zMa8RGnAlB/eLidpIXlmsyIX/J663v5VnRnT0rrKwghL47u6uACJPdDT08O19wkABiT1jZu5ygzCR6afBHZNy1XAOiCAewBiAS0g6yD5qGg+o76f63gXEFM5dFfSEXEDwZhtFfm8FS23lFoprXI69BPszWkbJv/3WHYmyZdHG91TGw0K0iCHUsdJaDyDIMmnq8BItn+yui4xg=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDc4OTg0NjQzNCwKICAicHJvZmlsZUlkIiA6ICJiMDU4ODExODZlNzU0MTBkYjJkYjRkMzA2NmIyMjNmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxZWU0ZjFmMGY4NTk4YmY1ZDk4MGE0YzRkZDg3MWViOGM2MDgwMWNhZDM3OWQ0ZTQ0ZWNlMGVkMjZiMjMzN2MiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
         updateSkins: false
+        skinName: marc
       type: PLAYER
       location:
-        bodyYaw: 21.892006
+        bodyYaw: 13.348862
         world: world
-        x: '-36.8882'
-        y: '4.0'
-        z: '110.7464'
-        yaw: '21.892'
-        pitch: '-5.991'
+        x: '-37.2929'
+        y: '6.0'
+        z: '119.3071'
+        yaw: '13.3489'
+        pitch: '11.7735'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-        lines:
-          '0': ꗁ
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -49,7 +48,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,skintrait,location,inventory,lookclose,hologramtrait,spawned,rotationtrait,type,scoreboardtrait,owner
+    traitnames: lookclose,skintrait,owner,inventory,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -71,12 +70,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -22.958595
+        bodyYaw: -24.023933
         world: world
-        x: '-45.3277'
+        x: '-45.3702'
         y: '5.0'
-        z: '139.2931'
-        yaw: '-22.9586'
+        z: '139.3241'
+        yaw: '-24.0239'
         pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
@@ -99,7 +98,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
+    traitnames: lookclose,skintrait,inventory,owner,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -118,21 +117,19 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 14.059105
+        bodyYaw: 14.651047
         world: world
-        x: '-42.5'
+        x: '-42.3284'
         y: '5.0625'
-        z: '158.2643'
-        yaw: '14.0591'
-        pitch: '0.7249'
+        z: '158.376'
+        yaw: '14.651'
+        pitch: '0.7303'
       spawned: true
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-        lines:
-          '0': ꗁ
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -151,7 +148,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
+    traitnames: lookclose,skintrait,owner,inventory,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -173,12 +170,12 @@ npc:
         updateSkins: false
       spawned: true
       location:
-        bodyYaw: -140.83807
+        bodyYaw: -164.79144
         world: world
         x: '-46.4286'
         y: '4.0'
         z: '118.3933'
-        yaw: '-140.8381'
+        yaw: '176.4716'
         pitch: '0.0'
       hologramtrait:
         direction: BOTTOM_UP
@@ -201,7 +198,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
+    traitnames: lookclose,skintrait,owner,inventory,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -226,12 +223,12 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDQ1NTQ0OTI1MiwKICAicHJvZmlsZUlkIiA6ICI0OTcwZTE1YzFhZTQ0MWEwOTY4NDdhOTA0OGFkOWI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb2JzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2MTczYWI5MzE5NzJhZTg3MjhkOTE4YTViM2MzOGQ0YmMyOThiMDIwYzE4YTEzZWI3Mjg1ODQ5ZmNmYzFiOGMiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 127.10831
+        bodyYaw: 111.965324
         world: world
         x: '-31.0583'
         y: '5.0'
         z: '137.1823'
-        yaw: '122.9284'
+        yaw: '99.0395'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -251,7 +248,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,skintrait,location,inventory,lookclose,spawned,hologramtrait,rotationtrait,type,scoreboardtrait,owner
+    traitnames: lookclose,skintrait,owner,inventory,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -272,7 +269,7 @@ npc:
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       spawned: true
-    traitnames: mounttrait,location,spawned,type,scoreboardtrait,owner
+    traitnames: owner,scoreboardtrait,type,mounttrait,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -293,7 +290,7 @@ npc:
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       spawned: true
-    traitnames: mounttrait,location,spawned,type,scoreboardtrait,owner
+    traitnames: owner,scoreboardtrait,type,mounttrait,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -318,7 +315,7 @@ npc:
       gravity:
         enabled: true
       spawned: true
-    traitnames: mounttrait,location,gravity,spawned,type,scoreboardtrait,owner
+    traitnames: owner,scoreboardtrait,type,mounttrait,location,gravity,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -343,14 +340,14 @@ npc:
         bodyYaw: -178.65851
         world: world
         x: '-38.5188'
-        y: '5.0'
+        y: '3.0'
         z: '180.5521'
         yaw: '-178.6585'
         pitch: '-0.9'
       owner:
         uuid: 32a47b2f-c0ca-3c95-9fcc-49f4aec1f7ea
       spawned: true
-    traitnames: mounttrait,skintrait,location,inventory,spawned,hologramtrait,type,scoreboardtrait,owner
+    traitnames: skintrait,owner,inventory,scoreboardtrait,hologramtrait,type,mounttrait,location,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

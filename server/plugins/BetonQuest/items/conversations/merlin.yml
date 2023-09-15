@@ -6,54 +6,54 @@ NPC_options:
 # Welcome Dialogue
   'start_quest':
     text:
-      en: 'Lizz, Hello young learner. I will show you entity and items on server creation, let see my incredible magical entities, follow me!'
+      en: 'Greetings, young learner. Today, I shall reveal the magic of entity and item customization in server creation. Witness my incredible magical entities, and follow me!'
     pointer: 'follow_merlin'
   'lizz':
     text:
-      en: 'Lizz lizz'
+      en: '"Lizz Lizz.'
     events: 'add_tag_quest03_phase1, select_npc, walk_phase_1'
   'in_quest':
     text:
-      en: 'Great! Come back once you are ready!'
+      en: 'Fantastic! Return when you are ready to proceed!'
     conditions: 'quest03_started'   
 # Phase 1
   'explain_items':
     text:
-      en: 'Look at here, these are my incredible friends. As you can see, we can add them custom names! What do you think about it?'
+      en: 'Behold these marvelous beings. As you can see, we can grant them custom names! What do you think?'
     conditions: 'quest03_phase1'
     pointer: 'like'
   'explain_items_2':
     text:
-      en: 'Glad you like them lizz. Follow me here lizzz, I will sho you my decorative items. Follow me!'
+      en: 'Delighted that you appreciate them, Lizz. Follow me, and I will reveal my decorative items. Come along, Lizz!'
     pointer: 'follow_merlin_2'
   'lizz_2':
     text:
-      en: 'Lizz lizz'
+      en: 'Lizz Lizz.'
     events: 'select_npc, walk_phase_2, add_tag_quest03_phase2'
 # Phase 2
   'explain_gameplay_items':
     text:
-      en: 'Look at here, these are my incredible decorative items. As you can see,they are pretty cool lizz?'
+      en: 'Observe these incredible decorative items. Do you see splendid, Lizz?'
     conditions: 'quest03_phase2'
     pointer: 'like_2'
   'explain_gameplay_items_2':
     text:
-      en: 'Glad you like them lizz. To sum up liz, I will sho you my last items. The gampelay itemss, lizz, Follow me!'
+      en: 'I am thrilled you like them, Lizz. To sum it up, I will show you my final set of items, the gameplay items. Follow me, Lizz!'
     pointer: 'follow_merlin_3'
   'lizz_3':
     text:
-      en: 'Lizz lizzaaa'
+      en: 'Lizz Lizzaaa.'
     events: 'select_npc, walk_phase_3, add_tag_quest03_phase3'
 # Phase 2
   'open_door':
     text:
-      en: 'Look at here, at my magical weapons. As you can see,they are pretty cool lizz?'
+      en: 'Now, feast your eyes on my magical weapons. Impressive, are not they?'
     conditions: 'quest03_phase3'
     pointer: 'like_3'
   'explain_gameplay_items_3':
     text:
-      en: 'You can use them, if you want. Anyways, I will open the door lizz so you can continue on the last lesson. Good Luck! lizz...'
-    events: 'open_door'
+      en: 'You can wield these, if you wish. Anyway, I will unlock the door for you, Lizz, so you can proceed to your final lesson. Best of luck, Lizz!'
+    events: 'open_door, select_npc, remove_hologram'
 
 player_options:
 # Welcome Dialogue

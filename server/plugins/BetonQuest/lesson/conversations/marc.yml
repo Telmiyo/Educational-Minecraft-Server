@@ -1,37 +1,36 @@
 quester:
-  en: 'Telmo Beroiz'
+  en: 'Instructor Marc'
 first: 'welcome_citm, ask_for_key, find_lisa, intro'
 stop: 'true'
 NPC_options:
 # Welcome Dialogue
   'intro':
     text:
-      en: 'Are you enjoying the lesson%player%?'
+      en: 'Are you enjoying the lesson %player%?'
     condition: 'quest01_completed'
   'welcome_citm':
     text:
-      en: 'Welcome to my Server Customization Lesson, %player%! Here you will learn the main components that enable the creation of rich educatinal content Ready to start?'
+      en: 'Welcome to the Server Showcase, %player%! Here, you will discover the key elements for creating engaging educational content. Are you ready to begin?'
     pointer: 'yes, no'
   'explore_surrounding':
     text:
-      en: 'Great! Come back once you are ready!'  
+      en: 'Sure, take your time! Come back when you are ready'  
   'ask_for_key':
     text:
-      en: 'Before starting, I will need your access key, do you have one?'
+      en: 'Great! Before we start, may I have your access key, please?'
     pointer: 'yes_key, no_key'
     events: 'add_tag_quest01_started'
   'find_lisa':
     text:
-      en: 'Talk with Lisa to get your key freely, I will wait here!'   
+      en: 'Talk with Lisa to get your key for free. I will be here waiting!'   
     condition: 'quest01_started'
   'send_to_lisa':
     text:
-      en: 'Do not worry! Our incredible secretary member Lisa will provide you one. You can find her outside the building! Come back once you get your key!'   
+      en: 'No worries! Our wonderful secretary, Lisa, can assist you. You can find her outside the building. Return once you have obtained your key'   
   'walk_to_door':
     text:
-      en: 'Great! I will guide you to the door, come ahead!'
-    events: 'add_tag_quest01_completed'
-  
+      en: 'Fantastic! I will guide you to the door. Follow me!'
+    events: 'add_tag_quest01_completed, select_npc_marc, remove_hologram'
 player_options:
 # Welcome Dialogue
   'yes':
@@ -52,7 +51,7 @@ player_options:
     pointer: 'walk_to_door'
   'no_key':
     text:
-      en: 'Not yet'
+      en: 'I do not have one'
     pointer: 'send_to_lisa'
     conditions: '!has_key'
     events: 'select_npc_lisa, add_hologram, select_npc_marc, remove_hologram '

@@ -1,0 +1,43 @@
+location: world:-44,353:6,373:131,069
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: <#B22AFE>&l&nThis is an Hologram made with DecentHolograms</#ff8157>
+    height: 0.3
+  - content: It enables the creation of interactive holograms
+    height: 0.6
+  - content: '&a✔ <RAINBOW1>It supports RGB Colors</RAINBOW>'
+    height: 0.3
+  - content: '&a✔ <ANIM:wave:&b,&f>Custom Animations can be added</ANIM>'
+    height: 0.3
+  - content: '&a✔ &bYou can add height for each line'
+    height: 0.3
+  - content: '&a✔ &bYou even add Offsets for each line'
+    height: 0.3
+    offsetX: -0.71
+  - content: <#B22AFE><- Left Click | Right Click -></#ff8157>
+    height: 0.3
+  actions:
+    RIGHT:
+    - NEXT_PAGE
+- lines:
+  - content: <#B22AFE>&l&nEntity Hologram</#ff8157>
+    height: 0.3
+  - content: '&fYou can add Entities to it'
+    height: 0.4
+  - content: '#ENTITY: GUARDIAN'
+    height: 1.5
+  - content: '#HEAD: PLAYER_HEAD (d0by)'
+    height: 0.75
+  - content: '#SMALLHEAD: PLAYER_HEAD (Venty_)'
+    height: 0.6
+  - content: <#B22AFE><- Left Click | Right Click -></#ff8157>
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE

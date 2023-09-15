@@ -1,11 +1,11 @@
 quester:
-  en: 'Marta'
+  en: 'GUI Master Marta'
 first: 'welcome, next_lesson, progress'
 stop: 'true'
 NPC_options:
   'welcome':
     text:
-      en: "Welcome, %player%! I am here to guide you on Minecraft inventory GUI customization."
+      en: "Hello, %player%! Today, I will explain how Oraxen and DeluxeMenus enhance Minecraft graphical user interface (GUI). Oraxen adds unique styles to items, and DeluxeMenus makes menus more engaging. Lets learn the basics!"
     conditions: '!quest02_started, !quest02_completed'
     pointer: 'inventories'
   'next_lesson':
@@ -19,24 +19,24 @@ NPC_options:
     conditions: 'quest02_started'
   'explain_inventory':
     text:
-      en: 'Minecraft inventory is a crucial part of gameplay. It is a grid-based system where you manage your items and equipment. The grid composition and item placement are essential aspects.'
+      en: 'Minecraft inventory system is where you manage items and gear. Oraxen lets you customize item appearances to make them unique. DeluxeMenus transforms menus into interactive experiences'
     pointer: 'complex_menus'      
   'explain_complex_menus':
     text:
-      en: '{explain custom menus here chat}'
+      en: 'DeluxeMenus allows you to create intricate, customized menus for your server. You can design menus with buttons, images, and more, enhancing your players experience.'
     pointer: 'custom_textures'
   'explain_custom_textures':
     text:
-      en: '{explain it here chat}'
+      en: 'With Oraxen, you can add custom textures to items, giving them a distinct look. These visual enhancements make your items stand out in the game world.'
     pointer: 'open_gui'      
   'end_dialogue':
     text:
-      en: 'Now that you have more understanding on GUI customization, talk with &3Jobs, &7he will show you an example of GUI customization!'
+      en: 'Now that you understand how Oraxen and DeluxeMenus elevate Minecraft GUI, speak with &3Jobs&7; he will showcase GUI customization in action.'
     events: 'add_tag_quest02_started, select_npc_marta, remove_hologram, select_npc_jobs, add_hologram '
 player_options:
   'inventories':
     text:
-      en: 'What are Inventories'
+      en: 'Tell me about Inventories'
     pointer: 'explain_inventory'
   'complex_menus':
     text:
@@ -44,7 +44,7 @@ player_options:
     pointer: 'explain_complex_menus'
   'custom_textures':
     text:
-      en: 'Tell me more about adding custom textures.'
+      en: 'Share more about adding custom textures'
     pointer: 'explain_custom_textures'
   'open_gui':
     text:

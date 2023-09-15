@@ -6,11 +6,11 @@ NPC_options:
 # Welcome Dialogue
   'welcome':
     text:
-      en: 'Hello, did you know you can create cutscenes on Minecraft servers?'
+      en: 'Hello! Did you know you can create cutscenes on Minecraft servers?'
     pointer: 'yes, no'
   'yes_answer':
     text:
-      en: 'Cool! I just released a new cutscene for this server. Do you want to see my work?'
+      en: 'Great! Let me show you. Cutscenes are like Minecraft movies. We capture different scenes as framesdepending on where the player is and what they are doing. I have just released a new cutscene for this server. Would you like to see my work?'
     pointer: 'sure'
   'play_scene':
     text:

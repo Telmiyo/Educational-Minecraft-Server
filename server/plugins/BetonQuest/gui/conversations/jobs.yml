@@ -6,20 +6,20 @@ NPC_options:
 # Welcome Dialogue
   'intro':
     text:
-      en: 'Hello, I am Jobs. Nice to e-meet you!'
+      en: 'Greetings, I am Jobs. It is a pleasure to e-meet you!'
   'intro_completed':
     text:
-      en: 'Do you want to see the menu? Well done!'
+      en: 'Would you like to explore the menu? Well done!'
     conditions: 'quest02_completed'
     pointer: 'show_gui'
   'welcome':
     text:
-      en: 'Hello, new learner. I am Jobs, the GUI Master. I have created an example of GUI customization where players can join jobs, leave and see their progress though their jobs.'
+      en: 'Hello, new learner. I am Jobs, the GUI Master. I have crafted an example of GUI customization that allows players to join jobs, leave, and track their progress through their tasks.'
     conditions: 'quest02_started'
     pointer: 'continue'
   'end_quest':
       text:
-       en: 'Rembermber you can close the menu with &cE key &7on your keyboard! Go with Martha after having a look to the inventory in order continue your lesson!'
+       en: 'Remember, you can close the menu by pressing the &cE key&7 on your keyboard! After checking out the inventory, proceed with Marta to continue your lesson.'
       events: 'add_tag_quest02_completed, select_npc_jobs, remove_hologram, select_npc_marta, add_hologram'
       pointer: 'show_gui'
 player_options:
@@ -29,5 +29,5 @@ player_options:
     events: 'open_gui'
   'continue':
     text:
-      en: 'continue'
+      en: 'Continue'
     pointer: 'end_quest'
